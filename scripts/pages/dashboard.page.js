@@ -35,6 +35,10 @@ export default async function dashboardPage(){
   const state = storage.getState(active.id) || {};
   const progress = state.progress || {};
   const completed = Object.values(progress).filter(v => v && v.done).length;
+  const typingRecords = Array.isArray(state.typingRecords) ? state.typingRecords : [];
+  const latestTyping = typingRecords.length ? typingRecords[typingRecords.length - 1] : null;
+  const bestTyping = typingRecords.length ? typingRecords.reduce((a,b)=> (Number(b.wpm||0) > Number(a.wpm||0) ? b : a), typingRecords[0]) : null;
+  const last5Typing = typingRecords.slice(-5).reverse();
 
   const c = await loadCurriculum();
   const total = Array.isArray(c.days) ? c.days.length : 0;
@@ -80,6 +84,47 @@ export default async function dashboardPage(){
             </div>
           `).join("")}
         </div>
+      </section>
+
+      <section class="yt-card yt-col-12 yt-col-md-6">
+        <h2 class="yt-h2">Typing summary</h2>
+        <p class="yt-muted">Latest and best results for the active learner.</p>
+        <div class="yt-grid" style="margin-top:10px">
+          <div class="yt-col-12 yt-col-md-6">
+            <div class="yt-card yt-card--soft" style="padding:14px">
+              <div class="yt-muted" style="font-weight:700">Best WPM</div>
+              <div style="font-size:34px;font-weight:900;line-height:1">${bestTyping ? esc(bestTyping.wpm) : "—"}</div>
+              <div class="yt-muted" style="margin-top:6px">Accuracy: <strong>${bestTyping ? esc(bestTyping.accuracy) + "%" : "—"}</strong></div>
+            </div>
+          </div>
+          <div class="yt-col-12 yt-col-md-6">
+            <div class="yt-card yt-card--soft" style="padding:14px">
+              <div class="yt-muted" style="font-weight:700">Latest WPM</div>
+              <div style="font-size:34px;font-weight:900;line-height:1">${latestTyping ? esc(latestTyping.wpm) : "—"}</div>
+              <div class="yt-muted" style="margin-top:6px">Accuracy: <strong>${latestTyping ? esc(latestTyping.accuracy) + "%" : "—"}</strong></div>
+            </div>
+          </div>
+        </div>
+
+        ${last5Typing.length ? `
+          <div class="yt-table-wrap" style="margin-top:12px">
+            <table class="yt-table">
+              <thead>
+                <tr><th>Date</th><th>Lesson</th><th>WPM</th><th>Accuracy</th></tr>
+              </thead>
+              <tbody>
+                ${last5Typing.map(r => `
+                  <tr>
+                    <td>${esc(new Date(r.date).toLocaleDateString())}</td>
+                    <td>${esc(r.lessonId || "")}</td>
+                    <td><strong>${esc(r.wpm)}</strong></td>
+                    <td>${esc(r.accuracy)}%</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        ` : `<p class="yt-muted" style="margin:10px 0 0 0">No typing sessions recorded yet. Open a day in a phase page and run the typing session.</p>`}
       </section>
 
       <section class="yt-card yt-col-12">

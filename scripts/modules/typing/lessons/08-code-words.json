@@ -1,0 +1,19 @@
+{
+  "id": "08-code-words",
+  "title": "Coding words",
+  "stage": 5,
+  "keys_focus": ["if","else","for","while","def","print","space"],
+  "wpm_target": 18,
+  "accuracy_target": 90,
+  "duration_seconds": 60,
+  "texts": [
+    "if x > 0:",
+    "else:",
+    "for i in range(5):",
+    "while score < 10:",
+    "def jump():",
+    "print('hi')",
+    "if ok: print('yes')",
+    "def add(a, b):"
+  ]
+}

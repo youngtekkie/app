@@ -1,0 +1,19 @@
+{
+  "id": "01-home-row",
+  "title": "Home row basics",
+  "stage": 1,
+  "keys_focus": ["a", "s", "d", "f", "j", "k", "l", ";", "space"],
+  "wpm_target": 10,
+  "accuracy_target": 90,
+  "duration_seconds": 60,
+  "texts": [
+    "a a a a a  j j j j j",
+    "asdf jkl; asdf jkl;",
+    "a s d f  j k l ;",
+    "sad lad;  sad;",
+    "fall;  all;  fad;",
+    "ask;  lag;  flask;",
+    "a sad lass;",
+    "all lads;  a flask;"
+  ]
+}

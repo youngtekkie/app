@@ -1,0 +1,19 @@
+{
+  "id": "03-lower-row",
+  "title": "Lower row intro",
+  "stage": 3,
+  "keys_focus": ["v", "m", "b", "n", "c", "x", "space"],
+  "wpm_target": 12,
+  "accuracy_target": 90,
+  "duration_seconds": 60,
+  "texts": [
+    "mix  mix  mix",
+    "cave  cave",
+    "vex  vex",
+    "comb  comb",
+    "ban  can  man",
+    "can mix  mix",
+    "vex a man",
+    "box  box  box"
+  ]
+}

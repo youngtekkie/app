@@ -1,0 +1,19 @@
+{
+  "id": "02-upper-row",
+  "title": "Upper row intro",
+  "stage": 2,
+  "keys_focus": ["r", "u", "t", "y", "e", "i", "space"],
+  "wpm_target": 12,
+  "accuracy_target": 90,
+  "duration_seconds": 60,
+  "texts": [
+    "try it  try it",
+    "true  true  true",
+    "tire  tire  tire",
+    "yet  yet  yet",
+    "i try  i try",
+    "run it  run it",
+    "you try  you try",
+    "ure i try  i try"
+  ]
+}

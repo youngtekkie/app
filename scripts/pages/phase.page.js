@@ -9,6 +9,7 @@ function pill(text){ return `<span class="yt-pill">${esc(text)}</span>`; }
 function renderDayCard(d, state){
   const key = String(d.num);
   const done = !!state?.progress?.[key]?.done;
+  const typingPassed = !!state?.progress?.[key]?.typingPassed;
   return `
     <details class="yt-lesson" ${done ? 'data-done="true"' : ""}>
       <summary class="yt-lesson__summary">
@@ -19,6 +20,7 @@ function renderDayCard(d, state){
             ${pill(`${esc(d.dow || "")}`)}
             ${pill(`Week ${esc(d.week)}`)}
             ${done ? '<span class="yt-pill yt-pill--success">Completed</span>' : '<span class="yt-pill yt-pill--muted">Not done</span>'}
+            ${typingPassed ? '<span class="yt-pill yt-pill--success">Typing passed</span>' : ''}
           </div>
         </div>
         <div class="yt-lesson__right">
@@ -41,6 +43,11 @@ function renderDayCard(d, state){
             <h3 class="yt-h3">Typing</h3>
             <p class="yt-muted">${esc(d.typingTask || "")}</p>
             ${Array.isArray(d.typingSteps) ? `<ol class="yt-steps">${d.typingSteps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>` : ""}
+            <div class="yt-card yt-card--soft" style="margin-top:12px">
+              <div id="yt-typing-${esc(d.num)}" data-typing-ref="${esc(d.typingRef || "01-home-row")}" data-profile="${esc(state?.profileId || "")}">
+                <p class="yt-muted" style="margin:0">Loading typing…</p>
+              </div>
+            </div>
             <div class="yt-lesson__actions">
               <button class="yt-btn yt-btn--primary" data-action="mark-done" data-day="${esc(d.num)}">Mark as done</button>
               <button class="yt-btn" data-action="unmark-done" data-day="${esc(d.num)}">Undo</button>
@@ -89,6 +96,46 @@ export default async function phasePage(){
       ${days.map(d => renderDayCard(d, state)).join("")}
     </div>
   `;
+
+  // Lazy-init typing trainers when a lesson is opened
+  mount.addEventListener("toggle", async (e) => {
+    const details = e.target;
+    if(!(details instanceof HTMLDetailsElement)) return;
+    if(!details.open) return;
+    const host = details.querySelector("[id^='yt-typing-'][data-typing-ref]");
+    if(!host || host.dataset.inited === "1") return;
+
+    host.dataset.inited = "1";
+    const lessonRef = host.getAttribute("data-typing-ref") || "01-home-row";
+    const containerId = host.id;
+    const activeNow = getActiveProfile();
+    const profileId = activeNow?.id || null;
+
+    try{
+      const mod = await import("../modules/typing/typing-trainer.js");
+      await mod.initTypingSession(lessonRef, containerId, profileId, {
+        onComplete: ({ passed }) => {
+          if(!profileId) return;
+          const day = containerId.replace("yt-typing-", "");
+          const key = String(day);
+          const current = storage.getState(profileId) || {};
+          current.progress = current.progress || {};
+          current.progress[key] = { ...(current.progress[key]||{}), typingPassed: !!passed, typingPassedAt: new Date().toISOString() };
+          storage.setState(profileId, current);
+          if(passed){
+            // show a pill if not already there
+            const meta = details.querySelector('.yt-lesson__meta');
+            if(meta && !meta.querySelector('.yt-pill--success[data-yt-typing-pill]')){
+              const frag = document.createRange().createContextualFragment('<span class="yt-pill yt-pill--success" data-yt-typing-pill>Typing passed</span>');
+              meta.appendChild(frag);
+            }
+          }
+        }
+      });
+    }catch(err){
+      host.innerHTML = `<p class="yt-error">Typing failed to load: ${esc(err?.message || err)}</p>`;
+    }
+  }, true);
 
   mount.addEventListener("click", (e) => {
     const btn = e.target.closest("button[data-action]");

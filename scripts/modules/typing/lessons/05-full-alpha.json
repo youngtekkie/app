@@ -1,0 +1,19 @@
+{
+  "id": "05-full-alpha",
+  "title": "Full alphabet practise",
+  "stage": 4,
+  "keys_focus": ["letters","space"],
+  "wpm_target": 16,
+  "accuracy_target": 90,
+  "duration_seconds": 60,
+  "texts": [
+    "the quick brown fox",
+    "keep your eyes on keys",
+    "type slow then speed up",
+    "practice makes progress",
+    "small steps every day",
+    "focus on accuracy first",
+    "coding is like building",
+    "try again and improve"
+  ]
+}

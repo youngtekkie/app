@@ -244,6 +244,32 @@
 .yt-steps li{ margin: 6px 0; }
 .yt-lesson__actions{ display:flex; gap: 10px; flex-wrap:wrap; margin-top: var(--yt-6); }
 
+/* Typing trainer */
+.yt-typing{ }
+.yt-typing__top{ display:flex; align-items:flex-start; justify-content:space-between; gap: var(--yt-6); flex-wrap: wrap; }
+.yt-typing__title{ font-weight: 900; font-size: 16px; }
+.yt-typing__stats{ display:flex; gap: 10px; flex-wrap: wrap; }
+.yt-typing__stat{ display:flex; flex-direction:column; align-items:flex-end; gap: 2px; padding: 8px 10px; border-radius: 14px; background: rgba(15,23,42,0.04); border: 1px solid rgba(15,23,42,0.10); min-width: 92px; }
+.yt-typing__stat strong{ font-size: 16px; }
+.yt-typing__prompt{
+  margin-top: var(--yt-6);
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid var(--yt-border);
+  background: rgba(255,255,255,0.88);
+  box-shadow: var(--yt-shadow-sm);
+  font-family: var(--yt-font-mono);
+  font-size: 16px;
+  line-height: 1.6;
+  outline: none;
+}
+.yt-typing__prompt:focus{ border-color: rgba(47,109,255,0.55); box-shadow: 0 0 0 4px rgba(47,109,255,0.12); }
+.yt-typing__ch{ white-space: pre; }
+.yt-typing__ch.is-correct{ color: rgba(22,163,74,1); }
+.yt-typing__ch.is-wrong{ background: rgba(220,38,38,0.16); border-radius: 6px; }
+.yt-typing__ch.is-cursor{ box-shadow: inset 0 -2px 0 rgba(47,109,255,0.85); }
+.yt-typing__actions{ display:flex; gap: 10px; flex-wrap:wrap; margin-top: var(--yt-6); }
+
 /* Responsive grid columns */
 .yt-col-12{ grid-column: span 12; }
 @media (min-width: 900px){

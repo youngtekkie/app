@@ -1,0 +1,19 @@
+{
+  "id": "07-code-chars",
+  "title": "Coding characters",
+  "stage": 5,
+  "keys_focus": ["(",")","[","]","{","}","=",":","#","_","space"],
+  "wpm_target": 16,
+  "accuracy_target": 90,
+  "duration_seconds": 60,
+  "texts": [
+    "() [] {}",
+    "x = 10",
+    "score = 0",
+    "name = ""sam""",
+    "# comment",
+    "player_name",
+    "if x == 2:",
+    "def run():"
+  ]
+}

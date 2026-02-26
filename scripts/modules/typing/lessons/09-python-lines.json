@@ -1,0 +1,19 @@
+{
+  "id": "09-python-lines",
+  "title": "Python lines",
+  "stage": 6,
+  "keys_focus": ["python","space"],
+  "wpm_target": 18,
+  "accuracy_target": 92,
+  "duration_seconds": 60,
+  "texts": [
+    "print('hello')",
+    "x = 5",
+    "y = x + 10",
+    "name = input('Name: ')",
+    "print(name)",
+    "if x > 3:",
+    "score += 1",
+    "print('done')"
+  ]
+}

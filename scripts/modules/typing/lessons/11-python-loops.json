@@ -1,0 +1,19 @@
+{
+  "id": "11-python-loops",
+  "title": "Python loops",
+  "stage": 6,
+  "keys_focus": ["for","while","range","space"],
+  "wpm_target": 18,
+  "accuracy_target": 92,
+  "duration_seconds": 60,
+  "texts": [
+    "for i in range(5):",
+    "  print(i)",
+    "for n in range(1, 6):",
+    "  score += n",
+    "while x < 10:",
+    "  x += 1",
+    "for c in word:",
+    "  print(c)"
+  ]
+}

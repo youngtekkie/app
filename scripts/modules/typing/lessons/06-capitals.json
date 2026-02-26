@@ -1,0 +1,19 @@
+{
+  "id": "06-capitals",
+  "title": "Capitals with Shift",
+  "stage": 4,
+  "keys_focus": ["shift","letters","space"],
+  "wpm_target": 14,
+  "accuracy_target": 88,
+  "duration_seconds": 60,
+  "texts": [
+    "Hello World",
+    "My Name Is",
+    "I Can Type",
+    "Press Shift",
+    "Keep It Calm",
+    "Good Job",
+    "Try Again",
+    "Code Every Day"
+  ]
+}

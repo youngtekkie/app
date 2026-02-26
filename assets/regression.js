@@ -64,7 +64,7 @@
       "phase1.html",
       "phase2.html",
       "phase3.html",
-      "printable-plan.html",
+      "print.html",
       "certificates.html",
       "support.html",
       "data-policy.html",

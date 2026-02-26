@@ -1,0 +1,19 @@
+{
+  "id": "04-numbers-punct",
+  "title": "Numbers & punctuation",
+  "stage": 4,
+  "keys_focus": ["0","1","2","3","4","5","6","7","8","9",".",",","!","?","space"],
+  "wpm_target": 14,
+  "accuracy_target": 88,
+  "duration_seconds": 60,
+  "texts": [
+    "1 2 3 4 5",
+    "6 7 8 9 0",
+    "3, 2, 1, go!",
+    "10! 9! 8!",
+    "5? 4? 3?",
+    "2. 4. 6. 8.",
+    "7, 7, 7.",
+    "0? 1! 2."
+  ]
+}

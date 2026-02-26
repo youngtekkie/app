@@ -1,0 +1,19 @@
+{
+  "id": "12-python-mixed",
+  "title": "Python mixed practise",
+  "stage": 6,
+  "keys_focus": ["python","space"],
+  "wpm_target": 20,
+  "accuracy_target": 92,
+  "duration_seconds": 60,
+  "texts": [
+    "def main():",
+    "  score = 0",
+    "  name = input('Name: ')",
+    "  if name == 'Ada':",
+    "    score += 10",
+    "  for i in range(3):",
+    "    print(i)",
+    "print('done')"
+  ]
+}

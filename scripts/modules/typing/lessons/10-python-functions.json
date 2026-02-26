@@ -1,0 +1,19 @@
+{
+  "id": "10-python-functions",
+  "title": "Python functions",
+  "stage": 6,
+  "keys_focus": ["def","return","space"],
+  "wpm_target": 18,
+  "accuracy_target": 92,
+  "duration_seconds": 60,
+  "texts": [
+    "def greet(name):",
+    "  return name",
+    "def add(a, b):",
+    "  return a + b",
+    "print(greet('Sam'))",
+    "def is_even(n):",
+    "  return n % 2 == 0",
+    "print(add(2, 3))"
+  ]
+}
