@@ -1,0 +1,114 @@
+import { getActiveProfile } from "../features/profiles.js";
+import { getDaysForPhase, phaseTitle } from "../features/curriculum.js";
+import { storage } from "../app/storage.js";
+
+function esc(s=""){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function pill(text){ return `<span class="yt-pill">${esc(text)}</span>`; }
+
+function renderDayCard(d, state){
+  const key = String(d.num);
+  const done = !!state?.progress?.[key]?.done;
+  return `
+    <details class="yt-lesson" ${done ? 'data-done="true"' : ""}>
+      <summary class="yt-lesson__summary">
+        <div class="yt-lesson__left">
+          <div class="yt-lesson__day">Day ${d.num}</div>
+          <div class="yt-lesson__title">${esc(d.mainTopic || "")}</div>
+          <div class="yt-lesson__meta">
+            ${pill(`${esc(d.dow || "")}`)}
+            ${pill(`Week ${esc(d.week)}`)}
+            ${done ? '<span class="yt-pill yt-pill--success">Completed</span>' : '<span class="yt-pill yt-pill--muted">Not done</span>'}
+          </div>
+        </div>
+        <div class="yt-lesson__right">
+          <span class="yt-lesson__chev" aria-hidden="true">⌄</span>
+        </div>
+      </summary>
+      <div class="yt-lesson__body">
+        <div class="yt-grid">
+          <section class="yt-card yt-col-12 yt-col-md-6">
+            <h3 class="yt-h3">Build</h3>
+            <p class="yt-muted">${esc(d.buildTask || "")}</p>
+            ${Array.isArray(d.buildSteps) ? `<ol class="yt-steps">${d.buildSteps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>` : ""}
+          </section>
+          <section class="yt-card yt-col-12 yt-col-md-6">
+            <h3 class="yt-h3">Logic & Maths</h3>
+            <p class="yt-muted">${esc(d.logicTask || "")}</p>
+            ${Array.isArray(d.logicSteps) ? `<ol class="yt-steps">${d.logicSteps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>` : ""}
+          </section>
+          <section class="yt-card yt-col-12">
+            <h3 class="yt-h3">Typing</h3>
+            <p class="yt-muted">${esc(d.typingTask || "")}</p>
+            ${Array.isArray(d.typingSteps) ? `<ol class="yt-steps">${d.typingSteps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>` : ""}
+            <div class="yt-lesson__actions">
+              <button class="yt-btn yt-btn--primary" data-action="mark-done" data-day="${esc(d.num)}">Mark as done</button>
+              <button class="yt-btn" data-action="unmark-done" data-day="${esc(d.num)}">Undo</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </details>
+  `;
+}
+
+export default async function phasePage(){
+  const mount = document.getElementById("phase-mount");
+  if(!mount) return;
+
+  const page = document.body?.dataset?.page || "phase1";
+  const phaseNum = Number(String(page).replace("phase","")) || 1;
+
+  const active = getActiveProfile();
+  if(!active){
+    mount.innerHTML = `
+      <div class="yt-card">
+        <h2 class="yt-h2">${phaseTitle(phaseNum)}</h2>
+        <p class="yt-muted">You need to create and select a learner profile before starting.</p>
+        <a class="yt-btn yt-btn--primary" href="profiles.html">Create a profile</a>
+      </div>
+    `;
+    return;
+  }
+
+  const days = await getDaysForPhase(phaseNum);
+  const state = storage.getState(active.id);
+
+  mount.innerHTML = `
+    <div class="yt-hero yt-hero--compact">
+      <div>
+        <h1 class="yt-h1">${phaseTitle(phaseNum)}</h1>
+        <p class="yt-muted">Active learner: <strong>${esc(active.name)}</strong></p>
+      </div>
+      <div class="yt-hero__chips">
+        <span class="yt-pill">72-day journey</span>
+        <span class="yt-pill">Works offline after M6</span>
+      </div>
+    </div>
+    <div class="yt-stack-lg">
+      ${days.map(d => renderDayCard(d, state)).join("")}
+    </div>
+  `;
+
+  mount.addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-action]");
+    if(!btn) return;
+    const action = btn.getAttribute("data-action");
+    const day = btn.getAttribute("data-day");
+    const key = String(day);
+    const current = storage.getState(active.id) || {};
+    current.progress = current.progress || {};
+    if(action === "mark-done"){
+      current.progress[key] = { ...(current.progress[key]||{}), done: true, doneAt: new Date().toISOString() };
+      storage.setState(active.id, current);
+      btn.closest("details")?.setAttribute("data-done","true");
+      // update meta pill
+      btn.closest("details")?.querySelector(".yt-pill--muted")?.replaceWith(document.createRange().createContextualFragment('<span class="yt-pill yt-pill--success">Completed</span>'));
+    }
+    if(action === "unmark-done"){
+      current.progress[key] = { ...(current.progress[key]||{}), done: false, doneAt: null };
+      storage.setState(active.id, current);
+      btn.closest("details")?.removeAttribute("data-done");
+    }
+  });
+}

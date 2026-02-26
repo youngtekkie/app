@@ -1,0 +1,58 @@
+/* YoungTekkie Calm Premium Design Tokens
+   All colours and sizing should reference these custom properties. */
+
+:root{
+  /* Brand */
+  --yt-primary: #2f6dff;
+  --yt-primary-700: #2254d6;
+  --yt-accent: #ffcc66; /* used sparingly */
+  --yt-success: #1f9d64;
+  --yt-warning: #f59e0b;
+  --yt-danger: #ef4444;
+
+  /* Neutrals */
+  --yt-bg: #f6f8ff;
+  --yt-surface: #ffffff;
+  --yt-surface-2: #f1f4ff;
+  --yt-border: rgba(15, 23, 42, 0.10);
+  --yt-text: #0f172a;
+  --yt-muted: rgba(15, 23, 42, 0.70);
+  --yt-subtle: rgba(15, 23, 42, 0.55);
+
+  /* Typography */
+  --yt-font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  --yt-font-serif: ui-serif, Georgia, "Times New Roman", serif;
+  --yt-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --yt-maxw: 1120px;
+
+  /* Radii */
+  --yt-r-xs: 10px;
+  --yt-r-sm: 14px;
+  --yt-r-md: 18px;
+  --yt-r-lg: 24px;
+
+  /* Shadows (soft, consistent) */
+  --yt-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --yt-shadow-md: 0 10px 24px rgba(15, 23, 42, 0.10);
+  --yt-shadow-lg: 0 18px 44px rgba(15, 23, 42, 0.12);
+
+  /* Spacing scale */
+  --yt-1: 4px;
+  --yt-2: 8px;
+  --yt-3: 12px;
+  --yt-4: 16px;
+  --yt-5: 20px;
+  --yt-6: 24px;
+  --yt-8: 32px;
+  --yt-10: 40px;
+  --yt-12: 48px;
+  --yt-16: 64px;
+
+  /* Header */
+  --headerH: 72px; /* overwritten at runtime */
+  --yt-blur: blur(12px);
+
+  /* Focus */
+  --yt-ring: 0 0 0 4px rgba(47, 109, 255, 0.20);
+}

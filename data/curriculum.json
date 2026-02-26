@@ -1,0 +1,2382 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-26T00:57:15.813639Z",
+  "days": [
+    {
+      "num": 1,
+      "week": 1,
+      "month": 1,
+      "dow": "Mon",
+      "mainKey": "scratch",
+      "mainTopic": "Scratch basics + motion",
+      "buildTask": "Move a sprite with the arrow keys",
+      "logicTask": "Khan Academy: solve 8 multi-step word problems",
+      "typingTask": "TypingClub: lessons 1–5 (home row start)",
+      "notes": "",
+      "buildSteps": [
+        "Open Scratch, click Create, name the project ‘Arrow Runner’",
+        "Add: when green flag clicked, go to x:0 y:0, point in direction 90",
+        "Add 4 scripts: when up/down/left/right key pressed, change x/y by 10",
+        "Test: can you move smoothly, without getting stuck?"
+      ],
+      "logicSteps": [
+        "Go to Khan Academy Maths for your child’s year group",
+        "Choose a word problems lesson, complete 8 questions",
+        "Write down 1 mistake you made, then re-do that question"
+      ],
+      "typingSteps": [
+        "TypingClub: do lessons 1–5 (F/J, space, D/K)",
+        "Aim for 90% accuracy, slow is fine",
+        "Do a 1-minute test at the end, note your WPM"
+      ],
+      "outcomes": [
+        "Sprite moves with arrow keys",
+        "Can explain what an event block does",
+        "Accuracy target recorded"
+      ]
+    },
+    {
+      "num": 2,
+      "week": 1,
+      "month": 1,
+      "dow": "Tue",
+      "mainKey": "scratch",
+      "mainTopic": "Loops",
+      "buildTask": "Continuous movement and bounce",
+      "logicTask": "Khan Academy: patterns, complete 10 questions",
+      "typingTask": "TypingClub: continue home row",
+      "notes": "",
+      "buildSteps": [
+        "Add a script: when green flag clicked, forever move 5 steps",
+        "Add: if on edge, bounce",
+        "Add: when space key pressed, change direction by 15 degrees",
+        "Outcome: your sprite keeps moving and stays on screen"
+      ],
+      "logicSteps": [
+        "Khan Academy: choose a patterns lesson (number patterns)",
+        "Complete 10 questions",
+        "Say out loud what the rule is for 3 of them"
+      ],
+      "typingSteps": [
+        "TypingClub: next 5 lessons you see on the home row plan",
+        "Focus: keep fingers on F and J bumps",
+        "1-minute test, try to match or beat yesterday"
+      ],
+      "outcomes": [
+        "Uses a forever loop",
+        "Understands ‘if on edge, bounce’",
+        "Pattern rule explained"
+      ]
+    },
+    {
+      "num": 3,
+      "week": 1,
+      "month": 1,
+      "dow": "Wed",
+      "mainKey": "scratch",
+      "mainTopic": "Variables",
+      "buildTask": "Create a score counter",
+      "logicTask": "Khan Academy: arithmetic reasoning, 10 questions",
+      "typingTask": "TypingClub: accuracy focus",
+      "notes": "",
+      "buildSteps": [
+        "Make a variable: score (for all sprites)",
+        "Set score to 0 when green flag clicked",
+        "When sprite touches a coin, change score by 1",
+        "Hide the coin and show it again somewhere else"
+      ],
+      "logicSteps": [
+        "Khan Academy: arithmetic or number sense practice",
+        "Complete 10 questions",
+        "Check your working for the last 2 before you submit"
+      ],
+      "typingSteps": [
+        "TypingClub: do 10 minutes of lessons",
+        "Accuracy target: 92% or better",
+        "If you dip below target, slow down and restart that lesson"
+      ],
+      "outcomes": [
+        "Score variable updates",
+        "Can reset score",
+        "Knows what a variable is"
+      ]
+    },
+    {
+      "num": 4,
+      "week": 1,
+      "month": 1,
+      "dow": "Thu",
+      "mainKey": "scratch",
+      "mainTopic": "Random numbers",
+      "buildTask": "Falling objects spawn randomly",
+      "logicTask": "Khan Academy: time problems, 8 questions",
+      "typingTask": "TypingClub: 1-minute speed test",
+      "notes": "",
+      "buildSteps": [
+        "Create an ‘Apple’ sprite and start it at y:180",
+        "Set x to pick random -220 to 220",
+        "Forever: change y by -6, if y < -170 then go to y:180 and pick a new random x",
+        "Test: apples fall from different places each time"
+      ],
+      "logicSteps": [
+        "Khan Academy: time or clocks lesson",
+        "Complete 8 questions",
+        "Say how you worked out 1 of the answers"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes practice",
+        "Do a 1-minute test, note WPM and accuracy",
+        "Try to keep your eyes on the screen, not the keyboard"
+      ],
+      "outcomes": [
+        "Uses random block",
+        "Falling loop works",
+        "WPM recorded"
+      ]
+    },
+    {
+      "num": 5,
+      "week": 1,
+      "month": 1,
+      "dow": "Fri",
+      "mainKey": "scratch",
+      "mainTopic": "Lives + Game Over",
+      "buildTask": "Add a lose condition when lives reach zero",
+      "logicTask": "Khan Academy: brain teasers or challenge set",
+      "typingTask": "TypingClub: timed test",
+      "notes": "",
+      "buildSteps": [
+        "Make variable: lives, set to 3 on green flag",
+        "If apple touches player, change score by 1 and reset apple",
+        "If apple hits ground, change lives by -1 and reset apple",
+        "If lives = 0 then stop all, show ‘Game Over’ message"
+      ],
+      "logicSteps": [
+        "Khan Academy: pick a ‘challenge’ or ‘mastery’ quiz",
+        "Do 10 minutes, skip nothing, try your best",
+        "Pick 1 tricky question and explain it to a parent"
+      ],
+      "typingSteps": [
+        "TypingClub: do a 2-minute test",
+        "Focus: accuracy first, then speed",
+        "Write down: WPM, accuracy, and 1 key that trips you up"
+      ],
+      "outcomes": [
+        "Lives decrease correctly",
+        "Game Over triggers",
+        "Can explain one tricky question"
+      ]
+    },
+    {
+      "num": 6,
+      "week": 1,
+      "month": 1,
+      "dow": "Sat",
+      "mainKey": "scratch",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Catch Game (score, lives, increasing speed)",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: quick review",
+      "notes": "Presentation: explain how it works",
+      "buildSteps": [
+        "Start from your falling-object game",
+        "Add difficulty: every 5 points, make apples fall faster",
+        "Add a start screen with ‘Press space to begin’",
+        "Add a win condition: reach 20 points"
+      ],
+      "logicSteps": [
+        "Set a 10-minute timer",
+        "Do a mixed practice set, focus on calm working",
+        "Check answers, then retry 2 mistakes"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes review lessons",
+        "Do 1-minute test, compare to day 1",
+        "Stretch your hands, short break, then stop"
+      ],
+      "outcomes": [
+        "Has a complete game loop",
+        "Difficulty increases",
+        "Can demo and explain the game"
+      ]
+    },
+    {
+      "num": 7,
+      "week": 2,
+      "month": 1,
+      "dow": "Mon",
+      "mainKey": "scratch",
+      "mainTopic": "If statements",
+      "buildTask": "Maze basics: walls and movement rules",
+      "logicTask": "Khan Academy: fractions, 10 questions",
+      "typingTask": "TypingClub: steady practice",
+      "notes": "",
+      "buildSteps": [
+        "Create a maze backdrop (or draw a simple one)",
+        "Move with arrow keys",
+        "Add wall rule: if touching wall colour, go back to start",
+        "Add a goal: touching the star ends the run"
+      ],
+      "logicSteps": [
+        "Khan Academy: fractions lesson",
+        "Complete 10 questions",
+        "Draw 1 fraction model (circle or bar) on paper"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Practise backspace with control, not panic"
+      ],
+      "outcomes": [
+        "Maze resets on wall hit",
+        "Goal works",
+        "Fraction model drawn"
+      ]
+    },
+    {
+      "num": 8,
+      "week": 2,
+      "month": 1,
+      "dow": "Tue",
+      "mainKey": "scratch",
+      "mainTopic": "Timer variable",
+      "buildTask": "Add a countdown timer to the maze",
+      "logicTask": "Khan Academy: word logic problems, 10 mins",
+      "typingTask": "TypingClub",
+      "notes": "Mini-present: what did you add?",
+      "buildSteps": [
+        "Make variable: time",
+        "Set time to 30 when green flag clicked",
+        "Every 1 second, change time by -1",
+        "If time = 0 then show ‘Time up’ and stop all"
+      ],
+      "logicSteps": [
+        "Pick a logic or word problem set on Khan Academy",
+        "Work for 10 minutes",
+        "Explain 1 solution in a clear sentence"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Do a 1-minute test",
+        "Try not to look down at all"
+      ],
+      "outcomes": [
+        "Timer counts down",
+        "Understands seconds loop",
+        "Can explain one solution"
+      ]
+    },
+    {
+      "num": 9,
+      "week": 2,
+      "month": 1,
+      "dow": "Wed",
+      "mainKey": "scratch",
+      "mainTopic": "Enemy logic",
+      "buildTask": "Add a simple enemy that chases you",
+      "logicTask": "Khan Academy: pattern challenge, 10 questions",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Add an enemy sprite, place it in the maze",
+        "Forever: point towards player, move 2 steps",
+        "If enemy touches player, send ‘lose’ message",
+        "Add: when I receive lose, show lose screen"
+      ],
+      "logicSteps": [
+        "Khan Academy: patterns set",
+        "Complete 10 questions",
+        "Spot 1 pattern rule and write it down"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Focus on tricky keys you miss",
+        "Finish with 30 seconds of slow, perfect typing"
+      ],
+      "outcomes": [
+        "Enemy follows player",
+        "Lose condition works",
+        "Pattern rule written"
+      ]
+    },
+    {
+      "num": 10,
+      "week": 2,
+      "month": 1,
+      "dow": "Thu",
+      "mainKey": "scratch",
+      "mainTopic": "Win conditions + sound",
+      "buildTask": "Win and lose screens, plus sound effects",
+      "logicTask": "Khan Academy: multi-step puzzles, 8 questions",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Create 2 backdrops or costumes: ‘You Win’, ‘You Lose’",
+        "When player reaches goal, broadcast win",
+        "On win: play a sound, stop all",
+        "On lose: play a different sound, stop all"
+      ],
+      "logicSteps": [
+        "Khan Academy: multi-step practice",
+        "Complete 8 questions",
+        "Check your answers before submitting the last 2"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "If accuracy < 90%, redo the test slowly"
+      ],
+      "outcomes": [
+        "Win/lose screens show",
+        "Uses broadcasts",
+        "Two sounds added"
+      ]
+    },
+    {
+      "num": 11,
+      "week": 2,
+      "month": 1,
+      "dow": "Fri",
+      "mainKey": "scratch",
+      "mainTopic": "Debugging day",
+      "buildTask": "Break one thing, then fix it",
+      "logicTask": "Khan Academy: mixed challenge, 10 mins",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Pick 1 thing to break on purpose (timer, enemy speed, wall colour)",
+        "Write what you changed",
+        "Fix it back, test again",
+        "Add 1 comment block saying what the bug was"
+      ],
+      "logicSteps": [
+        "10-minute mixed practice",
+        "Try to get 3 in a row correct",
+        "If you miss one, explain why"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Choose 1 lesson you struggled with, redo it",
+        "Quick stretch and stop"
+      ],
+      "outcomes": [
+        "Can describe a bug and a fix",
+        "Understands testing",
+        "Improved on a weak lesson"
+      ]
+    },
+    {
+      "num": 12,
+      "week": 2,
+      "month": 1,
+      "dow": "Sat",
+      "mainKey": "scratch",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Maze Escape (timer, enemy, win/lose)",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: review",
+      "notes": "Presentation: show the full game",
+      "buildSteps": [
+        "Combine: maze, timer, enemy, win/lose screens",
+        "Add 3 coins to collect before the goal (score check)",
+        "Add instructions screen: controls and goal",
+        "Play-test: ask someone else to try it"
+      ],
+      "logicSteps": [
+        "10 minutes mixed practice",
+        "Retry 2 mistakes",
+        "Say 1 thing you improved this week"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes review",
+        "Do a 2-minute test",
+        "Note WPM, accuracy"
+      ],
+      "outcomes": [
+        "Full maze game complete",
+        "Instructions included",
+        "Can explain what you built"
+      ]
+    },
+    {
+      "num": 13,
+      "week": 3,
+      "month": 1,
+      "dow": "Mon",
+      "mainKey": "scratch",
+      "mainTopic": "Cloning",
+      "buildTask": "Use clones for multiple falling objects",
+      "logicTask": "Khan Academy: multiplication reasoning, 10 questions",
+      "typingTask": "TypingClub (target 35 wpm)",
+      "notes": "",
+      "buildSteps": [
+        "Create one ‘Falling’ sprite",
+        "When green flag clicked: forever create clone, wait 1 second",
+        "When I start as a clone: go to random x, go to y:180, fall down",
+        "If touching player: change score by 1, delete this clone"
+      ],
+      "logicSteps": [
+        "Khan Academy: multiplication practice",
+        "Complete 10 questions",
+        "Use a times-table you know to check one answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 12 minutes",
+        "Try a longer test, 2 minutes",
+        "If you hit 35 wpm once, celebrate quietly"
+      ],
+      "outcomes": [
+        "Uses clones",
+        "No copy-paste sprites needed",
+        "Understands clone start"
+      ]
+    },
+    {
+      "num": 14,
+      "week": 3,
+      "month": 1,
+      "dow": "Tue",
+      "mainKey": "scratch",
+      "mainTopic": "Difficulty scaling",
+      "buildTask": "Make speed increase over time",
+      "logicTask": "Khan Academy: logic word problems, 10 mins",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Make variable: speed",
+        "Set speed to 6 at start",
+        "Every 10 seconds, change speed by 1",
+        "Use speed in your falling loop instead of a fixed number"
+      ],
+      "logicSteps": [
+        "10-minute logic / word problems set",
+        "Explain one answer using ‘because…’",
+        "Check your final answer makes sense"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Focus: clean capitals if your lessons include them",
+        "Finish with a 1-minute test"
+      ],
+      "outcomes": [
+        "Difficulty increases smoothly",
+        "Uses a speed variable",
+        "Explains a solution"
+      ]
+    },
+    {
+      "num": 15,
+      "week": 3,
+      "month": 1,
+      "dow": "Wed",
+      "mainKey": "scratch",
+      "mainTopic": "Levels",
+      "buildTask": "Create Level 2 with a backdrop switch",
+      "logicTask": "Khan Academy: pattern puzzles, 10 questions",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Make variable: level",
+        "When score reaches 10, set level to 2",
+        "Switch backdrop for level 2",
+        "Increase speed or add a new obstacle in level 2"
+      ],
+      "logicSteps": [
+        "Khan Academy: patterns",
+        "Complete 10 questions",
+        "Write 2 pattern rules as sentences"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Pick 1 lesson to redo perfectly",
+        "Short test: 1 minute"
+      ],
+      "outcomes": [
+        "Level changes trigger correctly",
+        "Backdrops switch",
+        "Level 2 is harder"
+      ]
+    },
+    {
+      "num": 16,
+      "week": 3,
+      "month": 1,
+      "dow": "Thu",
+      "mainKey": "scratch",
+      "mainTopic": "Restart system",
+      "buildTask": "Add a restart button and reset variables",
+      "logicTask": "Khan Academy: multi-step maths, 8 questions",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Add a ‘Restart’ sprite button",
+        "When this sprite clicked: broadcast restart",
+        "On restart: set score, lives, time, level back to start values",
+        "Make sure sprites go back to start positions"
+      ],
+      "logicSteps": [
+        "Khan Academy: multi-step practice",
+        "Complete 8 questions",
+        "Show your working for 2 of them"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Focus on rhythm, not rushing",
+        "2-minute test if you feel ready"
+      ],
+      "outcomes": [
+        "Restart works every time",
+        "All variables reset",
+        "Can explain broadcasts"
+      ]
+    },
+    {
+      "num": 17,
+      "week": 3,
+      "month": 1,
+      "dow": "Fri",
+      "mainKey": "scratch",
+      "mainTopic": "Polish",
+      "buildTask": "Add animations and sound polish",
+      "logicTask": "Khan Academy: brain teasers, 10 mins",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Add a short animation when you collect an item",
+        "Add sound effects for win, lose, collect",
+        "Make the player sprite face the direction it moves",
+        "Add instructions text: goal, controls"
+      ],
+      "logicSteps": [
+        "10 minutes brain teasers or challenge",
+        "Try not to guess, work it out",
+        "Explain one solution out loud"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Redo 1 hard lesson",
+        "1-minute test"
+      ],
+      "outcomes": [
+        "Game feels finished",
+        "Instructions included",
+        "Sound and visuals improved"
+      ]
+    },
+    {
+      "num": 18,
+      "week": 3,
+      "month": 1,
+      "dow": "Sat",
+      "mainKey": "scratch",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: 2-Level Platformer",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub review",
+      "notes": "Presentation: explain levels and scoring",
+      "buildSteps": [
+        "Use a simple platformer template (move, jump)",
+        "Add coins and a score counter",
+        "Level 1: easy jumps, Level 2: harder jumps",
+        "Add win screen after level 2"
+      ],
+      "logicSteps": [
+        "10 minutes mixed set",
+        "Retry 2 mistakes",
+        "Say 1 thing you want to improve next week"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes review",
+        "2-minute test",
+        "Note WPM, accuracy"
+      ],
+      "outcomes": [
+        "Two playable levels",
+        "Score works",
+        "Can demo and explain choices"
+      ]
+    },
+    {
+      "num": 19,
+      "week": 4,
+      "month": 1,
+      "dow": "Mon",
+      "mainKey": "scratch",
+      "mainTopic": "Plan",
+      "buildTask": "Plan your final game (goal, rules, scoring)",
+      "logicTask": "Khan Academy: reasoning puzzles, 10 mins",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Choose your final game type: chase, platformer, clicker, maze",
+        "Write: goal, how to win, how to lose",
+        "Write: scoring and difficulty, what changes over time",
+        "Sketch your screens: start, play, win, lose"
+      ],
+      "logicSteps": [
+        "10 minutes reasoning practice",
+        "Do not rush, show working",
+        "Pick 1 question and explain it clearly"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Do 1-minute test",
+        "Try to beat your best accuracy score"
+      ],
+      "outcomes": [
+        "Game plan written",
+        "Screens sketched",
+        "Knows win and lose rules"
+      ]
+    },
+    {
+      "num": 20,
+      "week": 4,
+      "month": 1,
+      "dow": "Tue",
+      "mainKey": "scratch",
+      "mainTopic": "Build stage 1",
+      "buildTask": "Start screen and core movement",
+      "logicTask": "Khan Academy: word problems, 8 questions",
+      "typingTask": "TypingClub",
+      "notes": "Mini-present: what’s built so far?",
+      "buildSteps": [
+        "Build the start screen with a ‘Start’ button",
+        "Set up your main character movement",
+        "Set up the play area and boundaries",
+        "Save, name the project clearly"
+      ],
+      "logicSteps": [
+        "Khan Academy: word problems",
+        "Complete 8 questions",
+        "Check units, time, money, or measurement carefully"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Focus on posture and gentle hands",
+        "1-minute test"
+      ],
+      "outcomes": [
+        "Start screen works",
+        "Movement works",
+        "Can explain current progress"
+      ]
+    },
+    {
+      "num": 21,
+      "week": 4,
+      "month": 1,
+      "dow": "Wed",
+      "mainKey": "scratch",
+      "mainTopic": "Build stage 2",
+      "buildTask": "Add scoring and difficulty",
+      "logicTask": "Khan Academy: pattern puzzles, 10 questions",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Add a score variable and update rules",
+        "Add difficulty scaling: speed, spawn rate, or enemy count",
+        "Add 1 new obstacle or power-up",
+        "Test: can you score points reliably?"
+      ],
+      "logicSteps": [
+        "Khan Academy: patterns",
+        "Complete 10 questions",
+        "Write 1 pattern as a simple formula or rule"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Redo 1 lesson with perfect accuracy",
+        "Short test: 1 minute"
+      ],
+      "outcomes": [
+        "Score and difficulty added",
+        "One new feature included",
+        "Game is playable"
+      ]
+    },
+    {
+      "num": 22,
+      "week": 4,
+      "month": 1,
+      "dow": "Thu",
+      "mainKey": "scratch",
+      "mainTopic": "Build stage 3",
+      "buildTask": "Add lives and win/lose states",
+      "logicTask": "Khan Academy: logic puzzles, 10 mins",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Add lives or health",
+        "Add win condition and lose condition",
+        "Add win and lose screens with sounds",
+        "Add restart button"
+      ],
+      "logicSteps": [
+        "10 minutes logic practice",
+        "Explain one answer, step by step",
+        "Check your final answer makes sense"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test if you feel ready",
+        "Note WPM and accuracy"
+      ],
+      "outcomes": [
+        "Win/lose states work",
+        "Restart works",
+        "Can explain rules"
+      ]
+    },
+    {
+      "num": 23,
+      "week": 4,
+      "month": 1,
+      "dow": "Fri",
+      "mainKey": "scratch",
+      "mainTopic": "Bug fixing + polish",
+      "buildTask": "Fix issues and improve visuals and sound",
+      "logicTask": "Khan Academy: mixed challenge, 10 mins",
+      "typingTask": "TypingClub",
+      "notes": "",
+      "buildSteps": [
+        "Play your game 3 times and note anything odd",
+        "Fix at least 2 bugs",
+        "Improve visuals: neat layout, consistent fonts, readable text",
+        "Add a short instructions panel"
+      ],
+      "logicSteps": [
+        "10 minutes mixed practice",
+        "Retry 2 mistakes",
+        "Tell a parent what you fixed today"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Pick a tricky lesson and redo",
+        "1-minute test"
+      ],
+      "outcomes": [
+        "Bugs fixed",
+        "Game looks tidy",
+        "Can explain improvements"
+      ]
+    },
+    {
+      "num": 24,
+      "week": 4,
+      "month": 1,
+      "dow": "Sat",
+      "mainKey": "scratch",
+      "mainTopic": "Demo day",
+      "buildTask": "Final Scratch game presentation",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: check-in",
+      "notes": "Optional: share link to family",
+      "buildSteps": [
+        "Final play-test, fix any last issues",
+        "Add credits: ‘Made by…’",
+        "Share your project link with a parent",
+        "Present: what you built, what broke, what you fixed"
+      ],
+      "logicSteps": [
+        "10 minutes mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill you improved this phase"
+      ],
+      "typingSteps": [
+        "TypingClub: 1-minute test",
+        "Compare to day 1",
+        "High-five your keyboard politely"
+      ],
+      "outcomes": [
+        "Project shared",
+        "Can present clearly",
+        "Typing progress compared"
+      ]
+    },
+    {
+      "num": 25,
+      "week": 5,
+      "month": 2,
+      "dow": "Mon",
+      "mainKey": "roblox",
+      "mainTopic": "Studio basics",
+      "buildTask": "Learn interface: Explorer, Properties, parts",
+      "logicTask": "Khan Academy: reasoning puzzles (10–15 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Open Roblox Studio → New → Baseplate, then Save as ‘Phase2_Obby’",
+        "Turn on Explorer + Properties (View tab)",
+        "Insert 5 Parts and practise move/scale/rotate",
+        "Press Play (F5) and confirm you spawn correctly"
+      ],
+      "logicSteps": [
+        "Pick 1 reasoning/pattern set",
+        "Work for 10–15 minutes",
+        "Explain 1 answer out loud in full sentences"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 90%+",
+        "Finish with a 1-minute test (optional)"
+      ],
+      "outcomes": [
+        "Can find Explorer/Properties",
+        "Saved a new place",
+        "Basic parts placed and tested"
+      ]
+    },
+    {
+      "num": 26,
+      "week": 5,
+      "month": 2,
+      "dow": "Tue",
+      "mainKey": "roblox",
+      "mainTopic": "Parts + anchoring",
+      "buildTask": "Build a simple obby path",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Build a straight path: 8–12 platforms",
+        "Anchor platforms so they don’t fall",
+        "Add 1 moving part (tween/manual script is optional)",
+        "Play-test twice and adjust gaps so it feels fair"
+      ],
+      "logicSteps": [
+        "Do a pattern set",
+        "Complete 10 minutes",
+        "Write the rule for 2 patterns"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Slow down on mistakes",
+        "Aim 90%+ accuracy"
+      ],
+      "outcomes": [
+        "Obby path is playable",
+        "Anchoring understood",
+        "Gaps feel fair"
+      ]
+    },
+    {
+      "num": 27,
+      "week": 5,
+      "month": 2,
+      "dow": "Wed",
+      "mainKey": "roblox",
+      "mainTopic": "Terrain tools",
+      "buildTask": "Add terrain + obstacles",
+      "logicTask": "Khan Academy: word problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Open Terrain Editor and add 1 hill or platform area",
+        "Add 2 obstacles (e.g., lava floor, spinning bar, narrow beam)",
+        "Add a safe zone (a big flat platform) between hard bits",
+        "Play-test and note 1 improvement to make tomorrow"
+      ],
+      "logicSteps": [
+        "Pick 1 word-problem set",
+        "Work 10 minutes",
+        "Show working for 2 questions"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Do 1-minute test",
+        "Note WPM + accuracy"
+      ],
+      "outcomes": [
+        "Terrain used once",
+        "2 obstacles added",
+        "1 improvement note written"
+      ]
+    },
+    {
+      "num": 28,
+      "week": 5,
+      "month": 2,
+      "dow": "Thu",
+      "mainKey": "roblox",
+      "mainTopic": "Level design",
+      "buildTask": "Design a full obstacle course layout",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Sketch your obby in 60 seconds: start → middle → finish",
+        "Build 3 sections (easy/medium/hard)",
+        "Add a clear finish marker (flag/sign/portal)",
+        "Play-test and time how long it takes"
+      ],
+      "logicSteps": [
+        "Do a logic set",
+        "10 minutes",
+        "Explain 1 solution step-by-step"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo one weak lesson"
+      ],
+      "outcomes": [
+        "Obby has 3 sections",
+        "Finish is clear",
+        "Time to complete recorded"
+      ]
+    },
+    {
+      "num": 29,
+      "week": 5,
+      "month": 2,
+      "dow": "Fri",
+      "mainKey": "roblox",
+      "mainTopic": "Refinement",
+      "buildTask": "Improve spacing, fairness, and reset points",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: timed test",
+      "notes": "",
+      "buildSteps": [
+        "Add 3 checkpoints (SpawnLocation parts) along the course",
+        "Make sure players can’t cheat around walls (add guard rails)",
+        "Fix 2 frustrating jumps by adjusting spacing",
+        "Play-test like a new player (no shortcuts)"
+      ],
+      "logicSteps": [
+        "Brain teasers for 10 minutes",
+        "Pick the hardest one",
+        "Explain your reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test",
+        "Write down WPM + accuracy"
+      ],
+      "outcomes": [
+        "Checkpoints work",
+        "2 frustrations fixed",
+        "Course feels fairer"
+      ]
+    },
+    {
+      "num": 30,
+      "week": 5,
+      "month": 2,
+      "dow": "Sat",
+      "mainKey": "roblox",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Full obby + checkpoints",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: quick review",
+      "notes": "Presentation: show course flow",
+      "buildSteps": [
+        "Do a full play-through start → finish",
+        "Add 1 ‘wow’ moment (big jump, moving platform, secret path)",
+        "Add instructions at the start (a sign)",
+        "Show a parent: what’s easy, what’s tricky, and why"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill you practised"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Stop when hands feel tired"
+      ],
+      "outcomes": [
+        "Full obby playable",
+        "Has checkpoints + instructions",
+        "Can explain difficulty choices"
+      ]
+    },
+    {
+      "num": 31,
+      "week": 6,
+      "month": 2,
+      "dow": "Mon",
+      "mainKey": "roblox",
+      "mainTopic": "Lua variables",
+      "buildTask": "Create a variable + print output",
+      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "typingTask": "TypingClub (target ~40 WPM)",
+      "notes": "",
+      "buildSteps": [
+        "Insert a Script and print 'Hello from Roblox'",
+        "Create a variable like coins = 0",
+        "Print the variable and change it to 10",
+        "Run and confirm Output shows your values"
+      ],
+      "logicSteps": [
+        "Reasoning set for 10 minutes",
+        "Do not rush",
+        "Explain 1 answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Try a 1-minute test",
+        "Aim for calm accuracy"
+      ],
+      "outcomes": [
+        "Can read Output",
+        "Understands variables",
+        "Can change and re-run"
+      ]
+    },
+    {
+      "num": 32,
+      "week": 6,
+      "month": 2,
+      "dow": "Tue",
+      "mainKey": "roblox",
+      "mainTopic": "If statements",
+      "buildTask": "Trigger: if player touches → do action",
+      "logicTask": "Khan Academy: word logic problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add a Part named 'WinPad'",
+        "Use .Touched to detect a player",
+        "If it's a player, print 'You win!' or change a variable",
+        "Test by walking onto the pad"
+      ],
+      "logicSteps": [
+        "10 minutes word logic",
+        "Write down 1 tricky question",
+        "Explain why your answer works"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy 90%+",
+        "Redo 1 lesson if below"
+      ],
+      "outcomes": [
+        "Touch trigger works",
+        "Used an if statement",
+        "Can explain condition"
+      ]
+    },
+    {
+      "num": 33,
+      "week": 6,
+      "month": 2,
+      "dow": "Wed",
+      "mainKey": "roblox",
+      "mainTopic": "Functions",
+      "buildTask": "Make a reusable function for an action",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Write a function like givePoints(player, amount)",
+        "Call it from a touch trigger",
+        "Print a message showing points awarded",
+        "Change amount in one place and re-test"
+      ],
+      "logicSteps": [
+        "Patterns for 10 minutes",
+        "Write the rule for 2 patterns",
+        "Check 1 answer twice"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Note WPM"
+      ],
+      "outcomes": [
+        "Understands functions",
+        "Reused code once",
+        "Can explain inputs/outputs"
+      ]
+    },
+    {
+      "num": 34,
+      "week": 6,
+      "month": 2,
+      "dow": "Thu",
+      "mainKey": "roblox",
+      "mainTopic": "Triggers",
+      "buildTask": "Door opens when item collected",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Build a simple door (a Part) blocking a path",
+        "Add a collectible item (coin/key part)",
+        "When collected: set hasKey = true and remove the item",
+        "If hasKey then door becomes CanCollide = false (or moves away)"
+      ],
+      "logicSteps": [
+        "Logic set for 10 minutes",
+        "Explain 1 solution",
+        "Check final answer makes sense"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo one weak row"
+      ],
+      "outcomes": [
+        "Collectible works",
+        "Door opens correctly",
+        "Can explain game state"
+      ]
+    },
+    {
+      "num": 35,
+      "week": 6,
+      "month": 2,
+      "dow": "Fri",
+      "mainKey": "roblox",
+      "mainTopic": "Timers",
+      "buildTask": "Add a time limit concept",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Create a timer value (e.g., timeLeft = 60)",
+        "Use a loop to count down once per second",
+        "When time runs out, print 'Time up' or reset the player",
+        "Test: does it reach zero smoothly?"
+      ],
+      "logicSteps": [
+        "Brain teasers for 10 minutes",
+        "Pick 1 hardest",
+        "Explain your reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test",
+        "Accuracy first"
+      ],
+      "outcomes": [
+        "Timer counts down",
+        "Understands waiting/looping",
+        "Time-up behaviour works"
+      ]
+    },
+    {
+      "num": 36,
+      "week": 6,
+      "month": 2,
+      "dow": "Sat",
+      "mainKey": "roblox",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Door unlock + timer",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: review",
+      "notes": "Presentation: show script working",
+      "buildSteps": [
+        "Combine: key/coin unlock + door + timer",
+        "Add a reset button or restart zone",
+        "Write 2 comments in your script explaining the logic",
+        "Demo to a parent: what happens if you’re fast vs slow"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 thing you improved"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Compare to Monday"
+      ],
+      "outcomes": [
+        "Full mini-game loop works",
+        "Script has comments",
+        "Can explain the rules"
+      ]
+    },
+    {
+      "num": 37,
+      "week": 7,
+      "month": 2,
+      "dow": "Mon",
+      "mainKey": "roblox",
+      "mainTopic": "Points system",
+      "buildTask": "Award points for actions",
+      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Create a points variable per player (leaderstats is ideal)",
+        "Give points when touching a target",
+        "Print or show the points updating",
+        "Test with Play and repeat the action 3 times"
+      ],
+      "logicSteps": [
+        "Reasoning set 10 minutes",
+        "Explain 1 answer",
+        "Check your work"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy 90%+",
+        "Slow is fine"
+      ],
+      "outcomes": [
+        "Points increase reliably",
+        "Understands per-player vs global",
+        "Tested 3 times"
+      ]
+    },
+    {
+      "num": 38,
+      "week": 7,
+      "month": 2,
+      "dow": "Tue",
+      "mainKey": "roblox",
+      "mainTopic": "Currency",
+      "buildTask": "Create a coin/currency variable",
+      "logicTask": "Khan Academy: word problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add coins you can collect",
+        "On collect: increase currency and remove coin",
+        "Respawn coin after 5 seconds (optional)",
+        "Make a simple sign: ‘Coins: …’ (or output prints)"
+      ],
+      "logicSteps": [
+        "Word problems 10 minutes",
+        "Show working for 2",
+        "Explain 1 answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Note WPM"
+      ],
+      "outcomes": [
+        "Coins can be collected",
+        "Currency increases",
+        "Can explain what state is"
+      ]
+    },
+    {
+      "num": 39,
+      "week": 7,
+      "month": 2,
+      "dow": "Wed",
+      "mainKey": "roblox",
+      "mainTopic": "Shop basics",
+      "buildTask": "Simple shop idea: buy 1 power-up",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Create a shop pad/button",
+        "If player has enough coins, subtract cost",
+        "Give a reward (speed boost or jump boost)",
+        "If not enough coins, show a message (print is fine)"
+      ],
+      "logicSteps": [
+        "Patterns 10 minutes",
+        "Write 2 rules",
+        "Recheck last 2"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo a weak lesson"
+      ],
+      "outcomes": [
+        "Shop checks coins",
+        "Cost subtracts correctly",
+        "Reward applies"
+      ]
+    },
+    {
+      "num": 40,
+      "week": 7,
+      "month": 2,
+      "dow": "Thu",
+      "mainKey": "roblox",
+      "mainTopic": "Leaderboard",
+      "buildTask": "Track best score/time",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add a visible stat (Coins or BestTime)",
+        "Update it when a run finishes",
+        "If the new score is better, save/update the best",
+        "Test with 2 runs (one worse, one better)"
+      ],
+      "logicSteps": [
+        "Logic set 10 minutes",
+        "Explain 1 solution",
+        "Check your final answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test if ready",
+        "Note results"
+      ],
+      "outcomes": [
+        "Stat displays",
+        "Best score logic works",
+        "Tested with 2 runs"
+      ]
+    },
+    {
+      "num": 41,
+      "week": 7,
+      "month": 2,
+      "dow": "Fri",
+      "mainKey": "roblox",
+      "mainTopic": "Power-ups",
+      "buildTask": "Speed boost / jump boost",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Create a power-up pickup (glowing part)",
+        "On touch: increase WalkSpeed or JumpPower for 10 seconds",
+        "After 10 seconds: reset back to normal",
+        "Play-test and check it feels noticeable but not unfair"
+      ],
+      "logicSteps": [
+        "Brain teasers 10 minutes",
+        "Pick 1 hardest",
+        "Explain your reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Aim for steady accuracy"
+      ],
+      "outcomes": [
+        "Power-up applies and resets",
+        "Understands temporary effects",
+        "Balancing note made"
+      ]
+    },
+    {
+      "num": 42,
+      "week": 7,
+      "month": 2,
+      "dow": "Sat",
+      "mainKey": "roblox",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Economy + power-ups",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: review",
+      "notes": "Presentation: explain economy rules",
+      "buildSteps": [
+        "Combine coins + shop + power-up into your obby",
+        "Add 2 prices (cheap + expensive) and 2 rewards (optional)",
+        "Add a short instructions sign",
+        "Explain to a parent: how to earn coins and what to spend them on"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill you improved"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Stop when tired"
+      ],
+      "outcomes": [
+        "Economy loop works",
+        "At least 1 power-up purchasable",
+        "Can explain rules clearly"
+      ]
+    },
+    {
+      "num": 43,
+      "week": 8,
+      "month": 2,
+      "dow": "Mon",
+      "mainKey": "roblox",
+      "mainTopic": "Bug fixing",
+      "buildTask": "Test and fix issues",
+      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Play your game 3 times and write down anything odd",
+        "Fix 2 bugs (coins not counting, door stuck, etc.)",
+        "Add 1 comment to explain each fix",
+        "Re-test and confirm the bug is gone"
+      ],
+      "logicSteps": [
+        "Reasoning set 10 minutes",
+        "Explain 1 answer",
+        "Stay calm"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy 92%+",
+        "Redo one weak lesson"
+      ],
+      "outcomes": [
+        "2 bugs fixed",
+        "Comments added",
+        "Re-tested successfully"
+      ]
+    },
+    {
+      "num": 44,
+      "week": 8,
+      "month": 2,
+      "dow": "Tue",
+      "mainKey": "roblox",
+      "mainTopic": "UI improvement",
+      "buildTask": "Add instructions screen / signage",
+      "logicTask": "Khan Academy: word logic problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add a start sign: how to play in 3 bullet points",
+        "Add labels near shop/power-ups",
+        "Make the finish obvious (big sign/flag)",
+        "Ask someone else to play-test without explaining"
+      ],
+      "logicSteps": [
+        "Word logic 10 minutes",
+        "Write down 1 tricky question",
+        "Explain the answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Note WPM"
+      ],
+      "outcomes": [
+        "Instructions are clear",
+        "Finish is obvious",
+        "Feedback from play-test collected"
+      ]
+    },
+    {
+      "num": 45,
+      "week": 8,
+      "month": 2,
+      "dow": "Wed",
+      "mainKey": "roblox",
+      "mainTopic": "Polish",
+      "buildTask": "Better layout, pacing, visuals",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Choose a theme (space, jungle, neon, castle)",
+        "Apply consistent colours/materials",
+        "Improve pacing: add 1 rest platform after a hard section",
+        "Remove clutter and align parts neatly"
+      ],
+      "logicSteps": [
+        "Patterns 10 minutes",
+        "Write 2 rules",
+        "Double-check last 2"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo 1 lesson"
+      ],
+      "outcomes": [
+        "Theme is consistent",
+        "Course pacing improved",
+        "Parts aligned neatly"
+      ]
+    },
+    {
+      "num": 46,
+      "week": 8,
+      "month": 2,
+      "dow": "Thu",
+      "mainKey": "roblox",
+      "mainTopic": "Testing",
+      "buildTask": "Play-test like a new player",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Turn your camera and pretend you’ve never seen the game",
+        "Check: can you always tell where to go next?",
+        "Fix 1 confusing section",
+        "Time a full run and try to beat it"
+      ],
+      "logicSteps": [
+        "Logic set 10 minutes",
+        "Explain 1 solution",
+        "Check final answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test if ready",
+        "Note accuracy"
+      ],
+      "outcomes": [
+        "1 confusion fixed",
+        "Run time recorded",
+        "Navigation feels clearer"
+      ]
+    },
+    {
+      "num": 47,
+      "week": 8,
+      "month": 2,
+      "dow": "Fri",
+      "mainKey": "roblox",
+      "mainTopic": "Final checks",
+      "buildTask": "Final bugs + reset systems",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Check spawn, checkpoints, and finish all work",
+        "Reset coins/power-ups correctly between runs",
+        "Fix 1 last bug",
+        "Add credits: ‘Made by…’"
+      ],
+      "logicSteps": [
+        "Brain teasers 10 minutes",
+        "Pick 1 hardest",
+        "Explain reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Compare to Monday"
+      ],
+      "outcomes": [
+        "Reset systems reliable",
+        "Credits added",
+        "Ready to publish/share"
+      ]
+    },
+    {
+      "num": 48,
+      "week": 8,
+      "month": 2,
+      "dow": "Sat",
+      "mainKey": "roblox",
+      "mainTopic": "Publish day",
+      "buildTask": "Publish Roblox game (with supervision)",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: check-in",
+      "notes": "Presentation: ‘What makes my game fun?’",
+      "buildSteps": [
+        "With a parent: review settings and safety options",
+        "Publish or save a final version",
+        "Write 3 sentences: what’s fun, what’s challenging, what you’d add next",
+        "Demo to family and collect 1 piece of feedback"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill you improved"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Final 1-minute test",
+        "High-five politely"
+      ],
+      "outcomes": [
+        "Published/saved final build",
+        "Can explain why it’s fun",
+        "Has feedback for next version"
+      ]
+    },
+    {
+      "num": 49,
+      "week": 9,
+      "month": 3,
+      "dow": "Mon",
+      "mainKey": "replit",
+      "mainTopic": "Print + variables",
+      "buildTask": "Hello world + variables",
+      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "typingTask": "TypingClub (target ~45–50 WPM)",
+      "notes": "",
+      "buildSteps": [
+        "Open Replit → create a new Python repl called ‘Phase3_Python’",
+        "print('Hello world!') then run",
+        "Create variables: name, age (or favourite game)",
+        "Print a sentence using your variables"
+      ],
+      "logicSteps": [
+        "Reasoning set 10 minutes",
+        "Explain 1 answer",
+        "Check your work"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Aim for calm accuracy"
+      ],
+      "outcomes": [
+        "Can run a Python program",
+        "Understands variables",
+        "Printed a full sentence"
+      ]
+    },
+    {
+      "num": 50,
+      "week": 9,
+      "month": 3,
+      "dow": "Tue",
+      "mainKey": "replit",
+      "mainTopic": "Input",
+      "buildTask": "Ask questions, store answers",
+      "logicTask": "Khan Academy: word problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Use input() to ask for a name",
+        "Store the answer in a variable",
+        "Ask 2 more questions (age, favourite food, etc.)",
+        "Print a friendly summary back"
+      ],
+      "logicSteps": [
+        "Word problems 10 minutes",
+        "Show working for 2",
+        "Explain 1 answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy 90%+",
+        "Slow is fine"
+      ],
+      "outcomes": [
+        "Uses input()",
+        "Stores answers",
+        "Outputs a summary"
+      ]
+    },
+    {
+      "num": 51,
+      "week": 9,
+      "month": 3,
+      "dow": "Wed",
+      "mainKey": "replit",
+      "mainTopic": "If statements",
+      "buildTask": "Quiz: correct/incorrect logic",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Make a 3-question quiz",
+        "If answer is correct: add 1 to score",
+        "Else: print the correct answer",
+        "Print final score"
+      ],
+      "logicSteps": [
+        "Patterns 10 minutes",
+        "Write 2 rules",
+        "Recheck last 2"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Note WPM"
+      ],
+      "outcomes": [
+        "Uses if/else",
+        "Score updates",
+        "Gives feedback on wrong answers"
+      ]
+    },
+    {
+      "num": 52,
+      "week": 9,
+      "month": 3,
+      "dow": "Thu",
+      "mainKey": "replit",
+      "mainTopic": "Loops",
+      "buildTask": "Repeat questions / attempts",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add a loop so the quiz can repeat",
+        "Ask the player ‘play again? (y/n)’",
+        "Reset score on a new run",
+        "Test: can you play twice without restarting the program?"
+      ],
+      "logicSteps": [
+        "Logic set 10 minutes",
+        "Explain 1 solution",
+        "Check final answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo 1 weak lesson"
+      ],
+      "outcomes": [
+        "Uses a loop",
+        "Replay works",
+        "Knows when to reset variables"
+      ]
+    },
+    {
+      "num": 53,
+      "week": 9,
+      "month": 3,
+      "dow": "Fri",
+      "mainKey": "replit",
+      "mainTopic": "Mini challenge",
+      "buildTask": "5-question quiz with score",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Upgrade your quiz to 5 questions",
+        "Add a 'perfect score' message",
+        "Add one funny/bonus question",
+        "Run and play-test yourself"
+      ],
+      "logicSteps": [
+        "Brain teasers 10 minutes",
+        "Pick 1 hardest",
+        "Explain reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test",
+        "Accuracy first"
+      ],
+      "outcomes": [
+        "5 questions added",
+        "Score messaging works",
+        "Bonus question included"
+      ]
+    },
+    {
+      "num": 54,
+      "week": 9,
+      "month": 3,
+      "dow": "Sat",
+      "mainKey": "replit",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Interactive quiz (score + replay)",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: review",
+      "notes": "Presentation: demo quiz",
+      "buildSteps": [
+        "Clean up text (capital letters, spacing)",
+        "Add at least 2 comments explaining tricky bits",
+        "Make sure replay works reliably",
+        "Demo to a parent: what did you add and why?"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill you improved"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Stop when tired"
+      ],
+      "outcomes": [
+        "Quiz feels polished",
+        "Has comments",
+        "Can explain program flow"
+      ]
+    },
+    {
+      "num": 55,
+      "week": 10,
+      "month": 3,
+      "dow": "Mon",
+      "mainKey": "replit",
+      "mainTopic": "Random",
+      "buildTask": "Use random numbers",
+      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Import random",
+        "Generate a random number 1–10",
+        "Print it (for now) and re-run 5 times",
+        "Explain what ‘random’ means in your own words"
+      ],
+      "logicSteps": [
+        "Reasoning 10 minutes",
+        "Explain 1 answer",
+        "Check work"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy 90%+",
+        "Slow is fine"
+      ],
+      "outcomes": [
+        "Can import a module",
+        "Can generate random numbers",
+        "Understands randomness concept"
+      ]
+    },
+    {
+      "num": 56,
+      "week": 10,
+      "month": 3,
+      "dow": "Tue",
+      "mainKey": "replit",
+      "mainTopic": "Guess the number",
+      "buildTask": "Build base game loop",
+      "logicTask": "Khan Academy: word problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Pick a secret number 1–20",
+        "Ask the player to guess",
+        "If too high/low, give a hint",
+        "Loop until correct"
+      ],
+      "logicSteps": [
+        "Word problems 10 minutes",
+        "Show working for 2",
+        "Explain 1"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Note WPM"
+      ],
+      "outcomes": [
+        "Game loop works",
+        "Hints correct",
+        "Stops on correct guess"
+      ]
+    },
+    {
+      "num": 57,
+      "week": 10,
+      "month": 3,
+      "dow": "Wed",
+      "mainKey": "replit",
+      "mainTopic": "Scoring",
+      "buildTask": "Score based on attempts",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add an attempts counter",
+        "Print attempts when the player wins",
+        "Add a simple score: 100 - (attempts * 10)",
+        "Try 2 runs and compare scores"
+      ],
+      "logicSteps": [
+        "Patterns 10 minutes",
+        "Write 2 rules",
+        "Recheck last 2"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo 1 weak lesson"
+      ],
+      "outcomes": [
+        "Attempts counted",
+        "Score calculated",
+        "Can explain the formula"
+      ]
+    },
+    {
+      "num": 58,
+      "week": 10,
+      "month": 3,
+      "dow": "Thu",
+      "mainKey": "replit",
+      "mainTopic": "Difficulty levels",
+      "buildTask": "Easy/medium/hard ranges",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Ask player for difficulty (easy/medium/hard)",
+        "Set range: 1–10, 1–50, 1–100",
+        "Pick secret number using that range",
+        "Test each difficulty once"
+      ],
+      "logicSteps": [
+        "Logic 10 minutes",
+        "Explain 1 solution",
+        "Check answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test if ready",
+        "Note results"
+      ],
+      "outcomes": [
+        "Difficulty selection works",
+        "Range changes",
+        "Tested all 3 levels"
+      ]
+    },
+    {
+      "num": 59,
+      "week": 10,
+      "month": 3,
+      "dow": "Fri",
+      "mainKey": "replit",
+      "mainTopic": "Input safety",
+      "buildTask": "Handle bad input (letters, blanks)",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Use try/except to catch non-number input",
+        "If input is bad, print a friendly message",
+        "Keep the game running (don’t crash)",
+        "Test with: letters, blank, huge numbers"
+      ],
+      "logicSteps": [
+        "Brain teasers 10 minutes",
+        "Pick 1 hardest",
+        "Explain reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Aim for steady accuracy"
+      ],
+      "outcomes": [
+        "Program doesn’t crash",
+        "Friendly error message",
+        "Tested 3 bad inputs"
+      ]
+    },
+    {
+      "num": 60,
+      "week": 10,
+      "month": 3,
+      "dow": "Sat",
+      "mainKey": "replit",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Improved guessing game",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: review",
+      "notes": "Presentation: explain difficulty design",
+      "buildSteps": [
+        "Polish your game text and add comments",
+        "Add replay (y/n)",
+        "Add a ‘best score’ for this run (optional)",
+        "Demo to a parent and explain how difficulty changes the experience"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill improved"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Compare to Tuesday"
+      ],
+      "outcomes": [
+        "Game feels complete",
+        "Replay works",
+        "Can explain design choices"
+      ]
+    },
+    {
+      "num": 61,
+      "week": 11,
+      "month": 3,
+      "dow": "Mon",
+      "mainKey": "replit",
+      "mainTopic": "Lists",
+      "buildTask": "Store items in a list",
+      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Create a list of items (e.g., backpack = [])",
+        "Append 3 items",
+        "Print the list",
+        "Remove 1 item and print again"
+      ],
+      "logicSteps": [
+        "Reasoning 10 minutes",
+        "Explain 1 answer",
+        "Check work"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy 90%+",
+        "Slow is fine"
+      ],
+      "outcomes": [
+        "Understands lists",
+        "Can add/remove items",
+        "Printed list contents"
+      ]
+    },
+    {
+      "num": 62,
+      "week": 11,
+      "month": 3,
+      "dow": "Tue",
+      "mainKey": "replit",
+      "mainTopic": "Inventory",
+      "buildTask": "Add/remove items (inventory)",
+      "logicTask": "Khan Academy: word logic problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Make commands: take, drop, inventory",
+        "Use the list to store items",
+        "Print helpful messages (e.g., 'You took the key')",
+        "Test each command at least once"
+      ],
+      "logicSteps": [
+        "Word logic 10 minutes",
+        "Write down 1 tricky one",
+        "Explain answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Note WPM"
+      ],
+      "outcomes": [
+        "Inventory commands work",
+        "List updates",
+        "Messages are clear"
+      ]
+    },
+    {
+      "num": 63,
+      "week": 11,
+      "month": 3,
+      "dow": "Wed",
+      "mainKey": "replit",
+      "mainTopic": "Functions",
+      "buildTask": "Reusable actions (look, take, move)",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Create functions: show_room(), handle_command()",
+        "Move repeated code into functions",
+        "Call the functions from your main loop",
+        "Test: does everything still work?"
+      ],
+      "logicSteps": [
+        "Patterns 10 minutes",
+        "Write 2 rules",
+        "Recheck last 2"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo 1 weak lesson"
+      ],
+      "outcomes": [
+        "Used functions",
+        "Code is shorter/clearer",
+        "Program still works"
+      ]
+    },
+    {
+      "num": 64,
+      "week": 11,
+      "month": 3,
+      "dow": "Thu",
+      "mainKey": "replit",
+      "mainTopic": "Multiple endings",
+      "buildTask": "Win/lose paths based on choices",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add at least 2 endings (win/lose)",
+        "Make endings depend on inventory or choices",
+        "Print an ending message",
+        "Test both endings"
+      ],
+      "logicSteps": [
+        "Logic 10 minutes",
+        "Explain 1 solution",
+        "Check final answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test if ready",
+        "Note results"
+      ],
+      "outcomes": [
+        "2 endings exist",
+        "Choices affect outcome",
+        "Tested both endings"
+      ]
+    },
+    {
+      "num": 65,
+      "week": 11,
+      "month": 3,
+      "dow": "Fri",
+      "mainKey": "replit",
+      "mainTopic": "Refactoring",
+      "buildTask": "Clean code + comments",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Rename variables so they make sense",
+        "Add 5 helpful comments",
+        "Remove duplicate code",
+        "Run through a full play-test"
+      ],
+      "logicSteps": [
+        "Brain teasers 10 minutes",
+        "Pick 1 hardest",
+        "Explain reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Accuracy first"
+      ],
+      "outcomes": [
+        "Code reads clearly",
+        "Has comments",
+        "Play-test completed"
+      ]
+    },
+    {
+      "num": 66,
+      "week": 11,
+      "month": 3,
+      "dow": "Sat",
+      "mainKey": "replit",
+      "mainTopic": "Build sprint",
+      "buildTask": "Project: Text adventure (chapter 1)",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub: review",
+      "notes": "Presentation: show choices branching",
+      "buildSteps": [
+        "Write a short story: start → 2 choices → result",
+        "Make at least 3 rooms/locations",
+        "Use inventory for 1 meaningful decision",
+        "Demo to a parent: show two different paths"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill improved"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Stop when tired"
+      ],
+      "outcomes": [
+        "Chapter 1 playable",
+        "Has branching",
+        "Can explain structure"
+      ]
+    },
+    {
+      "num": 67,
+      "week": 12,
+      "month": 3,
+      "dow": "Mon",
+      "mainKey": "replit",
+      "mainTopic": "Plan capstone",
+      "buildTask": "Map story, rooms, inventory, endings",
+      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Draw a quick map of rooms and connections",
+        "List 5 items and what they do",
+        "Define 2 endings (win/lose) and how to reach them",
+        "Write a checklist for the next 4 lessons"
+      ],
+      "logicSteps": [
+        "Reasoning 10 minutes",
+        "Explain 1 answer",
+        "Check work"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy 90%+",
+        "Slow is fine"
+      ],
+      "outcomes": [
+        "Capstone plan exists",
+        "Items + endings planned",
+        "Checklist written"
+      ]
+    },
+    {
+      "num": 68,
+      "week": 12,
+      "month": 3,
+      "dow": "Tue",
+      "mainKey": "replit",
+      "mainTopic": "Build section 1",
+      "buildTask": "Intro + first choices",
+      "logicTask": "Khan Academy: word problems (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "Mini-present: progress update",
+      "buildSteps": [
+        "Build intro text and starting room",
+        "Add at least 2 choices",
+        "Make sure invalid commands get a friendly message",
+        "Run a short play-test"
+      ],
+      "logicSteps": [
+        "Word problems 10 minutes",
+        "Show working for 2",
+        "Explain 1"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Note WPM"
+      ],
+      "outcomes": [
+        "Intro works",
+        "First choices exist",
+        "Friendly invalid-command handling"
+      ]
+    },
+    {
+      "num": 69,
+      "week": 12,
+      "month": 3,
+      "dow": "Wed",
+      "mainKey": "replit",
+      "mainTopic": "Build section 2",
+      "buildTask": "Add random events + score",
+      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Add a random event in 1 room (50/50 outcome)",
+        "Add a score or 'luck' variable",
+        "Make score change based on choices",
+        "Test the random event 5 times"
+      ],
+      "logicSteps": [
+        "Patterns 10 minutes",
+        "Write 2 rules",
+        "Recheck last 2"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Accuracy target: 92%",
+        "Redo 1 weak lesson"
+      ],
+      "outcomes": [
+        "Random event works",
+        "Score updates",
+        "Tested multiple runs"
+      ]
+    },
+    {
+      "num": 70,
+      "week": 12,
+      "month": 3,
+      "dow": "Thu",
+      "mainKey": "replit",
+      "mainTopic": "Build section 3",
+      "buildTask": "Add endings + replay option",
+      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Implement win ending and lose ending",
+        "Add replay (y/n) at the end",
+        "Reset inventory/score on replay",
+        "Test: reach both endings"
+      ],
+      "logicSteps": [
+        "Logic 10 minutes",
+        "Explain 1 solution",
+        "Check final answer"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "2-minute test if ready",
+        "Note results"
+      ],
+      "outcomes": [
+        "Endings trigger correctly",
+        "Replay works",
+        "Resets happen properly"
+      ]
+    },
+    {
+      "num": 71,
+      "week": 12,
+      "month": 3,
+      "dow": "Fri",
+      "mainKey": "replit",
+      "mainTopic": "Testing + polish",
+      "buildTask": "Fix bugs, improve text, clean code",
+      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "typingTask": "TypingClub: 10 minutes",
+      "notes": "",
+      "buildSteps": [
+        "Play-test start → ending and write down 3 issues",
+        "Fix at least 2 issues",
+        "Improve writing: clearer choices, less clutter",
+        "Add comments where future-you will thank you"
+      ],
+      "logicSteps": [
+        "Brain teasers 10 minutes",
+        "Pick 1 hardest",
+        "Explain reasoning"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "1-minute test",
+        "Accuracy first"
+      ],
+      "outcomes": [
+        "2 issues fixed",
+        "Text reads clearly",
+        "Code is tidy"
+      ]
+    },
+    {
+      "num": 72,
+      "week": 12,
+      "month": 3,
+      "dow": "Sat",
+      "mainKey": "replit",
+      "mainTopic": "Demo day",
+      "buildTask": "Capstone: full text adventure demo",
+      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "typingTask": "TypingClub final check-in",
+      "notes": "Optional: share with family/friends",
+      "buildSteps": [
+        "Do a full run, then a different run",
+        "Ask someone to try it and watch where they get stuck",
+        "Write 3 improvements you’d make next week",
+        "Celebrate: you built a whole program!"
+      ],
+      "logicSteps": [
+        "10-minute mixed set",
+        "Retry 2 mistakes",
+        "Say 1 skill you improved"
+      ],
+      "typingSteps": [
+        "TypingClub: 10 minutes",
+        "Final 1-minute test",
+        "Compare to Phase 1"
+      ],
+      "outcomes": [
+        "Capstone demo works",
+        "Has feedback + next steps",
+        "Typing progress recorded"
+      ]
+    }
+  ]
+}

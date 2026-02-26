@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Debug · YoungTekkie</title>
+  <link rel="icon" href="assets/favicon-32.png">
+  <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+\1
+  <main>
+    <div class="container">
+      <div id="app-error" class="yt-error" aria-live="polite"></div>
+
+      <section class="yt-hero yt-hero--compact">
+        <div>
+          <h1 class="yt-h1">Self-test</h1>
+          <p class="yt-muted">Quick contract, storage and mount checks to catch blank pages before you deploy.</p>
+        </div>
+        <div class="yt-hero__chips">
+          <span class="yt-pill">Codex Contract</span>
+          <span class="yt-pill">M0</span>
+        </div>
+      </section>
+
+      <section class="yt-card">
+        <div class="yt-table-wrap">
+          <table class="yt-table">
+            <thead>
+              <tr>
+                <th>Check</th>
+                <th>Status</th>
+                <th>Detail</th>
+              </tr>
+            </thead>
+            <tbody id="debug-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Profiles · YoungTekkie</title>
+  <link rel="icon" href="assets/favicon-32.png">
+  <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+\1
+  <main>
+    <div class="container">
+      <div id="app-error" class="yt-error" aria-live="polite"></div>
+
+      <section class="yt-hero yt-hero--compact">
+        <div>
+          <h1 class="yt-h1">Learner profiles</h1>
+          <p class="yt-muted">Create a profile and select the active learner for phases and progress.</p>
+        </div>
+        <div class="yt-hero__chips">
+          <span class="yt-pill">Kid mode friendly</span>
+          <span class="yt-pill">No accounts</span>
+        </div>
+      </section>
+
+      <section class="yt-card">
+        <form id="profile-form" class="yt-form">
+          <div class="yt-form__grid">
+            <div class="yt-field">
+              <label class="yt-label" for="child-name">Child name</label>
+              <input class="yt-input" id="child-name" name="child-name" placeholder="e.g. Debra" />
+            </div>
+            <div class="yt-field">
+              <label class="yt-label" for="year-group">Year group</label>
+              <select class="yt-input" id="year-group" name="year-group">
+                <option>Year 3</option>
+                <option>Year 4</option>
+                <option selected>Year 5</option>
+                <option>Year 6</option>
+              </select>
+            </div>
+            <div class="yt-field yt-field--actions">
+              <button class="yt-btn yt-btn--primary" type="submit">Create profile</button>
+            </div>
+          </div>
+          <div id="profile-message" class="yt-form__msg" aria-live="polite"></div>
+        </form>
+      </section>
+
+      <section class="yt-stack-lg" style="margin-top: var(--yt-10);">
+        <h2 class="yt-h2" style="margin:0">Your profiles</h2>
+        <div id="profiles-list" class="yt-stack-md"></div>
+      </section>
+    </div>
+  </main>
+
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

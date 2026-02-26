@@ -1,0 +1,43 @@
+{
+  "brand": {
+    "name": "YoungTekkie",
+    "logo": "assets/logo-mascot.png"
+  },
+  "nav": [
+    {
+      "href": "index.html",
+      "label": "Home"
+    },
+    {
+      "href": "phase1.html",
+      "label": "Phase 1"
+    },
+    {
+      "href": "phase2.html",
+      "label": "Phase 2"
+    },
+    {
+      "href": "phase3.html",
+      "label": "Phase 3"
+    },
+    {
+      "href": "profiles.html",
+      "label": "Profiles"
+    },
+    {
+      "href": "dashboard.html",
+      "label": "Dashboard"
+    },
+    {
+      "href": "support.html",
+      "label": "Support"
+    },
+    {
+      "href": "debug.html",
+      "label": "Debug"
+    }
+  ],
+  "footer": {
+    "text": "\u00a9 {year} YoungTekkie. Start small. Think big."
+  }
+}
