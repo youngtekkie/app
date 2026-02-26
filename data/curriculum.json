@@ -10,7 +10,7 @@
       "mainKey": "scratch",
       "mainTopic": "Scratch basics + motion",
       "buildTask": "Move a sprite with the arrow keys",
-      "logicTask": "Khan Academy: solve 8 multi-step word problems",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -20,9 +20,9 @@
         "Test: can you move smoothly, without getting stuck?"
       ],
       "logicSteps": [
-        "Go to Khan Academy Maths for your child\u2019s year group",
-        "Choose a word problems lesson, complete 8 questions",
-        "Write down 1 mistake you made, then re-do that question"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -34,7 +34,8 @@
         "Can explain what an event block does",
         "Accuracy target recorded"
       ],
-      "typingRef": "01-home-row"
+      "typingRef": "01-home-row",
+      "mathsRef": "w01-motion-patterns"
     },
     {
       "num": 2,
@@ -44,7 +45,7 @@
       "mainKey": "scratch",
       "mainTopic": "Loops",
       "buildTask": "Continuous movement and bounce",
-      "logicTask": "Khan Academy: patterns, complete 10 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -54,9 +55,9 @@
         "Outcome: your sprite keeps moving and stays on screen"
       ],
       "logicSteps": [
-        "Khan Academy: choose a patterns lesson (number patterns)",
-        "Complete 10 questions",
-        "Say out loud what the rule is for 3 of them"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -68,7 +69,8 @@
         "Understands \u2018if on edge, bounce\u2019",
         "Pattern rule explained"
       ],
-      "typingRef": "01-home-row"
+      "typingRef": "01-home-row",
+      "mathsRef": "w01-motion-patterns"
     },
     {
       "num": 3,
@@ -78,7 +80,7 @@
       "mainKey": "scratch",
       "mainTopic": "Variables",
       "buildTask": "Create a score counter",
-      "logicTask": "Khan Academy: arithmetic reasoning, 10 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -88,9 +90,9 @@
         "Hide the coin and show it again somewhere else"
       ],
       "logicSteps": [
-        "Khan Academy: arithmetic or number sense practice",
-        "Complete 10 questions",
-        "Check your working for the last 2 before you submit"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -102,7 +104,8 @@
         "Can reset score",
         "Knows what a variable is"
       ],
-      "typingRef": "01-home-row"
+      "typingRef": "01-home-row",
+      "mathsRef": "w01-motion-patterns"
     },
     {
       "num": 4,
@@ -112,7 +115,7 @@
       "mainKey": "scratch",
       "mainTopic": "Random numbers",
       "buildTask": "Falling objects spawn randomly",
-      "logicTask": "Khan Academy: time problems, 8 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -122,9 +125,9 @@
         "Test: apples fall from different places each time"
       ],
       "logicSteps": [
-        "Khan Academy: time or clocks lesson",
-        "Complete 8 questions",
-        "Say how you worked out 1 of the answers"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -136,7 +139,8 @@
         "Falling loop works",
         "WPM recorded"
       ],
-      "typingRef": "01-home-row"
+      "typingRef": "01-home-row",
+      "mathsRef": "w01-motion-patterns"
     },
     {
       "num": 5,
@@ -146,7 +150,7 @@
       "mainKey": "scratch",
       "mainTopic": "Lives + Game Over",
       "buildTask": "Add a lose condition when lives reach zero",
-      "logicTask": "Khan Academy: brain teasers or challenge set",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -156,9 +160,9 @@
         "If lives = 0 then stop all, show \u2018Game Over\u2019 message"
       ],
       "logicSteps": [
-        "Khan Academy: pick a \u2018challenge\u2019 or \u2018mastery\u2019 quiz",
-        "Do 10 minutes, skip nothing, try your best",
-        "Pick 1 tricky question and explain it to a parent"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -170,7 +174,8 @@
         "Game Over triggers",
         "Can explain one tricky question"
       ],
-      "typingRef": "01-home-row"
+      "typingRef": "01-home-row",
+      "mathsRef": "w01-motion-patterns"
     },
     {
       "num": 6,
@@ -180,7 +185,7 @@
       "mainKey": "scratch",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Catch Game (score, lives, increasing speed)",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: explain how it works",
       "buildSteps": [
@@ -190,9 +195,9 @@
         "Add a win condition: reach 20 points"
       ],
       "logicSteps": [
-        "Set a 10-minute timer",
-        "Do a mixed practice set, focus on calm working",
-        "Check answers, then retry 2 mistakes"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -204,7 +209,8 @@
         "Difficulty increases",
         "Can demo and explain the game"
       ],
-      "typingRef": "01-home-row"
+      "typingRef": "01-home-row",
+      "mathsRef": "w01-motion-patterns"
     },
     {
       "num": 7,
@@ -214,7 +220,7 @@
       "mainKey": "scratch",
       "mainTopic": "If statements",
       "buildTask": "Maze basics: walls and movement rules",
-      "logicTask": "Khan Academy: fractions, 10 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -224,9 +230,9 @@
         "Add a goal: touching the star ends the run"
       ],
       "logicSteps": [
-        "Khan Academy: fractions lesson",
-        "Complete 10 questions",
-        "Draw 1 fraction model (circle or bar) on paper"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -238,7 +244,8 @@
         "Goal works",
         "Fraction model drawn"
       ],
-      "typingRef": "02-upper-row"
+      "typingRef": "02-upper-row",
+      "mathsRef": "w02-variables-score"
     },
     {
       "num": 8,
@@ -248,7 +255,7 @@
       "mainKey": "scratch",
       "mainTopic": "Timer variable",
       "buildTask": "Add a countdown timer to the maze",
-      "logicTask": "Khan Academy: word logic problems, 10 mins",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Mini-present: what did you add?",
       "buildSteps": [
@@ -258,9 +265,9 @@
         "If time = 0 then show \u2018Time up\u2019 and stop all"
       ],
       "logicSteps": [
-        "Pick a logic or word problem set on Khan Academy",
-        "Work for 10 minutes",
-        "Explain 1 solution in a clear sentence"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -272,7 +279,8 @@
         "Understands seconds loop",
         "Can explain one solution"
       ],
-      "typingRef": "02-upper-row"
+      "typingRef": "02-upper-row",
+      "mathsRef": "w02-variables-score"
     },
     {
       "num": 9,
@@ -282,7 +290,7 @@
       "mainKey": "scratch",
       "mainTopic": "Enemy logic",
       "buildTask": "Add a simple enemy that chases you",
-      "logicTask": "Khan Academy: pattern challenge, 10 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -292,9 +300,9 @@
         "Add: when I receive lose, show lose screen"
       ],
       "logicSteps": [
-        "Khan Academy: patterns set",
-        "Complete 10 questions",
-        "Spot 1 pattern rule and write it down"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -306,7 +314,8 @@
         "Lose condition works",
         "Pattern rule written"
       ],
-      "typingRef": "02-upper-row"
+      "typingRef": "02-upper-row",
+      "mathsRef": "w02-variables-score"
     },
     {
       "num": 10,
@@ -316,7 +325,7 @@
       "mainKey": "scratch",
       "mainTopic": "Win conditions + sound",
       "buildTask": "Win and lose screens, plus sound effects",
-      "logicTask": "Khan Academy: multi-step puzzles, 8 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -326,9 +335,9 @@
         "On lose: play a different sound, stop all"
       ],
       "logicSteps": [
-        "Khan Academy: multi-step practice",
-        "Complete 8 questions",
-        "Check your answers before submitting the last 2"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -340,7 +349,8 @@
         "Uses broadcasts",
         "Two sounds added"
       ],
-      "typingRef": "02-upper-row"
+      "typingRef": "02-upper-row",
+      "mathsRef": "w02-variables-score"
     },
     {
       "num": 11,
@@ -350,7 +360,7 @@
       "mainKey": "scratch",
       "mainTopic": "Debugging day",
       "buildTask": "Break one thing, then fix it",
-      "logicTask": "Khan Academy: mixed challenge, 10 mins",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -360,9 +370,9 @@
         "Add 1 comment block saying what the bug was"
       ],
       "logicSteps": [
-        "10-minute mixed practice",
-        "Try to get 3 in a row correct",
-        "If you miss one, explain why"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -374,7 +384,8 @@
         "Understands testing",
         "Improved on a weak lesson"
       ],
-      "typingRef": "02-upper-row"
+      "typingRef": "02-upper-row",
+      "mathsRef": "w02-variables-score"
     },
     {
       "num": 12,
@@ -384,7 +395,7 @@
       "mainKey": "scratch",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Maze Escape (timer, enemy, win/lose)",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: show the full game",
       "buildSteps": [
@@ -394,9 +405,9 @@
         "Play-test: ask someone else to try it"
       ],
       "logicSteps": [
-        "10 minutes mixed practice",
-        "Retry 2 mistakes",
-        "Say 1 thing you improved this week"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -408,7 +419,8 @@
         "Instructions included",
         "Can explain what you built"
       ],
-      "typingRef": "02-upper-row"
+      "typingRef": "02-upper-row",
+      "mathsRef": "w02-variables-score"
     },
     {
       "num": 13,
@@ -418,7 +430,7 @@
       "mainKey": "scratch",
       "mainTopic": "Cloning",
       "buildTask": "Use clones for multiple falling objects",
-      "logicTask": "Khan Academy: multiplication reasoning, 10 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -428,9 +440,9 @@
         "If touching player: change score by 1, delete this clone"
       ],
       "logicSteps": [
-        "Khan Academy: multiplication practice",
-        "Complete 10 questions",
-        "Use a times-table you know to check one answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -442,7 +454,8 @@
         "No copy-paste sprites needed",
         "Understands clone start"
       ],
-      "typingRef": "03-lower-row"
+      "typingRef": "03-lower-row",
+      "mathsRef": "w03-random-probability"
     },
     {
       "num": 14,
@@ -452,7 +465,7 @@
       "mainKey": "scratch",
       "mainTopic": "Difficulty scaling",
       "buildTask": "Make speed increase over time",
-      "logicTask": "Khan Academy: logic word problems, 10 mins",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -462,9 +475,9 @@
         "Use speed in your falling loop instead of a fixed number"
       ],
       "logicSteps": [
-        "10-minute logic / word problems set",
-        "Explain one answer using \u2018because\u2026\u2019",
-        "Check your final answer makes sense"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -476,7 +489,8 @@
         "Uses a speed variable",
         "Explains a solution"
       ],
-      "typingRef": "03-lower-row"
+      "typingRef": "03-lower-row",
+      "mathsRef": "w03-random-probability"
     },
     {
       "num": 15,
@@ -486,7 +500,7 @@
       "mainKey": "scratch",
       "mainTopic": "Levels",
       "buildTask": "Create Level 2 with a backdrop switch",
-      "logicTask": "Khan Academy: pattern puzzles, 10 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -496,9 +510,9 @@
         "Increase speed or add a new obstacle in level 2"
       ],
       "logicSteps": [
-        "Khan Academy: patterns",
-        "Complete 10 questions",
-        "Write 2 pattern rules as sentences"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -510,7 +524,8 @@
         "Backdrops switch",
         "Level 2 is harder"
       ],
-      "typingRef": "03-lower-row"
+      "typingRef": "03-lower-row",
+      "mathsRef": "w03-random-probability"
     },
     {
       "num": 16,
@@ -520,7 +535,7 @@
       "mainKey": "scratch",
       "mainTopic": "Restart system",
       "buildTask": "Add a restart button and reset variables",
-      "logicTask": "Khan Academy: multi-step maths, 8 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -530,9 +545,9 @@
         "Make sure sprites go back to start positions"
       ],
       "logicSteps": [
-        "Khan Academy: multi-step practice",
-        "Complete 8 questions",
-        "Show your working for 2 of them"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -544,7 +559,8 @@
         "All variables reset",
         "Can explain broadcasts"
       ],
-      "typingRef": "03-lower-row"
+      "typingRef": "03-lower-row",
+      "mathsRef": "w03-random-probability"
     },
     {
       "num": 17,
@@ -554,7 +570,7 @@
       "mainKey": "scratch",
       "mainTopic": "Polish",
       "buildTask": "Add animations and sound polish",
-      "logicTask": "Khan Academy: brain teasers, 10 mins",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -564,9 +580,9 @@
         "Add instructions text: goal, controls"
       ],
       "logicSteps": [
-        "10 minutes brain teasers or challenge",
-        "Try not to guess, work it out",
-        "Explain one solution out loud"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -578,7 +594,8 @@
         "Instructions included",
         "Sound and visuals improved"
       ],
-      "typingRef": "03-lower-row"
+      "typingRef": "03-lower-row",
+      "mathsRef": "w03-random-probability"
     },
     {
       "num": 18,
@@ -588,7 +605,7 @@
       "mainKey": "scratch",
       "mainTopic": "Build sprint",
       "buildTask": "Project: 2-Level Platformer",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: explain levels and scoring",
       "buildSteps": [
@@ -598,9 +615,9 @@
         "Add win screen after level 2"
       ],
       "logicSteps": [
-        "10 minutes mixed set",
-        "Retry 2 mistakes",
-        "Say 1 thing you want to improve next week"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -612,7 +629,8 @@
         "Score works",
         "Can demo and explain choices"
       ],
-      "typingRef": "03-lower-row"
+      "typingRef": "03-lower-row",
+      "mathsRef": "w03-random-probability"
     },
     {
       "num": 19,
@@ -622,7 +640,7 @@
       "mainKey": "scratch",
       "mainTopic": "Plan",
       "buildTask": "Plan your final game (goal, rules, scoring)",
-      "logicTask": "Khan Academy: reasoning puzzles, 10 mins",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -632,9 +650,9 @@
         "Sketch your screens: start, play, win, lose"
       ],
       "logicSteps": [
-        "10 minutes reasoning practice",
-        "Do not rush, show working",
-        "Pick 1 question and explain it clearly"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -646,7 +664,8 @@
         "Screens sketched",
         "Knows win and lose rules"
       ],
-      "typingRef": "04-numbers-punct"
+      "typingRef": "04-numbers-punct",
+      "mathsRef": "w04-logic-conditions"
     },
     {
       "num": 20,
@@ -656,7 +675,7 @@
       "mainKey": "scratch",
       "mainTopic": "Build stage 1",
       "buildTask": "Start screen and core movement",
-      "logicTask": "Khan Academy: word problems, 8 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Mini-present: what\u2019s built so far?",
       "buildSteps": [
@@ -666,9 +685,9 @@
         "Save, name the project clearly"
       ],
       "logicSteps": [
-        "Khan Academy: word problems",
-        "Complete 8 questions",
-        "Check units, time, money, or measurement carefully"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -680,7 +699,8 @@
         "Movement works",
         "Can explain current progress"
       ],
-      "typingRef": "04-numbers-punct"
+      "typingRef": "04-numbers-punct",
+      "mathsRef": "w04-logic-conditions"
     },
     {
       "num": 21,
@@ -690,7 +710,7 @@
       "mainKey": "scratch",
       "mainTopic": "Build stage 2",
       "buildTask": "Add scoring and difficulty",
-      "logicTask": "Khan Academy: pattern puzzles, 10 questions",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -700,9 +720,9 @@
         "Test: can you score points reliably?"
       ],
       "logicSteps": [
-        "Khan Academy: patterns",
-        "Complete 10 questions",
-        "Write 1 pattern as a simple formula or rule"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -714,7 +734,8 @@
         "One new feature included",
         "Game is playable"
       ],
-      "typingRef": "04-numbers-punct"
+      "typingRef": "04-numbers-punct",
+      "mathsRef": "w04-logic-conditions"
     },
     {
       "num": 22,
@@ -724,7 +745,7 @@
       "mainKey": "scratch",
       "mainTopic": "Build stage 3",
       "buildTask": "Add lives and win/lose states",
-      "logicTask": "Khan Academy: logic puzzles, 10 mins",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -734,9 +755,9 @@
         "Add restart button"
       ],
       "logicSteps": [
-        "10 minutes logic practice",
-        "Explain one answer, step by step",
-        "Check your final answer makes sense"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -748,7 +769,8 @@
         "Restart works",
         "Can explain rules"
       ],
-      "typingRef": "04-numbers-punct"
+      "typingRef": "04-numbers-punct",
+      "mathsRef": "w04-logic-conditions"
     },
     {
       "num": 23,
@@ -758,7 +780,7 @@
       "mainKey": "scratch",
       "mainTopic": "Bug fixing + polish",
       "buildTask": "Fix issues and improve visuals and sound",
-      "logicTask": "Khan Academy: mixed challenge, 10 mins",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -768,9 +790,9 @@
         "Add a short instructions panel"
       ],
       "logicSteps": [
-        "10 minutes mixed practice",
-        "Retry 2 mistakes",
-        "Tell a parent what you fixed today"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -782,7 +804,8 @@
         "Game looks tidy",
         "Can explain improvements"
       ],
-      "typingRef": "04-numbers-punct"
+      "typingRef": "04-numbers-punct",
+      "mathsRef": "w04-logic-conditions"
     },
     {
       "num": 24,
@@ -792,7 +815,7 @@
       "mainKey": "scratch",
       "mainTopic": "Demo day",
       "buildTask": "Final Scratch game presentation",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Optional: share link to family",
       "buildSteps": [
@@ -802,9 +825,9 @@
         "Present: what you built, what broke, what you fixed"
       ],
       "logicSteps": [
-        "10 minutes mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill you improved this phase"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -816,7 +839,8 @@
         "Can present clearly",
         "Typing progress compared"
       ],
-      "typingRef": "04-numbers-punct"
+      "typingRef": "04-numbers-punct",
+      "mathsRef": "w04-logic-conditions"
     },
     {
       "num": 25,
@@ -826,7 +850,7 @@
       "mainKey": "roblox",
       "mainTopic": "Studio basics",
       "buildTask": "Learn interface: Explorer, Properties, parts",
-      "logicTask": "Khan Academy: reasoning puzzles (10\u201315 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -836,9 +860,9 @@
         "Press Play (F5) and confirm you spawn correctly"
       ],
       "logicSteps": [
-        "Pick 1 reasoning/pattern set",
-        "Work for 10\u201315 minutes",
-        "Explain 1 answer out loud in full sentences"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -850,7 +874,8 @@
         "Saved a new place",
         "Basic parts placed and tested"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w05-coordinates"
     },
     {
       "num": 26,
@@ -860,7 +885,7 @@
       "mainKey": "roblox",
       "mainTopic": "Parts + anchoring",
       "buildTask": "Build a simple obby path",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -870,9 +895,9 @@
         "Play-test twice and adjust gaps so it feels fair"
       ],
       "logicSteps": [
-        "Do a pattern set",
-        "Complete 10 minutes",
-        "Write the rule for 2 patterns"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -884,7 +909,8 @@
         "Anchoring understood",
         "Gaps feel fair"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w05-coordinates"
     },
     {
       "num": 27,
@@ -894,7 +920,7 @@
       "mainKey": "roblox",
       "mainTopic": "Terrain tools",
       "buildTask": "Add terrain + obstacles",
-      "logicTask": "Khan Academy: word problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -904,9 +930,9 @@
         "Play-test and note 1 improvement to make tomorrow"
       ],
       "logicSteps": [
-        "Pick 1 word-problem set",
-        "Work 10 minutes",
-        "Show working for 2 questions"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -918,7 +944,8 @@
         "2 obstacles added",
         "1 improvement note written"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w05-coordinates"
     },
     {
       "num": 28,
@@ -928,7 +955,7 @@
       "mainKey": "roblox",
       "mainTopic": "Level design",
       "buildTask": "Design a full obstacle course layout",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -938,9 +965,9 @@
         "Play-test and time how long it takes"
       ],
       "logicSteps": [
-        "Do a logic set",
-        "10 minutes",
-        "Explain 1 solution step-by-step"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -952,7 +979,8 @@
         "Finish is clear",
         "Time to complete recorded"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w05-coordinates"
     },
     {
       "num": 29,
@@ -962,7 +990,7 @@
       "mainKey": "roblox",
       "mainTopic": "Refinement",
       "buildTask": "Improve spacing, fairness, and reset points",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -972,9 +1000,9 @@
         "Play-test like a new player (no shortcuts)"
       ],
       "logicSteps": [
-        "Brain teasers for 10 minutes",
-        "Pick the hardest one",
-        "Explain your reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -986,7 +1014,8 @@
         "2 frustrations fixed",
         "Course feels fairer"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w05-coordinates"
     },
     {
       "num": 30,
@@ -996,7 +1025,7 @@
       "mainKey": "roblox",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Full obby + checkpoints",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: show course flow",
       "buildSteps": [
@@ -1006,9 +1035,9 @@
         "Show a parent: what\u2019s easy, what\u2019s tricky, and why"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill you practised"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1020,7 +1049,8 @@
         "Has checkpoints + instructions",
         "Can explain difficulty choices"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w05-coordinates"
     },
     {
       "num": 31,
@@ -1030,7 +1060,7 @@
       "mainKey": "roblox",
       "mainTopic": "Lua variables",
       "buildTask": "Create a variable + print output",
-      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1040,9 +1070,9 @@
         "Run and confirm Output shows your values"
       ],
       "logicSteps": [
-        "Reasoning set for 10 minutes",
-        "Do not rush",
-        "Explain 1 answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1054,7 +1084,8 @@
         "Understands variables",
         "Can change and re-run"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w06-functions-efficiency"
     },
     {
       "num": 32,
@@ -1064,7 +1095,7 @@
       "mainKey": "roblox",
       "mainTopic": "If statements",
       "buildTask": "Trigger: if player touches \u2192 do action",
-      "logicTask": "Khan Academy: word logic problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1074,9 +1105,9 @@
         "Test by walking onto the pad"
       ],
       "logicSteps": [
-        "10 minutes word logic",
-        "Write down 1 tricky question",
-        "Explain why your answer works"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1088,7 +1119,8 @@
         "Used an if statement",
         "Can explain condition"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w06-functions-efficiency"
     },
     {
       "num": 33,
@@ -1098,7 +1130,7 @@
       "mainKey": "roblox",
       "mainTopic": "Functions",
       "buildTask": "Make a reusable function for an action",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1108,9 +1140,9 @@
         "Change amount in one place and re-test"
       ],
       "logicSteps": [
-        "Patterns for 10 minutes",
-        "Write the rule for 2 patterns",
-        "Check 1 answer twice"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1122,7 +1154,8 @@
         "Reused code once",
         "Can explain inputs/outputs"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w06-functions-efficiency"
     },
     {
       "num": 34,
@@ -1132,7 +1165,7 @@
       "mainKey": "roblox",
       "mainTopic": "Triggers",
       "buildTask": "Door opens when item collected",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1142,9 +1175,9 @@
         "If hasKey then door becomes CanCollide = false (or moves away)"
       ],
       "logicSteps": [
-        "Logic set for 10 minutes",
-        "Explain 1 solution",
-        "Check final answer makes sense"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1156,7 +1189,8 @@
         "Door opens correctly",
         "Can explain game state"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w06-functions-efficiency"
     },
     {
       "num": 35,
@@ -1166,7 +1200,7 @@
       "mainKey": "roblox",
       "mainTopic": "Timers",
       "buildTask": "Add a time limit concept",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1176,9 +1210,9 @@
         "Test: does it reach zero smoothly?"
       ],
       "logicSteps": [
-        "Brain teasers for 10 minutes",
-        "Pick 1 hardest",
-        "Explain your reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1190,7 +1224,8 @@
         "Understands waiting/looping",
         "Time-up behaviour works"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w06-functions-efficiency"
     },
     {
       "num": 36,
@@ -1200,7 +1235,7 @@
       "mainKey": "roblox",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Door unlock + timer",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: show script working",
       "buildSteps": [
@@ -1210,9 +1245,9 @@
         "Demo to a parent: what happens if you\u2019re fast vs slow"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 thing you improved"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1224,7 +1259,8 @@
         "Script has comments",
         "Can explain the rules"
       ],
-      "typingRef": "07-code-chars"
+      "typingRef": "07-code-chars",
+      "mathsRef": "w06-functions-efficiency"
     },
     {
       "num": 37,
@@ -1234,7 +1270,7 @@
       "mainKey": "roblox",
       "mainTopic": "Points system",
       "buildTask": "Award points for actions",
-      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1244,9 +1280,9 @@
         "Test with Play and repeat the action 3 times"
       ],
       "logicSteps": [
-        "Reasoning set 10 minutes",
-        "Explain 1 answer",
-        "Check your work"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1258,7 +1294,8 @@
         "Understands per-player vs global",
         "Tested 3 times"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w07-data-types"
     },
     {
       "num": 38,
@@ -1268,7 +1305,7 @@
       "mainKey": "roblox",
       "mainTopic": "Currency",
       "buildTask": "Create a coin/currency variable",
-      "logicTask": "Khan Academy: word problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1278,9 +1315,9 @@
         "Make a simple sign: \u2018Coins: \u2026\u2019 (or output prints)"
       ],
       "logicSteps": [
-        "Word problems 10 minutes",
-        "Show working for 2",
-        "Explain 1 answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1292,7 +1329,8 @@
         "Currency increases",
         "Can explain what state is"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w07-data-types"
     },
     {
       "num": 39,
@@ -1302,7 +1340,7 @@
       "mainKey": "roblox",
       "mainTopic": "Shop basics",
       "buildTask": "Simple shop idea: buy 1 power-up",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1312,9 +1350,9 @@
         "If not enough coins, show a message (print is fine)"
       ],
       "logicSteps": [
-        "Patterns 10 minutes",
-        "Write 2 rules",
-        "Recheck last 2"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1326,7 +1364,8 @@
         "Cost subtracts correctly",
         "Reward applies"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w07-data-types"
     },
     {
       "num": 40,
@@ -1336,7 +1375,7 @@
       "mainKey": "roblox",
       "mainTopic": "Leaderboard",
       "buildTask": "Track best score/time",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1346,9 +1385,9 @@
         "Test with 2 runs (one worse, one better)"
       ],
       "logicSteps": [
-        "Logic set 10 minutes",
-        "Explain 1 solution",
-        "Check your final answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1360,7 +1399,8 @@
         "Best score logic works",
         "Tested with 2 runs"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w07-data-types"
     },
     {
       "num": 41,
@@ -1370,7 +1410,7 @@
       "mainKey": "roblox",
       "mainTopic": "Power-ups",
       "buildTask": "Speed boost / jump boost",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1380,9 +1420,9 @@
         "Play-test and check it feels noticeable but not unfair"
       ],
       "logicSteps": [
-        "Brain teasers 10 minutes",
-        "Pick 1 hardest",
-        "Explain your reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1394,7 +1434,8 @@
         "Understands temporary effects",
         "Balancing note made"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w07-data-types"
     },
     {
       "num": 42,
@@ -1404,7 +1445,7 @@
       "mainKey": "roblox",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Economy + power-ups",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: explain economy rules",
       "buildSteps": [
@@ -1414,9 +1455,9 @@
         "Explain to a parent: how to earn coins and what to spend them on"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill you improved"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1428,7 +1469,8 @@
         "At least 1 power-up purchasable",
         "Can explain rules clearly"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w07-data-types"
     },
     {
       "num": 43,
@@ -1438,7 +1480,7 @@
       "mainKey": "roblox",
       "mainTopic": "Bug fixing",
       "buildTask": "Test and fix issues",
-      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1448,9 +1490,9 @@
         "Re-test and confirm the bug is gone"
       ],
       "logicSteps": [
-        "Reasoning set 10 minutes",
-        "Explain 1 answer",
-        "Stay calm"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1462,7 +1504,8 @@
         "Comments added",
         "Re-tested successfully"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w08-percentages-scoring"
     },
     {
       "num": 44,
@@ -1472,7 +1515,7 @@
       "mainKey": "roblox",
       "mainTopic": "UI improvement",
       "buildTask": "Add instructions screen / signage",
-      "logicTask": "Khan Academy: word logic problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1482,9 +1525,9 @@
         "Ask someone else to play-test without explaining"
       ],
       "logicSteps": [
-        "Word logic 10 minutes",
-        "Write down 1 tricky question",
-        "Explain the answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1496,7 +1539,8 @@
         "Finish is obvious",
         "Feedback from play-test collected"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w08-percentages-scoring"
     },
     {
       "num": 45,
@@ -1506,7 +1550,7 @@
       "mainKey": "roblox",
       "mainTopic": "Polish",
       "buildTask": "Better layout, pacing, visuals",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1516,9 +1560,9 @@
         "Remove clutter and align parts neatly"
       ],
       "logicSteps": [
-        "Patterns 10 minutes",
-        "Write 2 rules",
-        "Double-check last 2"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1530,7 +1574,8 @@
         "Course pacing improved",
         "Parts aligned neatly"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w08-percentages-scoring"
     },
     {
       "num": 46,
@@ -1540,7 +1585,7 @@
       "mainKey": "roblox",
       "mainTopic": "Testing",
       "buildTask": "Play-test like a new player",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1550,9 +1595,9 @@
         "Time a full run and try to beat it"
       ],
       "logicSteps": [
-        "Logic set 10 minutes",
-        "Explain 1 solution",
-        "Check final answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1564,7 +1609,8 @@
         "Run time recorded",
         "Navigation feels clearer"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w08-percentages-scoring"
     },
     {
       "num": 47,
@@ -1574,7 +1620,7 @@
       "mainKey": "roblox",
       "mainTopic": "Final checks",
       "buildTask": "Final bugs + reset systems",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1584,9 +1630,9 @@
         "Add credits: \u2018Made by\u2026\u2019"
       ],
       "logicSteps": [
-        "Brain teasers 10 minutes",
-        "Pick 1 hardest",
-        "Explain reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1598,7 +1644,8 @@
         "Credits added",
         "Ready to publish/share"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w08-percentages-scoring"
     },
     {
       "num": 48,
@@ -1608,7 +1655,7 @@
       "mainKey": "roblox",
       "mainTopic": "Publish day",
       "buildTask": "Publish Roblox game (with supervision)",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: \u2018What makes my game fun?\u2019",
       "buildSteps": [
@@ -1618,9 +1665,9 @@
         "Demo to family and collect 1 piece of feedback"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill you improved"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1632,7 +1679,8 @@
         "Can explain why it\u2019s fun",
         "Has feedback for next version"
       ],
-      "typingRef": "08-code-words"
+      "typingRef": "08-code-words",
+      "mathsRef": "w08-percentages-scoring"
     },
     {
       "num": 49,
@@ -1642,7 +1690,7 @@
       "mainKey": "replit",
       "mainTopic": "Print + variables",
       "buildTask": "Hello world + variables",
-      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1652,9 +1700,9 @@
         "Print a sentence using your variables"
       ],
       "logicSteps": [
-        "Reasoning set 10 minutes",
-        "Explain 1 answer",
-        "Check your work"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1666,7 +1714,8 @@
         "Understands variables",
         "Printed a full sentence"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w09-input-output"
     },
     {
       "num": 50,
@@ -1676,7 +1725,7 @@
       "mainKey": "replit",
       "mainTopic": "Input",
       "buildTask": "Ask questions, store answers",
-      "logicTask": "Khan Academy: word problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1686,9 +1735,9 @@
         "Print a friendly summary back"
       ],
       "logicSteps": [
-        "Word problems 10 minutes",
-        "Show working for 2",
-        "Explain 1 answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1700,7 +1749,8 @@
         "Stores answers",
         "Outputs a summary"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w09-input-output"
     },
     {
       "num": 51,
@@ -1710,7 +1760,7 @@
       "mainKey": "replit",
       "mainTopic": "If statements",
       "buildTask": "Quiz: correct/incorrect logic",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1720,9 +1770,9 @@
         "Print final score"
       ],
       "logicSteps": [
-        "Patterns 10 minutes",
-        "Write 2 rules",
-        "Recheck last 2"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1734,7 +1784,8 @@
         "Score updates",
         "Gives feedback on wrong answers"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w09-input-output"
     },
     {
       "num": 52,
@@ -1744,7 +1795,7 @@
       "mainKey": "replit",
       "mainTopic": "Loops",
       "buildTask": "Repeat questions / attempts",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1754,9 +1805,9 @@
         "Test: can you play twice without restarting the program?"
       ],
       "logicSteps": [
-        "Logic set 10 minutes",
-        "Explain 1 solution",
-        "Check final answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1768,7 +1819,8 @@
         "Replay works",
         "Knows when to reset variables"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w09-input-output"
     },
     {
       "num": 53,
@@ -1778,7 +1830,7 @@
       "mainKey": "replit",
       "mainTopic": "Mini challenge",
       "buildTask": "5-question quiz with score",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1788,9 +1840,9 @@
         "Run and play-test yourself"
       ],
       "logicSteps": [
-        "Brain teasers 10 minutes",
-        "Pick 1 hardest",
-        "Explain reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1802,7 +1854,8 @@
         "Score messaging works",
         "Bonus question included"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w09-input-output"
     },
     {
       "num": 54,
@@ -1812,7 +1865,7 @@
       "mainKey": "replit",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Interactive quiz (score + replay)",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: demo quiz",
       "buildSteps": [
@@ -1822,9 +1875,9 @@
         "Demo to a parent: what did you add and why?"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill you improved"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1836,7 +1889,8 @@
         "Has comments",
         "Can explain program flow"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w09-input-output"
     },
     {
       "num": 55,
@@ -1846,7 +1900,7 @@
       "mainKey": "replit",
       "mainTopic": "Random",
       "buildTask": "Use random numbers",
-      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1856,9 +1910,9 @@
         "Explain what \u2018random\u2019 means in your own words"
       ],
       "logicSteps": [
-        "Reasoning 10 minutes",
-        "Explain 1 answer",
-        "Check work"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1870,7 +1924,8 @@
         "Can generate random numbers",
         "Understands randomness concept"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w10-loops-counting"
     },
     {
       "num": 56,
@@ -1880,7 +1935,7 @@
       "mainKey": "replit",
       "mainTopic": "Guess the number",
       "buildTask": "Build base game loop",
-      "logicTask": "Khan Academy: word problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1890,9 +1945,9 @@
         "Loop until correct"
       ],
       "logicSteps": [
-        "Word problems 10 minutes",
-        "Show working for 2",
-        "Explain 1"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1904,7 +1959,8 @@
         "Hints correct",
         "Stops on correct guess"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w10-loops-counting"
     },
     {
       "num": 57,
@@ -1914,7 +1970,7 @@
       "mainKey": "replit",
       "mainTopic": "Scoring",
       "buildTask": "Score based on attempts",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1924,9 +1980,9 @@
         "Try 2 runs and compare scores"
       ],
       "logicSteps": [
-        "Patterns 10 minutes",
-        "Write 2 rules",
-        "Recheck last 2"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1938,7 +1994,8 @@
         "Score calculated",
         "Can explain the formula"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w10-loops-counting"
     },
     {
       "num": 58,
@@ -1948,7 +2005,7 @@
       "mainKey": "replit",
       "mainTopic": "Difficulty levels",
       "buildTask": "Easy/medium/hard ranges",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1958,9 +2015,9 @@
         "Test each difficulty once"
       ],
       "logicSteps": [
-        "Logic 10 minutes",
-        "Explain 1 solution",
-        "Check answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -1972,7 +2029,8 @@
         "Range changes",
         "Tested all 3 levels"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w10-loops-counting"
     },
     {
       "num": 59,
@@ -1982,7 +2040,7 @@
       "mainKey": "replit",
       "mainTopic": "Input safety",
       "buildTask": "Handle bad input (letters, blanks)",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -1992,9 +2050,9 @@
         "Test with: letters, blank, huge numbers"
       ],
       "logicSteps": [
-        "Brain teasers 10 minutes",
-        "Pick 1 hardest",
-        "Explain reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2006,7 +2064,8 @@
         "Friendly error message",
         "Tested 3 bad inputs"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w10-loops-counting"
     },
     {
       "num": 60,
@@ -2016,7 +2075,7 @@
       "mainKey": "replit",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Improved guessing game",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: explain difficulty design",
       "buildSteps": [
@@ -2026,9 +2085,9 @@
         "Demo to a parent and explain how difficulty changes the experience"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill improved"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2040,7 +2099,8 @@
         "Replay works",
         "Can explain design choices"
       ],
-      "typingRef": "09-python-lines"
+      "typingRef": "09-python-lines",
+      "mathsRef": "w10-loops-counting"
     },
     {
       "num": 61,
@@ -2050,7 +2110,7 @@
       "mainKey": "replit",
       "mainTopic": "Lists",
       "buildTask": "Store items in a list",
-      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2060,9 +2120,9 @@
         "Remove 1 item and print again"
       ],
       "logicSteps": [
-        "Reasoning 10 minutes",
-        "Explain 1 answer",
-        "Check work"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2074,7 +2134,8 @@
         "Can add/remove items",
         "Printed list contents"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w11-lists-indexing"
     },
     {
       "num": 62,
@@ -2084,7 +2145,7 @@
       "mainKey": "replit",
       "mainTopic": "Inventory",
       "buildTask": "Add/remove items (inventory)",
-      "logicTask": "Khan Academy: word logic problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2094,9 +2155,9 @@
         "Test each command at least once"
       ],
       "logicSteps": [
-        "Word logic 10 minutes",
-        "Write down 1 tricky one",
-        "Explain answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2108,7 +2169,8 @@
         "List updates",
         "Messages are clear"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w11-lists-indexing"
     },
     {
       "num": 63,
@@ -2118,7 +2180,7 @@
       "mainKey": "replit",
       "mainTopic": "Functions",
       "buildTask": "Reusable actions (look, take, move)",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2128,9 +2190,9 @@
         "Test: does everything still work?"
       ],
       "logicSteps": [
-        "Patterns 10 minutes",
-        "Write 2 rules",
-        "Recheck last 2"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2142,7 +2204,8 @@
         "Code is shorter/clearer",
         "Program still works"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w11-lists-indexing"
     },
     {
       "num": 64,
@@ -2152,7 +2215,7 @@
       "mainKey": "replit",
       "mainTopic": "Multiple endings",
       "buildTask": "Win/lose paths based on choices",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2162,9 +2225,9 @@
         "Test both endings"
       ],
       "logicSteps": [
-        "Logic 10 minutes",
-        "Explain 1 solution",
-        "Check final answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2176,7 +2239,8 @@
         "Choices affect outcome",
         "Tested both endings"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w11-lists-indexing"
     },
     {
       "num": 65,
@@ -2186,7 +2250,7 @@
       "mainKey": "replit",
       "mainTopic": "Refactoring",
       "buildTask": "Clean code + comments",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2196,9 +2260,9 @@
         "Run through a full play-test"
       ],
       "logicSteps": [
-        "Brain teasers 10 minutes",
-        "Pick 1 hardest",
-        "Explain reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2210,7 +2274,8 @@
         "Has comments",
         "Play-test completed"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w11-lists-indexing"
     },
     {
       "num": 66,
@@ -2220,7 +2285,7 @@
       "mainKey": "replit",
       "mainTopic": "Build sprint",
       "buildTask": "Project: Text adventure (chapter 1)",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: show choices branching",
       "buildSteps": [
@@ -2230,9 +2295,9 @@
         "Demo to a parent: show two different paths"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill improved"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2244,7 +2309,8 @@
         "Has branching",
         "Can explain structure"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w11-lists-indexing"
     },
     {
       "num": 67,
@@ -2254,7 +2320,7 @@
       "mainKey": "replit",
       "mainTopic": "Plan capstone",
       "buildTask": "Map story, rooms, inventory, endings",
-      "logicTask": "Khan Academy: reasoning puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2264,9 +2330,9 @@
         "Write a checklist for the next 4 lessons"
       ],
       "logicSteps": [
-        "Reasoning 10 minutes",
-        "Explain 1 answer",
-        "Check work"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2278,7 +2344,8 @@
         "Items + endings planned",
         "Checklist written"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w12-problem-solving"
     },
     {
       "num": 68,
@@ -2288,7 +2355,7 @@
       "mainKey": "replit",
       "mainTopic": "Build section 1",
       "buildTask": "Intro + first choices",
-      "logicTask": "Khan Academy: word problems (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Mini-present: progress update",
       "buildSteps": [
@@ -2298,9 +2365,9 @@
         "Run a short play-test"
       ],
       "logicSteps": [
-        "Word problems 10 minutes",
-        "Show working for 2",
-        "Explain 1"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2312,7 +2379,8 @@
         "First choices exist",
         "Friendly invalid-command handling"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w12-problem-solving"
     },
     {
       "num": 69,
@@ -2322,7 +2390,7 @@
       "mainKey": "replit",
       "mainTopic": "Build section 2",
       "buildTask": "Add random events + score",
-      "logicTask": "Khan Academy: pattern puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2332,9 +2400,9 @@
         "Test the random event 5 times"
       ],
       "logicSteps": [
-        "Patterns 10 minutes",
-        "Write 2 rules",
-        "Recheck last 2"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2346,7 +2414,8 @@
         "Score updates",
         "Tested multiple runs"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w12-problem-solving"
     },
     {
       "num": 70,
@@ -2356,7 +2425,7 @@
       "mainKey": "replit",
       "mainTopic": "Build section 3",
       "buildTask": "Add endings + replay option",
-      "logicTask": "Khan Academy: logic puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2366,9 +2435,9 @@
         "Test: reach both endings"
       ],
       "logicSteps": [
-        "Logic 10 minutes",
-        "Explain 1 solution",
-        "Check final answer"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2380,7 +2449,8 @@
         "Replay works",
         "Resets happen properly"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w12-problem-solving"
     },
     {
       "num": 71,
@@ -2390,7 +2460,7 @@
       "mainKey": "replit",
       "mainTopic": "Testing + polish",
       "buildTask": "Fix bugs, improve text, clean code",
-      "logicTask": "Khan Academy: brain teasers (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
@@ -2400,9 +2470,9 @@
         "Add comments where future-you will thank you"
       ],
       "logicSteps": [
-        "Brain teasers 10 minutes",
-        "Pick 1 hardest",
-        "Explain reasoning"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2414,7 +2484,8 @@
         "Text reads clearly",
         "Code is tidy"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w12-problem-solving"
     },
     {
       "num": 72,
@@ -2424,7 +2495,7 @@
       "mainKey": "replit",
       "mainTopic": "Demo day",
       "buildTask": "Capstone: full text adventure demo",
-      "logicTask": "Khan Academy: quick mixed puzzles (10 mins)",
+      "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "Optional: share with family/friends",
       "buildSteps": [
@@ -2434,9 +2505,9 @@
         "Celebrate: you built a whole program!"
       ],
       "logicSteps": [
-        "10-minute mixed set",
-        "Retry 2 mistakes",
-        "Say 1 skill you improved"
+        "Click Start and answer the questions one by one",
+        "If you get one wrong, read the hint and try again",
+        "Score 70% or more to pass (you can retry if needed)"
       ],
       "typingSteps": [
         "Click Start and type the prompt exactly as shown",
@@ -2448,7 +2519,8 @@
         "Has feedback + next steps",
         "Typing progress recorded"
       ],
-      "typingRef": "12-python-mixed"
+      "typingRef": "12-python-mixed",
+      "mathsRef": "w12-problem-solving"
     }
   ]
 }

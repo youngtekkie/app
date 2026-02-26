@@ -305,3 +305,45 @@
 }
 .yt-progress--sm{ height: 10px; }
 .yt-phase-row{ display:grid; gap: 10px; }
+
+
+
+/* Notes (feedback) */
+.yt-note{
+  border-radius: 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--yt-border);
+  background: rgba(15,23,42,0.03);
+  font-weight: 700;
+}
+.yt-note--success{ border-color: rgba(22,163,74,0.22); background: rgba(22,163,74,0.10); }
+.yt-note--warn{ border-color: rgba(234,179,8,0.24); background: rgba(234,179,8,0.10); }
+.yt-note--danger{ border-color: rgba(220,38,38,0.22); background: rgba(220,38,38,0.10); }
+
+/* Maths (quiz) */
+.yt-maths__top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.yt-maths__meta{ display:flex; gap: 8px; flex-wrap: wrap; }
+.yt-maths__options{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+@media (min-width: 720px){
+  .yt-maths__options{ grid-template-columns: 1fr 1fr; }
+}
+.yt-btn--option{
+  text-align:left;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.86);
+}
+.yt-btn--option:hover{
+  background: rgba(255,255,255,0.95);
+}

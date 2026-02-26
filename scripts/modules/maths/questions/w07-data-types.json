@@ -1,0 +1,129 @@
+{
+  "week": 7,
+  "topic": "Numbers vs Text",
+  "lessonContext": "Data types and variables",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is a number?",
+      "options": [
+        "'7'",
+        "7",
+        "'seven'",
+        "'3+4'"
+      ],
+      "answerIndex": 1,
+      "hint": "Numbers have no quotes.",
+      "explanation": "7 is a number."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is text (a string)?",
+      "options": [
+        "12",
+        "0",
+        "'hello'",
+        "-5"
+      ],
+      "answerIndex": 2,
+      "hint": "Text has quotes.",
+      "explanation": "'hello'."
+    },
+    {
+      "type": "fill-in",
+      "question": "True/false: '5' + '5' makes '55' in many programming languages.",
+      "answer": "true",
+      "hint": "Strings join together.",
+      "explanation": "It concatenates to '55'."
+    },
+    {
+      "type": "word-problem",
+      "question": "If score is a number 10, what is score + 5?",
+      "options": [
+        "15",
+        "105",
+        "50",
+        "10"
+      ],
+      "answerIndex": 0,
+      "hint": "Add as numbers.",
+      "explanation": "10+5=15."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If name = 'Jules', name is:",
+      "options": [
+        "A number",
+        "A list",
+        "Text",
+        "A loop"
+      ],
+      "answerIndex": 2,
+      "hint": "Names are words.",
+      "explanation": "Text."
+    },
+    {
+      "type": "fill-in",
+      "question": "Write the result: 3 + 4 = ___",
+      "answer": "7",
+      "hint": "Add them.",
+      "explanation": "7."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If you do '3' + 4, many languages will:",
+      "options": [
+        "Add to 7",
+        "Error or need conversion",
+        "Make 34 always",
+        "Subtract"
+      ],
+      "answerIndex": 1,
+      "hint": "Types don\u2019t match.",
+      "explanation": "You often need to convert."
+    },
+    {
+      "type": "word-problem",
+      "question": "You have '2' coins as text. Convert it to a number and add 3. Answer?",
+      "options": [
+        "5",
+        "23",
+        "6",
+        "1"
+      ],
+      "answerIndex": 0,
+      "hint": "2 as a number is 2.",
+      "explanation": "2+3=5."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is best for storing a sentence?",
+      "options": [
+        "Number",
+        "Text",
+        "Boolean only",
+        "Loop"
+      ],
+      "answerIndex": 1,
+      "hint": "Sentences are characters.",
+      "explanation": "Text."
+    },
+    {
+      "type": "fill-in",
+      "question": "True/false: Numbers can be negative.",
+      "answer": "true",
+      "hint": "-1 is a number.",
+      "explanation": "True."
+    }
+  ]
+}

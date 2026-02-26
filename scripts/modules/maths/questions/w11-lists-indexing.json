@@ -1,0 +1,129 @@
+{
+  "week": 11,
+  "topic": "Lists & Position",
+  "lessonContext": "Python lists and indexing",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "fruits = ['apple','banana','cherry'] ; fruits[0] is:",
+      "options": [
+        "apple",
+        "banana",
+        "cherry",
+        "0"
+      ],
+      "answerIndex": 0,
+      "hint": "Index starts at 0.",
+      "explanation": "apple."
+    },
+    {
+      "type": "word-problem",
+      "question": "numbers=[10,20,30] ; numbers[2] is:",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "2"
+      ],
+      "answerIndex": 2,
+      "hint": "0:10, 1:20, 2:30.",
+      "explanation": "30."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The length of ['a','b','c','d'] is:",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1,
+      "hint": "Count items.",
+      "explanation": "4."
+    },
+    {
+      "type": "fill-in",
+      "question": "In Python, the first item index is ___",
+      "answer": "0",
+      "hint": "Starts at zero.",
+      "explanation": "0."
+    },
+    {
+      "type": "word-problem",
+      "question": "pets=['cat','dog'] ; if you add 'fish', how many items?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 1,
+      "hint": "Add one item.",
+      "explanation": "3 items."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the last index of a list with 5 items?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "0"
+      ],
+      "answerIndex": 1,
+      "hint": "0..4.",
+      "explanation": "4."
+    },
+    {
+      "type": "fill-in",
+      "question": "letters=['x','y','z'] ; letters[1] is ___",
+      "answer": "y",
+      "hint": "0:x, 1:y.",
+      "explanation": "y."
+    },
+    {
+      "type": "word-problem",
+      "question": "vals=[2,4,6,8] ; vals[0]+vals[3] equals:",
+      "options": [
+        "10",
+        "8",
+        "6",
+        "2"
+      ],
+      "answerIndex": 0,
+      "hint": "2 + 8.",
+      "explanation": "10."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What happens if you access an index that doesn't exist?",
+      "options": [
+        "It returns 0",
+        "It repeats the list",
+        "It causes an error",
+        "It deletes the list"
+      ],
+      "answerIndex": 2,
+      "hint": "Out of range.",
+      "explanation": "Index error."
+    },
+    {
+      "type": "fill-in",
+      "question": "True/false: A list can store both numbers and text.",
+      "answer": "true",
+      "hint": "Lists can mix types.",
+      "explanation": "True."
+    }
+  ]
+}

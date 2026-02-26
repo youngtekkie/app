@@ -39,6 +39,15 @@ export default async function dashboardPage(){
   const latestTyping = typingRecords.length ? typingRecords[typingRecords.length - 1] : null;
   const bestTyping = typingRecords.length ? typingRecords.reduce((a,b)=> (Number(b.wpm||0) > Number(a.wpm||0) ? b : a), typingRecords[0]) : null;
   const last5Typing = typingRecords.slice(-5).reverse();
+  const mathsScores = (state.mathsScores && typeof state.mathsScores === 'object') ? state.mathsScores : {};
+  const weeks = Array.from({length:12}, (_,i)=>i+1).map(w => {
+    const key = String(w).padStart(2,'0');
+    const ref = `w${key}-`;
+    // find a score entry whose weekRef starts with wXX-
+    const entryKey = Object.keys(mathsScores).find(k => k.startsWith(`w${key}-`));
+    const entry = entryKey ? mathsScores[entryKey] : null;
+    return { w, entry, entryKey };
+  });
 
   const c = await loadCurriculum();
   const total = Array.isArray(c.days) ? c.days.length : 0;
@@ -126,6 +135,25 @@ export default async function dashboardPage(){
           </div>
         ` : `<p class="yt-muted" style="margin:10px 0 0 0">No typing sessions recorded yet. Open a day in a phase page and run the typing session.</p>`}
       </section>
+      <section class="yt-card yt-col-12 yt-col-md-6">
+        <h2 class="yt-h2">Maths summary</h2>
+        <p class="yt-muted">Weekly maths sessions. Target: 70%+ to pass.</p>
+        <div class="yt-week-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px">
+          ${weeks.map(x => {
+            const score = x.entry ? Number(x.entry.score) : null;
+            const passed = x.entry ? !!x.entry.passed : false;
+            const label = score === null ? "—" : `${score}%`;
+            const cls = passed ? "yt-pill yt-pill--success" : (score === null ? "yt-pill yt-pill--muted" : "yt-pill");
+            return `<div class="yt-card yt-card--soft" style="padding:12px">
+              <div class="yt-muted" style="font-weight:800">Week ${x.w}</div>
+              <div style="margin-top:8px"><span class="${cls}">${label}</span></div>
+            </div>`;
+          }).join("")}
+        </div>
+        <p class="yt-muted" style="margin:10px 0 0 0">Tip: open any day in a phase and complete the maths card.</p>
+      </section>
+
+
 
       <section class="yt-card yt-col-12">
         <h2 class="yt-h2">Quick links</h2>

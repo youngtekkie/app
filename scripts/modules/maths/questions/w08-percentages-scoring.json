@@ -1,0 +1,129 @@
+{
+  "week": 8,
+  "topic": "Percentages & Ratios",
+  "lessonContext": "Health bars and scoring ratios",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "75% means:",
+      "options": [
+        "75 out of 10",
+        "75 out of 100",
+        "75 out of 1000",
+        "75 out of 5"
+      ],
+      "answerIndex": 1,
+      "hint": "Percent means per 100.",
+      "explanation": "75/100."
+    },
+    {
+      "type": "word-problem",
+      "question": "A health bar is 80% full. You take 25% damage. Health now?",
+      "options": [
+        "55%",
+        "60%",
+        "75%",
+        "45%"
+      ],
+      "answerIndex": 0,
+      "hint": "Subtract percentages.",
+      "explanation": "80% - 25% = 55%."
+    },
+    {
+      "type": "fill-in",
+      "question": "50% of 20 is ___",
+      "answer": "10",
+      "hint": "Half of 20.",
+      "explanation": "10."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If you have 3 correct answers out of 4, that is:",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answerIndex": 2,
+      "hint": "3/4 = 0.75.",
+      "explanation": "75%."
+    },
+    {
+      "type": "word-problem",
+      "question": "You scored 18 out of 24. What percent is that (nearest)?",
+      "options": [
+        "50%",
+        "75%",
+        "90%",
+        "25%"
+      ],
+      "answerIndex": 1,
+      "hint": "18/24 = 3/4.",
+      "explanation": "3/4 = 75%."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is bigger?",
+      "options": [
+        "60%",
+        "2/3",
+        "0.5",
+        "1/4"
+      ],
+      "answerIndex": 1,
+      "hint": "2/3 is about 66.7%.",
+      "explanation": "2/3 is biggest."
+    },
+    {
+      "type": "fill-in",
+      "question": "If a bar shows 40% and you gain 30%, it becomes ___%",
+      "answer": "70",
+      "hint": "Add them.",
+      "explanation": "40+30=70."
+    },
+    {
+      "type": "word-problem",
+      "question": "A game gives 10 points per level. You completed 7 levels. Points?",
+      "options": [
+        "70",
+        "17",
+        "107",
+        "700"
+      ],
+      "answerIndex": 0,
+      "hint": "10\u00d77.",
+      "explanation": "70."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A ratio 2:3 means:",
+      "options": [
+        "2 plus 3",
+        "2 parts to 3 parts",
+        "2 divided by 3 always",
+        "23"
+      ],
+      "answerIndex": 1,
+      "hint": "Ratios compare parts.",
+      "explanation": "2 parts to 3 parts."
+    },
+    {
+      "type": "fill-in",
+      "question": "25% of 40 is ___",
+      "answer": "10",
+      "hint": "Quarter of 40.",
+      "explanation": "10."
+    }
+  ]
+}

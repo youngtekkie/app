@@ -1,0 +1,127 @@
+{
+  "week": 6,
+  "topic": "Functions & Efficiency",
+  "lessonContext": "Reusable blocks and saving work",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "A function is mainly used to:",
+      "options": [
+        "Store pictures",
+        "Repeat a set of steps easily",
+        "Make the screen bigger",
+        "Delete code"
+      ],
+      "answerIndex": 1,
+      "hint": "Functions reuse actions.",
+      "explanation": "They let you reuse steps."
+    },
+    {
+      "type": "word-problem",
+      "question": "A jump function has 4 steps. You use it 6 times. How many steps run in total?",
+      "options": [
+        "10",
+        "24",
+        "4",
+        "12"
+      ],
+      "answerIndex": 1,
+      "hint": "4 steps each time.",
+      "explanation": "6\u00d74=24."
+    },
+    {
+      "type": "fill-in",
+      "question": "If you repeat the same 3-step code 5 times, that is ___ steps total.",
+      "answer": "15",
+      "hint": "3 steps per repeat.",
+      "explanation": "3\u00d75=15."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which saves more typing?",
+      "options": [
+        "Copying the same code 10 times",
+        "Using a function you call 10 times"
+      ],
+      "answerIndex": 1,
+      "hint": "Functions reduce duplication.",
+      "explanation": "Call a function."
+    },
+    {
+      "type": "word-problem",
+      "question": "A function saves you writing 8 lines each time. You use it 3 times. Lines saved?",
+      "options": [
+        "24",
+        "11",
+        "8",
+        "16"
+      ],
+      "answerIndex": 0,
+      "hint": "8 lines \u00d7 3 uses.",
+      "explanation": "24 lines saved."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If a function takes 2 parameters, it needs:",
+      "options": [
+        "No inputs",
+        "Two inputs",
+        "Ten inputs",
+        "Only letters"
+      ],
+      "answerIndex": 1,
+      "hint": "Parameters are inputs.",
+      "explanation": "Two inputs."
+    },
+    {
+      "type": "fill-in",
+      "question": "True/false: Functions can help keep code tidy.",
+      "answer": "true",
+      "hint": "They group repeated actions.",
+      "explanation": "True."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If you change the function once, the change affects:",
+      "options": [
+        "Only one place",
+        "Every place it\u2019s called",
+        "Nothing",
+        "Only comments"
+      ],
+      "answerIndex": 1,
+      "hint": "All calls use the same function.",
+      "explanation": "Every call."
+    },
+    {
+      "type": "word-problem",
+      "question": "You had 5 copies of the same code. You replace them with 1 function + 5 calls. How many duplicated blocks removed?",
+      "options": [
+        "5",
+        "4",
+        "1",
+        "10"
+      ],
+      "answerIndex": 1,
+      "hint": "You went from 5 copies to 1 copy.",
+      "explanation": "Removed 4 duplicated copies."
+    },
+    {
+      "type": "fill-in",
+      "question": "A function runs in 0.2 seconds. Called 5 times. Total time = ___ seconds.",
+      "answer": "1.0",
+      "hint": "Multiply 0.2 by 5.",
+      "explanation": "0.2\u00d75=1.0."
+    }
+  ]
+}

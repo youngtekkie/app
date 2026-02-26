@@ -1,0 +1,123 @@
+{
+  "week": 4,
+  "topic": "Logic & Conditions",
+  "lessonContext": "If statements and win conditions",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "If score > 10 and score = 12, does the condition pass?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answerIndex": 0,
+      "hint": "12 is bigger than 10.",
+      "explanation": "Condition is true."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If lives = 0, the game is:",
+      "options": [
+        "Running",
+        "Over",
+        "Paused",
+        "Faster"
+      ],
+      "answerIndex": 1,
+      "hint": "0 lives means no more tries.",
+      "explanation": "Game over."
+    },
+    {
+      "type": "fill-in",
+      "question": "Is 7 < 5 true or false? (write true/false)",
+      "answer": "false",
+      "hint": "7 is bigger than 5.",
+      "explanation": "7 is not less than 5."
+    },
+    {
+      "type": "word-problem",
+      "question": "You win if coins >= 20. You have 18 coins. Do you win?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answerIndex": 1,
+      "hint": "18 is less than 20.",
+      "explanation": "Not enough coins yet."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which symbol means 'equal to'?",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "!"
+      ],
+      "answerIndex": 2,
+      "hint": "It\u2019s the one used in maths for equality.",
+      "explanation": "= means equal."
+    },
+    {
+      "type": "fill-in",
+      "question": "If x = 3 and y = 3, then x == y is (true/false)",
+      "answer": "true",
+      "hint": "They are the same number.",
+      "explanation": "3 equals 3."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If health <= 0, what should happen?",
+      "options": [
+        "Add health",
+        "Game over",
+        "Ignore it",
+        "Change colour"
+      ],
+      "answerIndex": 1,
+      "hint": "Health at 0 means empty.",
+      "explanation": "End the game / lose."
+    },
+    {
+      "type": "word-problem",
+      "question": "Condition: if score >= 50. Your score is 50. Does it pass?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answerIndex": 0,
+      "hint": "'>=' includes equal.",
+      "explanation": "50 is allowed."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the best condition for 'low health' when health is 10 or less?",
+      "options": [
+        "health < 10",
+        "health <= 10",
+        "health = 10",
+        "health > 10"
+      ],
+      "answerIndex": 1,
+      "hint": "We want 10 included.",
+      "explanation": "Use <= 10."
+    },
+    {
+      "type": "fill-in",
+      "question": "True or false: 9 > 9",
+      "answer": "false",
+      "hint": "They are equal, not greater.",
+      "explanation": "9 is not greater than 9."
+    }
+  ]
+}

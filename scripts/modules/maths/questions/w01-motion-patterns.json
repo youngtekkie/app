@@ -1,0 +1,129 @@
+{
+  "week": 1,
+  "topic": "Patterns & Sequences",
+  "lessonContext": "Loops and motion (steps and repeats)",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "A sprite repeats 5 times and moves 10 steps each time. How many steps in total?",
+      "options": [
+        "50",
+        "15",
+        "60",
+        "500"
+      ],
+      "answerIndex": 0,
+      "hint": "Multiply repeats by steps.",
+      "explanation": "5 \u00d7 10 = 50 total steps."
+    },
+    {
+      "type": "fill-in",
+      "question": "A loop repeats 6 times. Each repeat moves 8 steps. Total steps = ?",
+      "answer": "48",
+      "hint": "Think 6 groups of 8.",
+      "explanation": "6 \u00d7 8 = 48."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sequence shows adding 3 each time?",
+      "options": [
+        "2, 5, 8, 11",
+        "2, 6, 12, 24",
+        "10, 9, 8, 7",
+        "1, 4, 9, 16"
+      ],
+      "answerIndex": 0,
+      "hint": "Check the difference between numbers.",
+      "explanation": "2\u21925 (+3), 5\u21928 (+3), 8\u219211 (+3)."
+    },
+    {
+      "type": "word-problem",
+      "question": "You press the right arrow 7 times. Each press moves the sprite 4 steps. How far did it move?",
+      "options": [
+        "11",
+        "28",
+        "24",
+        "44"
+      ],
+      "answerIndex": 1,
+      "hint": "7 groups of 4.",
+      "explanation": "7 \u00d7 4 = 28 steps."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A pattern is 10, 20, 30, 40. What comes next?",
+      "options": [
+        "45",
+        "50",
+        "60",
+        "100"
+      ],
+      "answerIndex": 1,
+      "hint": "It goes up by the same amount.",
+      "explanation": "Add 10 each time, so next is 50."
+    },
+    {
+      "type": "fill-in",
+      "question": "A repeat block runs 9 times. Each time it turns 20 degrees. Total turn = ? degrees",
+      "answer": "180",
+      "hint": "9 turns of 20 degrees.",
+      "explanation": "9 \u00d7 20 = 180 degrees."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A sprite moves 3 steps, then 3 steps, then 3 steps. That is the same as:",
+      "options": [
+        "Repeat 3 times move 3",
+        "Repeat 3 times move 9",
+        "Repeat 9 times move 3",
+        "Repeat 3 times turn 3"
+      ],
+      "answerIndex": 0,
+      "hint": "You\u2019re repeating the same action.",
+      "explanation": "Repeat 3 times move 3 steps."
+    },
+    {
+      "type": "word-problem",
+      "question": "A loop repeats 4 times. Inside the loop: move 5 steps then move 2 steps. How many steps total?",
+      "options": [
+        "20",
+        "28",
+        "14",
+        "7"
+      ],
+      "answerIndex": 1,
+      "hint": "Add inside the loop first.",
+      "explanation": "Each repeat: 5+2=7. 4\u00d77=28."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If you double the number of repeats, the total distance will:",
+      "options": [
+        "Stay the same",
+        "Be half",
+        "Also double",
+        "Become zero"
+      ],
+      "answerIndex": 2,
+      "hint": "Total = repeats \u00d7 steps.",
+      "explanation": "If repeats doubles, total doubles."
+    },
+    {
+      "type": "fill-in",
+      "question": "A sprite moves 12 steps in each of 5 repeats. Total steps = ?",
+      "answer": "60",
+      "hint": "5 groups of 12.",
+      "explanation": "5 \u00d7 12 = 60."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "week": 2,
+  "topic": "Variables & Arithmetic",
+  "lessonContext": "Score and lives systems (add/subtract)",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "You start with score 0. You collect 4 coins worth 3 points each. Score = ?",
+      "options": [
+        "7",
+        "12",
+        "9",
+        "4"
+      ],
+      "answerIndex": 1,
+      "hint": "4 groups of 3 points.",
+      "explanation": "4 \u00d7 3 = 12."
+    },
+    {
+      "type": "fill-in",
+      "question": "You have 10 lives and lose 3. Lives left = ?",
+      "answer": "7",
+      "hint": "Subtract 3 from 10.",
+      "explanation": "10 \u2212 3 = 7."
+    },
+    {
+      "type": "word-problem",
+      "question": "Score starts at 20. You gain 15, then lose 8. Final score?",
+      "options": [
+        "27",
+        "43",
+        "23",
+        "35"
+      ],
+      "answerIndex": 0,
+      "hint": "Do it step by step.",
+      "explanation": "20+15=35, 35\u22128=27."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the best rule for updating score when you collect a coin?",
+      "options": [
+        "score = score",
+        "score = score - 1",
+        "score = score + 1",
+        "score = 0"
+      ],
+      "answerIndex": 2,
+      "hint": "Collecting adds points.",
+      "explanation": "Use score = score + 1 (or points)."
+    },
+    {
+      "type": "fill-in",
+      "question": "A bonus gives +5 points. Your score is 18. New score = ?",
+      "answer": "23",
+      "hint": "Add 5.",
+      "explanation": "18 + 5 = 23."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "You have 3 hearts. You get hit twice. Hearts left?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0,
+      "hint": "3 minus 2.",
+      "explanation": "3 \u2212 2 = 1."
+    },
+    {
+      "type": "word-problem",
+      "question": "You answer 6 questions. Each correct answer is 2 points. You got 5 correct. Score?",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "5"
+      ],
+      "answerIndex": 0,
+      "hint": "5 correct \u00d7 2 points.",
+      "explanation": "5 \u00d7 2 = 10."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If score is 9 and you add 4, what is score now?",
+      "options": [
+        "13",
+        "5",
+        "36",
+        "94"
+      ],
+      "answerIndex": 0,
+      "hint": "9 + 4.",
+      "explanation": "13."
+    },
+    {
+      "type": "fill-in",
+      "question": "A level gives 100 points. You already have 250. Total = ?",
+      "answer": "350",
+      "hint": "Add 100 to 250.",
+      "explanation": "250 + 100 = 350."
+    },
+    {
+      "type": "word-problem",
+      "question": "Lives start at 5. You lose 1, then lose 2, then gain 1. Lives now?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "answerIndex": 0,
+      "hint": "Track changes: \u22121, \u22122, +1.",
+      "explanation": "5\u22121=4, 4\u22122=2, 2+1=3."
+    }
+  ]
+}

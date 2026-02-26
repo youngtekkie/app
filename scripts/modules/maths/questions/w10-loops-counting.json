@@ -1,0 +1,129 @@
+{
+  "week": 10,
+  "topic": "Iteration & Counting",
+  "lessonContext": "for loops and range() counts",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "for i in range(5): runs how many times?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1,
+      "hint": "range(5) is 0,1,2,3,4.",
+      "explanation": "5 times."
+    },
+    {
+      "type": "fill-in",
+      "question": "range(3) produces ___ numbers",
+      "answer": "3",
+      "hint": "0,1,2.",
+      "explanation": "3 numbers."
+    },
+    {
+      "type": "word-problem",
+      "question": "Code prints i each loop: for i in range(4): print(i). How many lines printed?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "1"
+      ],
+      "answerIndex": 1,
+      "hint": "One print per loop.",
+      "explanation": "4 lines."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "range(1,6) gives:",
+      "options": [
+        "1 to 5",
+        "1 to 6",
+        "0 to 5",
+        "2 to 6"
+      ],
+      "answerIndex": 0,
+      "hint": "End is not included.",
+      "explanation": "1..5."
+    },
+    {
+      "type": "fill-in",
+      "question": "for i in range(2,8): runs ___ times",
+      "answer": "6",
+      "hint": "Count 2,3,4,5,6,7.",
+      "explanation": "6 times."
+    },
+    {
+      "type": "word-problem",
+      "question": "If a loop runs 10 times and adds 2 points each time, total points?",
+      "options": [
+        "12",
+        "20",
+        "2",
+        "10"
+      ],
+      "answerIndex": 1,
+      "hint": "10\u00d72.",
+      "explanation": "20."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which loop runs 3 times?",
+      "options": [
+        "range(3)",
+        "range(3,3)",
+        "range(1,3)",
+        "range(5)"
+      ],
+      "answerIndex": 0,
+      "hint": "range(3) is 0..2.",
+      "explanation": "range(3)."
+    },
+    {
+      "type": "fill-in",
+      "question": "True/false: range(0) runs once.",
+      "answer": "false",
+      "hint": "range(0) has no values.",
+      "explanation": "False."
+    },
+    {
+      "type": "word-problem",
+      "question": "for i in range(1,4): print(i). What is the last number printed?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2,
+      "hint": "Prints 1,2,3.",
+      "explanation": "3."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A loop that never ends is called:",
+      "options": [
+        "A repeat",
+        "A forever loop",
+        "A variable",
+        "A list"
+      ],
+      "answerIndex": 1,
+      "hint": "It keeps going.",
+      "explanation": "Forever loop."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "week": 12,
+  "topic": "Decomposition",
+  "lessonContext": "Breaking problems into steps",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Decomposition means:",
+      "options": [
+        "Making code shorter",
+        "Breaking a problem into smaller steps",
+        "Adding more colours",
+        "Deleting variables"
+      ],
+      "answerIndex": 1,
+      "hint": "It\u2019s about steps.",
+      "explanation": "Break into parts."
+    },
+    {
+      "type": "word-problem",
+      "question": "A task takes 3 steps. Each step takes 2 minutes. Total time?",
+      "options": [
+        "5",
+        "6",
+        "12",
+        "3"
+      ],
+      "answerIndex": 1,
+      "hint": "3\u00d72.",
+      "explanation": "6 minutes."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If you test after each small step, you are more likely to:",
+      "options": [
+        "Find bugs earlier",
+        "Never find bugs",
+        "Lose progress",
+        "Need more errors"
+      ],
+      "answerIndex": 0,
+      "hint": "Small tests help.",
+      "explanation": "Find bugs earlier."
+    },
+    {
+      "type": "fill-in",
+      "question": "If you split 12 tasks evenly across 3 days, that is ___ tasks per day.",
+      "answer": "4",
+      "hint": "12 \u00f7 3.",
+      "explanation": "4."
+    },
+    {
+      "type": "word-problem",
+      "question": "A recipe has 8 steps. You finish 5. How many left?",
+      "options": [
+        "3",
+        "13",
+        "5",
+        "8"
+      ],
+      "answerIndex": 0,
+      "hint": "8-5.",
+      "explanation": "3 left."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which order is best?",
+      "options": [
+        "Build everything then test once",
+        "Build a little, test, repeat",
+        "Never test",
+        "Only test at the end"
+      ],
+      "answerIndex": 1,
+      "hint": "Iterate.",
+      "explanation": "Build and test in small steps."
+    },
+    {
+      "type": "fill-in",
+      "question": "True/false: Writing a checklist can help problem-solving.",
+      "answer": "true",
+      "hint": "It keeps you organised.",
+      "explanation": "True."
+    },
+    {
+      "type": "word-problem",
+      "question": "You need 70% to pass. You got 7 correct out of 10. Pass?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answerIndex": 0,
+      "hint": "7/10 = 70%.",
+      "explanation": "70% passes."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If you have 9 questions and need 70% to pass, the minimum correct is:",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answerIndex": 1,
+      "hint": "70% of 9 is 6.3, so round up.",
+      "explanation": "Need at least 7."
+    },
+    {
+      "type": "fill-in",
+      "question": "If you answer 8 out of 10 correctly, your percent is ___%",
+      "answer": "80",
+      "hint": "8/10.",
+      "explanation": "80."
+    }
+  ]
+}

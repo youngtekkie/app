@@ -1,0 +1,129 @@
+{
+  "week": 5,
+  "topic": "Coordinates & Position",
+  "lessonContext": "x/y positions on a stage",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "On a grid, x is the left/right position and y is the:",
+      "options": [
+        "Colour",
+        "Up/down position",
+        "Speed",
+        "Score"
+      ],
+      "answerIndex": 1,
+      "hint": "Think vertical direction.",
+      "explanation": "y is up/down."
+    },
+    {
+      "type": "fill-in",
+      "question": "If x increases, the sprite moves (left/right)?",
+      "answer": "right",
+      "hint": "Positive x moves right.",
+      "explanation": "Right."
+    },
+    {
+      "type": "word-problem",
+      "question": "A sprite starts at (0,0). It moves to (5,0). How did x change?",
+      "options": [
+        "+5",
+        "-5",
+        "+0",
+        "+10"
+      ],
+      "answerIndex": 0,
+      "hint": "New x is 5.",
+      "explanation": "0\u21925 is +5."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Point (0, 7) means x is:",
+      "options": [
+        "0",
+        "7",
+        "-7",
+        "1"
+      ],
+      "answerIndex": 0,
+      "hint": "The first number is x.",
+      "explanation": "x = 0."
+    },
+    {
+      "type": "fill-in",
+      "question": "If a sprite is at (3, -2), the y value is ___",
+      "answer": "-2",
+      "hint": "Second number is y.",
+      "explanation": "y = -2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which point is on the y-axis?",
+      "options": [
+        "(5,0)",
+        "(0,5)",
+        "(2,2)",
+        "(3,1)"
+      ],
+      "answerIndex": 1,
+      "hint": "y-axis has x=0.",
+      "explanation": "(0,5)."
+    },
+    {
+      "type": "word-problem",
+      "question": "Start at (-4, 2). Move right 6. New x = ?",
+      "options": [
+        "2",
+        "-10",
+        "-2",
+        "6"
+      ],
+      "answerIndex": 0,
+      "hint": "Add 6 to -4.",
+      "explanation": "-4 + 6 = 2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If y decreases, the sprite moves:",
+      "options": [
+        "Up",
+        "Down",
+        "Right",
+        "Left"
+      ],
+      "answerIndex": 1,
+      "hint": "Lower y is lower on screen.",
+      "explanation": "Down."
+    },
+    {
+      "type": "fill-in",
+      "question": "Start (1,1). Move up 4 (increase y). New y = ?",
+      "answer": "5",
+      "hint": "1 + 4.",
+      "explanation": "5."
+    },
+    {
+      "type": "word-problem",
+      "question": "A sprite goes from (2,3) to (2,-1). Which value changed?",
+      "options": [
+        "x only",
+        "y only",
+        "both x and y",
+        "neither"
+      ],
+      "answerIndex": 1,
+      "hint": "x stayed 2.",
+      "explanation": "Only y changed."
+    }
+  ]
+}

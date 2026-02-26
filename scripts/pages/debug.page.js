@@ -120,7 +120,20 @@ export default async function debugPage(){
   }
   checks.push(["Typing lessons present", typingOK, typingDetail]);
 
-  // Page mounts
+  
+  // Maths question banks (M3)
+  let mathsOK = true, mathsDetail = "";
+  try{
+    const res = await fetch("./scripts/modules/maths/questions/w01-motion-patterns.json", { cache: "no-store" });
+    mathsOK = res.ok;
+    mathsDetail = mathsOK ? "w01-motion-patterns.json ok" : `HTTP ${res.status}`;
+  }catch(e){
+    mathsOK = false;
+    mathsDetail = String(e?.message || e);
+  }
+  checks.push(["Maths question banks present", mathsOK, mathsDetail]);
+
+// Page mounts
   const mounts = [
     ["Home mount exists (index)", "home", "#home-mount"],
     ["Profiles mount exists", "profiles", "#profiles-list"],

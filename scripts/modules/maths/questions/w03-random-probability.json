@@ -1,0 +1,129 @@
+{
+  "week": 3,
+  "topic": "Range & Chance",
+  "lessonContext": "Random numbers and simple probability",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "A random number is picked from 1 to 10. How many possible numbers?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "20"
+      ],
+      "answerIndex": 1,
+      "hint": "Count 1 through 10.",
+      "explanation": "There are 10 numbers."
+    },
+    {
+      "type": "fill-in",
+      "question": "A random number from 0 to 5 can be: ___ different values",
+      "answer": "6",
+      "hint": "Include both ends.",
+      "explanation": "0,1,2,3,4,5 \u2192 6 values."
+    },
+    {
+      "type": "word-problem",
+      "question": "A spinner has 4 equal colours. What is the chance of landing on blue?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "3/4"
+      ],
+      "answerIndex": 2,
+      "hint": "Equal parts.",
+      "explanation": "1 out of 4."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is a bigger chance?",
+      "options": [
+        "1/6",
+        "1/8",
+        "1/10",
+        "1/12"
+      ],
+      "answerIndex": 0,
+      "hint": "Smaller denominator means bigger fraction (for 1/x).",
+      "explanation": "1/6 is biggest."
+    },
+    {
+      "type": "fill-in",
+      "question": "If a game chooses a number from 1 to 20, the chance of getting 20 is 1 out of ___",
+      "answer": "20",
+      "hint": "Only one winning number.",
+      "explanation": "1/20."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A dice has numbers 1\u20136. What is the chance of rolling an even number?",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "answerIndex": 2,
+      "hint": "Even: 2,4,6.",
+      "explanation": "3 out of 6 = 1/2."
+    },
+    {
+      "type": "word-problem",
+      "question": "A random pick chooses 1, 2, 3, or 4 equally. Chance of picking 1 or 2?",
+      "options": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "2/4"
+      ],
+      "answerIndex": 1,
+      "hint": "Two good outcomes.",
+      "explanation": "2/4 = 1/2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "If you increase the range from 1\u201310 to 1\u2013100, the chance of getting a specific number becomes:",
+      "options": [
+        "Bigger",
+        "Smaller",
+        "Same",
+        "Zero"
+      ],
+      "answerIndex": 1,
+      "hint": "More possibilities makes each one less likely.",
+      "explanation": "Chance becomes smaller."
+    },
+    {
+      "type": "fill-in",
+      "question": "Random from 1\u20138. Probability of getting 8 is 1/___",
+      "answer": "8",
+      "hint": "One number out of 8.",
+      "explanation": "1/8."
+    },
+    {
+      "type": "word-problem",
+      "question": "A game picks a random number from 1\u20135. You win if it is 4 or 5. Chance to win?",
+      "options": [
+        "2/5",
+        "1/5",
+        "3/5",
+        "4/5"
+      ],
+      "answerIndex": 0,
+      "hint": "Count winning outcomes.",
+      "explanation": "2 winning out of 5 \u2192 2/5."
+    }
+  ]
+}

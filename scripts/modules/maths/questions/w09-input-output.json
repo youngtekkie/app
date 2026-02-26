@@ -1,0 +1,129 @@
+{
+  "week": 9,
+  "topic": "Data Flow",
+  "lessonContext": "Python input() and print() tracing",
+  "difficulty": {
+    "foundation": {
+      "timeLimit": 90,
+      "questions": 8
+    },
+    "builder": {
+      "timeLimit": 60,
+      "questions": 10
+    }
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "In Python, print('Hi') will:",
+      "options": [
+        "Ask a question",
+        "Show text on screen",
+        "Save a file",
+        "Make a loop"
+      ],
+      "answerIndex": 1,
+      "hint": "print outputs text.",
+      "explanation": "It displays text."
+    },
+    {
+      "type": "word-problem",
+      "question": "Code: x = input('Age? ') then print(x). If you type 12, what prints?",
+      "options": [
+        "Age? 12",
+        "12",
+        "x",
+        "Age?"
+      ],
+      "answerIndex": 1,
+      "hint": "print(x) prints what you typed.",
+      "explanation": "It prints 12 (after the prompt)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "input() returns:",
+      "options": [
+        "A number always",
+        "Text (string)",
+        "A list",
+        "A function"
+      ],
+      "answerIndex": 1,
+      "hint": "Input comes as text.",
+      "explanation": "It returns a string."
+    },
+    {
+      "type": "fill-in",
+      "question": "Code: print(3 + 5) outputs ___",
+      "answer": "8",
+      "hint": "Add numbers.",
+      "explanation": "8."
+    },
+    {
+      "type": "word-problem",
+      "question": "Code: name = input('Name: ') then print('Hello', name). If you type Sam, output includes:",
+      "options": [
+        "Hello Sam",
+        "HelloName",
+        "SamHello",
+        "Error"
+      ],
+      "answerIndex": 0,
+      "hint": "print joins with a space.",
+      "explanation": "Hello Sam."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the prompt text in input('Enter: ')?",
+      "options": [
+        "Enter: ",
+        "input",
+        "print",
+        "Nothing"
+      ],
+      "answerIndex": 0,
+      "hint": "It's inside quotes.",
+      "explanation": "Enter: "
+    },
+    {
+      "type": "fill-in",
+      "question": "True/false: print() can show numbers.",
+      "answer": "true",
+      "hint": "print(10) works.",
+      "explanation": "True."
+    },
+    {
+      "type": "word-problem",
+      "question": "Code: a = '2' ; b = '3' ; print(a + b). Output?",
+      "options": [
+        "5",
+        "23",
+        "6",
+        "Error"
+      ],
+      "answerIndex": 1,
+      "hint": "Strings join.",
+      "explanation": "'2'+'3'='23'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which line turns input into a number?",
+      "options": [
+        "x = input()",
+        "x = int(input())",
+        "x = print(input())",
+        "x = str(input())"
+      ],
+      "answerIndex": 1,
+      "hint": "int() converts to number.",
+      "explanation": "Use int(input())."
+    },
+    {
+      "type": "fill-in",
+      "question": "Code: print('A' * 3) outputs ___",
+      "answer": "AAA",
+      "hint": "String repetition.",
+      "explanation": "AAA."
+    }
+  ]
+}

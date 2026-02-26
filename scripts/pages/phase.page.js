@@ -10,6 +10,7 @@ function renderDayCard(d, state){
   const key = String(d.num);
   const done = !!state?.progress?.[key]?.done;
   const typingPassed = !!state?.progress?.[key]?.typingPassed;
+  const mathsPassed = !!state?.progress?.[key]?.mathsPassed;
   return `
     <details class="yt-lesson" ${done ? 'data-done="true"' : ""}>
       <summary class="yt-lesson__summary">
@@ -21,6 +22,7 @@ function renderDayCard(d, state){
             ${pill(`Week ${esc(d.week)}`)}
             ${done ? '<span class="yt-pill yt-pill--success">Completed</span>' : '<span class="yt-pill yt-pill--muted">Not done</span>'}
             ${typingPassed ? '<span class="yt-pill yt-pill--success">Typing passed</span>' : ''}
+            ${mathsPassed ? '<span class="yt-pill yt-pill--success">Maths passed</span>' : ''}
           </div>
         </div>
         <div class="yt-lesson__right">
@@ -38,6 +40,12 @@ function renderDayCard(d, state){
             <h3 class="yt-h3">Logic & Maths</h3>
             <p class="yt-muted">${esc(d.logicTask || "")}</p>
             ${Array.isArray(d.logicSteps) ? `<ol class="yt-steps">${d.logicSteps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>` : ""}
+          
+            <div class="yt-card yt-card--soft" style="margin-top:12px">
+              <div id="yt-maths-${esc(d.num)}" data-maths-ref="${esc(d.mathsRef || "w01-motion-patterns")}" data-track="" data-profile="${esc(state?.profileId || "")}">
+                <p class="yt-muted" style="margin:0">Loading maths…</p>
+              </div>
+            </div>
           </section>
           <section class="yt-card yt-col-12">
             <h3 class="yt-h3">Typing</h3>
@@ -97,46 +105,79 @@ export default async function phasePage(){
     </div>
   `;
 
-  // Lazy-init typing trainers when a lesson is opened
+  // Lazy-init learning modules when a lesson is opened
   mount.addEventListener("toggle", async (e) => {
     const details = e.target;
     if(!(details instanceof HTMLDetailsElement)) return;
     if(!details.open) return;
-    const host = details.querySelector("[id^='yt-typing-'][data-typing-ref]");
-    if(!host || host.dataset.inited === "1") return;
 
-    host.dataset.inited = "1";
-    const lessonRef = host.getAttribute("data-typing-ref") || "01-home-row";
-    const containerId = host.id;
     const activeNow = getActiveProfile();
     const profileId = activeNow?.id || null;
+    const year = String(activeNow?.yearGroup || "");
+    const track = /Year\s*[56]/i.test(year) ? "builder" : "foundation";
 
-    try{
-      const mod = await import("../modules/typing/typing-trainer.js");
-      await mod.initTypingSession(lessonRef, containerId, profileId, {
-        onComplete: ({ passed }) => {
-          if(!profileId) return;
-          const day = containerId.replace("yt-typing-", "");
-          const key = String(day);
-          const current = storage.getState(profileId) || {};
-          current.progress = current.progress || {};
-          current.progress[key] = { ...(current.progress[key]||{}), typingPassed: !!passed, typingPassedAt: new Date().toISOString() };
-          storage.setState(profileId, current);
-          if(passed){
-            // show a pill if not already there
-            const meta = details.querySelector('.yt-lesson__meta');
-            if(meta && !meta.querySelector('.yt-pill--success[data-yt-typing-pill]')){
-              const frag = document.createRange().createContextualFragment('<span class="yt-pill yt-pill--success" data-yt-typing-pill>Typing passed</span>');
-              meta.appendChild(frag);
+    // Typing
+    const typingHost = details.querySelector("[id^='yt-typing-'][data-typing-ref]");
+    if(typingHost && typingHost.dataset.inited !== "1"){
+      typingHost.dataset.inited = "1";
+      const lessonRef = typingHost.getAttribute("data-typing-ref") || "01-home-row";
+      const containerId = typingHost.id;
+
+      try{
+        const mod = await import("../modules/typing/typing-trainer.js");
+        await mod.initTypingSession(lessonRef, containerId, profileId, {
+          onComplete: ({ passed }) => {
+            if(!profileId) return;
+            const day = containerId.replace("yt-typing-", "");
+            const key = String(day);
+            const current = storage.getState(profileId) || {};
+            current.progress = current.progress || {};
+            current.progress[key] = { ...(current.progress[key]||{}), typingPassed: !!passed, typingPassedAt: new Date().toISOString() };
+            storage.setState(profileId, current);
+            if(passed){
+              const meta = details.querySelector('.yt-lesson__meta');
+              if(meta && !meta.querySelector('[data-yt-typing-pill]')){
+                meta.appendChild(document.createRange().createContextualFragment('<span class="yt-pill yt-pill--success" data-yt-typing-pill>Typing passed</span>'));
+              }
             }
           }
-        }
-      });
-    }catch(err){
-      host.innerHTML = `<p class="yt-error">Typing failed to load: ${esc(err?.message || err)}</p>`;
+        });
+      }catch(err){
+        typingHost.innerHTML = `<p class="yt-error">Typing failed to load: ${esc(err?.message || err)}</p>`;
+      }
     }
-  }, true);
 
+    // Maths
+    const mathsHost = details.querySelector("[id^='yt-maths-'][data-maths-ref]");
+    if(mathsHost && mathsHost.dataset.inited !== "1"){
+      mathsHost.dataset.inited = "1";
+      const weekRef = mathsHost.getAttribute("data-maths-ref") || "w01-motion-patterns";
+      const containerId = mathsHost.id;
+
+      try{
+        const mod = await import("../modules/maths/maths-engine.js");
+        await mod.initMathsSession(weekRef, track, containerId.replace("yt-maths-",""), containerId, profileId, {
+          onComplete: ({ passed, score }) => {
+            if(!profileId) return;
+            const day = containerId.replace("yt-maths-", "");
+            const key = String(day);
+            const current = storage.getState(profileId) || {};
+            current.progress = current.progress || {};
+            current.progress[key] = { ...(current.progress[key]||{}), mathsPassed: !!passed, mathsScore: score, mathsPassedAt: passed ? new Date().toISOString() : null };
+            storage.setState(profileId, current);
+            if(passed){
+              const meta = details.querySelector('.yt-lesson__meta');
+              if(meta && !meta.querySelector('[data-yt-maths-pill]')){
+                meta.appendChild(document.createRange().createContextualFragment('<span class="yt-pill yt-pill--success" data-yt-maths-pill>Maths passed</span>'));
+              }
+            }
+          }
+        });
+      }catch(err){
+        mathsHost.innerHTML = `<p class="yt-error">Maths failed to load: ${esc(err?.message || err)}</p>`;
+      }
+    }
+  }, true);\n
   mount.addEventListener("click", (e) => {
     const btn = e.target.closest("button[data-action]");
     if(!btn) return;
