@@ -35,6 +35,33 @@ function renderDayCard(d, state){
             <h3 class="yt-h3">Build</h3>
             <p class="yt-muted">${esc(d.buildTask || "")}</p>
             ${Array.isArray(d.buildSteps) ? `<ol class="yt-steps">${d.buildSteps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>` : ""}
+          ${Number(d.month)===3 ? `
+<section class="yt-card yt-col-12">
+  <h3 class="yt-h3">Code (Python IDE)</h3>
+  <p class="yt-muted">Write and run Python right here. Your code saves automatically.</p>
+  <div class="yt-card yt-card--soft" style="margin-top:12px">
+    <div id="yt-python-${esc(d.num)}"
+         data-python-day="${esc(d.num)}"
+         data-python-lesson="${esc(d.num)}"
+         data-starter-code="${encodeURIComponent((d.starterCode || '').slice(0, 8000))}">
+      <p class="yt-muted" style="margin:0">Loading Python IDE…</p>
+    </div>
+  </div>
+</section>
+` : `
+<section class="yt-card yt-col-12">
+  <h3 class="yt-h3">Game Studio (Blocks)</h3>
+  <p class="yt-muted">Build today’s project using drag-and-drop blocks.</p>
+  <div class="yt-card yt-card--soft" style="margin-top:12px">
+    <div id="yt-blocks-${esc(d.num)}"
+         data-blocks-day="${esc(d.num)}"
+         data-blocks-lesson="${esc(d.num)}"
+         data-unlocked="${encodeURIComponent(JSON.stringify(d.unlockedBlocks||[]))}">
+      <p class="yt-muted" style="margin:0">Loading Game Studio…</p>
+    </div>
+  </div>
+</section>
+`}
           </section>
           <section class="yt-card yt-col-12 yt-col-md-6">
             <h3 class="yt-h3">Logic & Maths</h3>
@@ -115,6 +142,38 @@ export default async function phasePage(){
     const profileId = activeNow?.id || null;
     const year = String(activeNow?.yearGroup || "");
     const track = /Year\s*[56]/i.test(year) ? "builder" : "foundation";
+
+
+// Python IDE (Phase 3)
+const pyHost = details.querySelector("[id^='yt-python-'][data-python-day]");
+if(pyHost && pyHost.dataset.inited !== "1"){
+  pyHost.dataset.inited = "1";
+  const containerId = pyHost.id;
+  const lessonId = pyHost.getAttribute("data-python-lesson") || containerId.replace("yt-python-","");
+  const starterCode = decodeURIComponent(pyHost.getAttribute("data-starter-code") || "");
+  try{
+    const mod = await import("../modules/python-ide/python-ide.js");
+    await mod.initPythonIDE(containerId, profileId, String(lessonId), { starterCode });
+  }catch(err){
+    pyHost.innerHTML = `<p class="yt-muted">Python IDE failed to load. ${esc(err?.message||err)}</p>`;
+  }
+}
+
+// Game Studio (Blocks) — Phase 1 & 2
+const blocksHost = details.querySelector("[id^='yt-blocks-'][data-blocks-day]");
+if(blocksHost && blocksHost.dataset.inited !== "1"){
+  blocksHost.dataset.inited = "1";
+  const containerId = blocksHost.id;
+  const lessonId = blocksHost.getAttribute("data-blocks-lesson") || containerId.replace("yt-blocks-","");
+  let unlockedBlocks = [];
+  try{ unlockedBlocks = JSON.parse(decodeURIComponent(blocksHost.getAttribute("data-unlocked") || "[]")); }catch(_e){}
+  try{
+    const mod = await import("../modules/block-studio/block-studio.js");
+    await mod.initBlockStudio(containerId, profileId, String(lessonId), { unlockedBlocks });
+  }catch(err){
+    blocksHost.innerHTML = `<p class="yt-muted">Game Studio failed to load. ${esc(err?.message||err)}</p>`;
+  }
+}
 
     // Typing
     const typingHost = details.querySelector("[id^='yt-typing-'][data-typing-ref]");

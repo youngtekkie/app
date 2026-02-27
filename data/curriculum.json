@@ -14,7 +14,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Open Scratch, click Create, name the project \u2018Arrow Runner\u2019",
+        "Open Scratch, click Create, name the project ‘Arrow Runner’",
         "Add: when green flag clicked, go to x:0 y:0, point in direction 90",
         "Add 4 scripts: when up/down/left/right key pressed, change x/y by 10",
         "Test: can you move smoothly, without getting stuck?"
@@ -35,7 +35,13 @@
         "Accuracy target recorded"
       ],
       "typingRef": "01-home-row",
-      "mathsRef": "w01-motion-patterns"
+      "mathsRef": "w01-motion-patterns",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed"
+      ]
     },
     {
       "num": 2,
@@ -66,11 +72,17 @@
       ],
       "outcomes": [
         "Uses a forever loop",
-        "Understands \u2018if on edge, bounce\u2019",
+        "Understands ‘if on edge, bounce’",
         "Pattern rule explained"
       ],
       "typingRef": "01-home-row",
-      "mathsRef": "w01-motion-patterns"
+      "mathsRef": "w01-motion-patterns",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed"
+      ]
     },
     {
       "num": 3,
@@ -105,7 +117,17 @@
         "Knows what a variable is"
       ],
       "typingRef": "01-home-row",
-      "mathsRef": "w01-motion-patterns"
+      "mathsRef": "w01-motion-patterns",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change"
+      ]
     },
     {
       "num": 4,
@@ -119,7 +141,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Create an \u2018Apple\u2019 sprite and start it at y:180",
+        "Create an ‘Apple’ sprite and start it at y:180",
         "Set x to pick random -220 to 220",
         "Forever: change y by -6, if y < -170 then go to y:180 and pick a new random x",
         "Test: apples fall from different places each time"
@@ -140,7 +162,17 @@
         "WPM recorded"
       ],
       "typingRef": "01-home-row",
-      "mathsRef": "w01-motion-patterns"
+      "mathsRef": "w01-motion-patterns",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change"
+      ]
     },
     {
       "num": 5,
@@ -157,7 +189,7 @@
         "Make variable: lives, set to 3 on green flag",
         "If apple touches player, change score by 1 and reset apple",
         "If apple hits ground, change lives by -1 and reset apple",
-        "If lives = 0 then stop all, show \u2018Game Over\u2019 message"
+        "If lives = 0 then stop all, show ‘Game Over’ message"
       ],
       "logicSteps": [
         "Click Start and answer the questions one by one",
@@ -175,7 +207,20 @@
         "Can explain one tricky question"
       ],
       "typingRef": "01-home-row",
-      "mathsRef": "w01-motion-patterns"
+      "mathsRef": "w01-motion-patterns",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject"
+      ]
     },
     {
       "num": 6,
@@ -191,7 +236,7 @@
       "buildSteps": [
         "Start from your falling-object game",
         "Add difficulty: every 5 points, make apples fall faster",
-        "Add a start screen with \u2018Press space to begin\u2019",
+        "Add a start screen with ‘Press space to begin’",
         "Add a win condition: reach 20 points"
       ],
       "logicSteps": [
@@ -210,7 +255,20 @@
         "Can demo and explain the game"
       ],
       "typingRef": "01-home-row",
-      "mathsRef": "w01-motion-patterns"
+      "mathsRef": "w01-motion-patterns",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject"
+      ]
     },
     {
       "num": 7,
@@ -245,7 +303,23 @@
         "Fraction model drawn"
       ],
       "typingRef": "02-upper-row",
-      "mathsRef": "w02-variables-score"
+      "mathsRef": "w02-variables-score",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play"
+      ]
     },
     {
       "num": 8,
@@ -262,7 +336,7 @@
         "Make variable: time",
         "Set time to 30 when green flag clicked",
         "Every 1 second, change time by -1",
-        "If time = 0 then show \u2018Time up\u2019 and stop all"
+        "If time = 0 then show ‘Time up’ and stop all"
       ],
       "logicSteps": [
         "Click Start and answer the questions one by one",
@@ -280,7 +354,23 @@
         "Can explain one solution"
       ],
       "typingRef": "02-upper-row",
-      "mathsRef": "w02-variables-score"
+      "mathsRef": "w02-variables-score",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play"
+      ]
     },
     {
       "num": 9,
@@ -296,7 +386,7 @@
       "buildSteps": [
         "Add an enemy sprite, place it in the maze",
         "Forever: point towards player, move 2 steps",
-        "If enemy touches player, send \u2018lose\u2019 message",
+        "If enemy touches player, send ‘lose’ message",
         "Add: when I receive lose, show lose screen"
       ],
       "logicSteps": [
@@ -315,7 +405,23 @@
         "Pattern rule written"
       ],
       "typingRef": "02-upper-row",
-      "mathsRef": "w02-variables-score"
+      "mathsRef": "w02-variables-score",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play"
+      ]
     },
     {
       "num": 10,
@@ -329,7 +435,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Create 2 backdrops or costumes: \u2018You Win\u2019, \u2018You Lose\u2019",
+        "Create 2 backdrops or costumes: ‘You Win’, ‘You Lose’",
         "When player reaches goal, broadcast win",
         "On win: play a sound, stop all",
         "On lose: play a different sound, stop all"
@@ -350,7 +456,23 @@
         "Two sounds added"
       ],
       "typingRef": "02-upper-row",
-      "mathsRef": "w02-variables-score"
+      "mathsRef": "w02-variables-score",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play"
+      ]
     },
     {
       "num": 11,
@@ -385,7 +507,23 @@
         "Improved on a weak lesson"
       ],
       "typingRef": "02-upper-row",
-      "mathsRef": "w02-variables-score"
+      "mathsRef": "w02-variables-score",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play"
+      ]
     },
     {
       "num": 12,
@@ -420,7 +558,23 @@
         "Can explain what you built"
       ],
       "typingRef": "02-upper-row",
-      "mathsRef": "w02-variables-score"
+      "mathsRef": "w02-variables-score",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play"
+      ]
     },
     {
       "num": 13,
@@ -434,7 +588,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Create one \u2018Falling\u2019 sprite",
+        "Create one ‘Falling’ sprite",
         "When green flag clicked: forever create clone, wait 1 second",
         "When I start as a clone: go to random x, go to y:180, fall down",
         "If touching player: change score by 1, delete this clone"
@@ -455,7 +609,25 @@
         "Understands clone start"
       ],
       "typingRef": "03-lower-row",
-      "mathsRef": "w03-random-probability"
+      "mathsRef": "w03-random-probability",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play",
+        "control_create_clone_of",
+        "control_start_as_clone"
+      ]
     },
     {
       "num": 14,
@@ -490,7 +662,25 @@
         "Explains a solution"
       ],
       "typingRef": "03-lower-row",
-      "mathsRef": "w03-random-probability"
+      "mathsRef": "w03-random-probability",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play",
+        "control_create_clone_of",
+        "control_start_as_clone"
+      ]
     },
     {
       "num": 15,
@@ -525,7 +715,25 @@
         "Level 2 is harder"
       ],
       "typingRef": "03-lower-row",
-      "mathsRef": "w03-random-probability"
+      "mathsRef": "w03-random-probability",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play",
+        "control_create_clone_of",
+        "control_start_as_clone"
+      ]
     },
     {
       "num": 16,
@@ -539,7 +747,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Add a \u2018Restart\u2019 sprite button",
+        "Add a ‘Restart’ sprite button",
         "When this sprite clicked: broadcast restart",
         "On restart: set score, lives, time, level back to start values",
         "Make sure sprites go back to start positions"
@@ -560,7 +768,25 @@
         "Can explain broadcasts"
       ],
       "typingRef": "03-lower-row",
-      "mathsRef": "w03-random-probability"
+      "mathsRef": "w03-random-probability",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play",
+        "control_create_clone_of",
+        "control_start_as_clone"
+      ]
     },
     {
       "num": 17,
@@ -595,7 +821,25 @@
         "Sound and visuals improved"
       ],
       "typingRef": "03-lower-row",
-      "mathsRef": "w03-random-probability"
+      "mathsRef": "w03-random-probability",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play",
+        "control_create_clone_of",
+        "control_start_as_clone"
+      ]
     },
     {
       "num": 18,
@@ -630,7 +874,25 @@
         "Can demo and explain choices"
       ],
       "typingRef": "03-lower-row",
-      "mathsRef": "w03-random-probability"
+      "mathsRef": "w03-random-probability",
+      "unlockedBlocks": [
+        "motion_movesteps",
+        "motion_turnright",
+        "events_whenflagclicked",
+        "events_whenkeypressed",
+        "control_repeat",
+        "control_forever",
+        "variables_set",
+        "variables_change",
+        "control_if",
+        "control_if_else",
+        "sensing_touchingobject",
+        "motion_ifonedgebounce",
+        "looks_say",
+        "sound_play",
+        "control_create_clone_of",
+        "control_start_as_clone"
+      ]
     },
     {
       "num": 19,
@@ -665,7 +927,10 @@
         "Knows win and lose rules"
       ],
       "typingRef": "04-numbers-punct",
-      "mathsRef": "w04-logic-conditions"
+      "mathsRef": "w04-logic-conditions",
+      "unlockedBlocks": [
+        "ALL_PHASE1"
+      ]
     },
     {
       "num": 20,
@@ -677,9 +942,9 @@
       "buildTask": "Start screen and core movement",
       "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
-      "notes": "Mini-present: what\u2019s built so far?",
+      "notes": "Mini-present: what’s built so far?",
       "buildSteps": [
-        "Build the start screen with a \u2018Start\u2019 button",
+        "Build the start screen with a ‘Start’ button",
         "Set up your main character movement",
         "Set up the play area and boundaries",
         "Save, name the project clearly"
@@ -700,7 +965,10 @@
         "Can explain current progress"
       ],
       "typingRef": "04-numbers-punct",
-      "mathsRef": "w04-logic-conditions"
+      "mathsRef": "w04-logic-conditions",
+      "unlockedBlocks": [
+        "ALL_PHASE1"
+      ]
     },
     {
       "num": 21,
@@ -735,7 +1003,10 @@
         "Game is playable"
       ],
       "typingRef": "04-numbers-punct",
-      "mathsRef": "w04-logic-conditions"
+      "mathsRef": "w04-logic-conditions",
+      "unlockedBlocks": [
+        "ALL_PHASE1"
+      ]
     },
     {
       "num": 22,
@@ -770,7 +1041,10 @@
         "Can explain rules"
       ],
       "typingRef": "04-numbers-punct",
-      "mathsRef": "w04-logic-conditions"
+      "mathsRef": "w04-logic-conditions",
+      "unlockedBlocks": [
+        "ALL_PHASE1"
+      ]
     },
     {
       "num": 23,
@@ -805,7 +1079,10 @@
         "Can explain improvements"
       ],
       "typingRef": "04-numbers-punct",
-      "mathsRef": "w04-logic-conditions"
+      "mathsRef": "w04-logic-conditions",
+      "unlockedBlocks": [
+        "ALL_PHASE1"
+      ]
     },
     {
       "num": 24,
@@ -820,7 +1097,7 @@
       "notes": "Optional: share link to family",
       "buildSteps": [
         "Final play-test, fix any last issues",
-        "Add credits: \u2018Made by\u2026\u2019",
+        "Add credits: ‘Made by…’",
         "Share your project link with a parent",
         "Present: what you built, what broke, what you fixed"
       ],
@@ -840,7 +1117,10 @@
         "Typing progress compared"
       ],
       "typingRef": "04-numbers-punct",
-      "mathsRef": "w04-logic-conditions"
+      "mathsRef": "w04-logic-conditions",
+      "unlockedBlocks": [
+        "ALL_PHASE1"
+      ]
     },
     {
       "num": 25,
@@ -854,7 +1134,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Open Roblox Studio \u2192 New \u2192 Baseplate, then Save as \u2018Phase2_Obby\u2019",
+        "Open Roblox Studio → New → Baseplate, then Save as ‘Phase2_Obby’",
         "Turn on Explorer + Properties (View tab)",
         "Insert 5 Parts and practise move/scale/rotate",
         "Press Play (F5) and confirm you spawn correctly"
@@ -875,7 +1155,10 @@
         "Basic parts placed and tested"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w05-coordinates"
+      "mathsRef": "w05-coordinates",
+      "unlockedBlocks": [
+        "PHASE2_CORE"
+      ]
     },
     {
       "num": 26,
@@ -889,8 +1172,8 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Build a straight path: 8\u201312 platforms",
-        "Anchor platforms so they don\u2019t fall",
+        "Build a straight path: 8–12 platforms",
+        "Anchor platforms so they don’t fall",
         "Add 1 moving part (tween/manual script is optional)",
         "Play-test twice and adjust gaps so it feels fair"
       ],
@@ -910,7 +1193,10 @@
         "Gaps feel fair"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w05-coordinates"
+      "mathsRef": "w05-coordinates",
+      "unlockedBlocks": [
+        "PHASE2_CORE"
+      ]
     },
     {
       "num": 27,
@@ -945,7 +1231,10 @@
         "1 improvement note written"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w05-coordinates"
+      "mathsRef": "w05-coordinates",
+      "unlockedBlocks": [
+        "PHASE2_CORE"
+      ]
     },
     {
       "num": 28,
@@ -959,7 +1248,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Sketch your obby in 60 seconds: start \u2192 middle \u2192 finish",
+        "Sketch your obby in 60 seconds: start → middle → finish",
         "Build 3 sections (easy/medium/hard)",
         "Add a clear finish marker (flag/sign/portal)",
         "Play-test and time how long it takes"
@@ -980,7 +1269,10 @@
         "Time to complete recorded"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w05-coordinates"
+      "mathsRef": "w05-coordinates",
+      "unlockedBlocks": [
+        "PHASE2_CORE"
+      ]
     },
     {
       "num": 29,
@@ -995,7 +1287,7 @@
       "notes": "",
       "buildSteps": [
         "Add 3 checkpoints (SpawnLocation parts) along the course",
-        "Make sure players can\u2019t cheat around walls (add guard rails)",
+        "Make sure players can’t cheat around walls (add guard rails)",
         "Fix 2 frustrating jumps by adjusting spacing",
         "Play-test like a new player (no shortcuts)"
       ],
@@ -1015,7 +1307,10 @@
         "Course feels fairer"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w05-coordinates"
+      "mathsRef": "w05-coordinates",
+      "unlockedBlocks": [
+        "PHASE2_CORE"
+      ]
     },
     {
       "num": 30,
@@ -1029,10 +1324,10 @@
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: show course flow",
       "buildSteps": [
-        "Do a full play-through start \u2192 finish",
-        "Add 1 \u2018wow\u2019 moment (big jump, moving platform, secret path)",
+        "Do a full play-through start → finish",
+        "Add 1 ‘wow’ moment (big jump, moving platform, secret path)",
         "Add instructions at the start (a sign)",
-        "Show a parent: what\u2019s easy, what\u2019s tricky, and why"
+        "Show a parent: what’s easy, what’s tricky, and why"
       ],
       "logicSteps": [
         "Click Start and answer the questions one by one",
@@ -1050,7 +1345,10 @@
         "Can explain difficulty choices"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w05-coordinates"
+      "mathsRef": "w05-coordinates",
+      "unlockedBlocks": [
+        "PHASE2_CORE"
+      ]
     },
     {
       "num": 31,
@@ -1085,7 +1383,11 @@
         "Can change and re-run"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w06-functions-efficiency"
+      "mathsRef": "w06-functions-efficiency",
+      "unlockedBlocks": [
+        "PHASE2_CORE",
+        "PHASE2_FUNCTIONS"
+      ]
     },
     {
       "num": 32,
@@ -1094,7 +1396,7 @@
       "dow": "Tue",
       "mainKey": "roblox",
       "mainTopic": "If statements",
-      "buildTask": "Trigger: if player touches \u2192 do action",
+      "buildTask": "Trigger: if player touches → do action",
       "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
       "notes": "",
@@ -1120,7 +1422,11 @@
         "Can explain condition"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w06-functions-efficiency"
+      "mathsRef": "w06-functions-efficiency",
+      "unlockedBlocks": [
+        "PHASE2_CORE",
+        "PHASE2_FUNCTIONS"
+      ]
     },
     {
       "num": 33,
@@ -1155,7 +1461,11 @@
         "Can explain inputs/outputs"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w06-functions-efficiency"
+      "mathsRef": "w06-functions-efficiency",
+      "unlockedBlocks": [
+        "PHASE2_CORE",
+        "PHASE2_FUNCTIONS"
+      ]
     },
     {
       "num": 34,
@@ -1190,7 +1500,11 @@
         "Can explain game state"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w06-functions-efficiency"
+      "mathsRef": "w06-functions-efficiency",
+      "unlockedBlocks": [
+        "PHASE2_CORE",
+        "PHASE2_FUNCTIONS"
+      ]
     },
     {
       "num": 35,
@@ -1225,7 +1539,11 @@
         "Time-up behaviour works"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w06-functions-efficiency"
+      "mathsRef": "w06-functions-efficiency",
+      "unlockedBlocks": [
+        "PHASE2_CORE",
+        "PHASE2_FUNCTIONS"
+      ]
     },
     {
       "num": 36,
@@ -1242,7 +1560,7 @@
         "Combine: key/coin unlock + door + timer",
         "Add a reset button or restart zone",
         "Write 2 comments in your script explaining the logic",
-        "Demo to a parent: what happens if you\u2019re fast vs slow"
+        "Demo to a parent: what happens if you’re fast vs slow"
       ],
       "logicSteps": [
         "Click Start and answer the questions one by one",
@@ -1260,7 +1578,11 @@
         "Can explain the rules"
       ],
       "typingRef": "07-code-chars",
-      "mathsRef": "w06-functions-efficiency"
+      "mathsRef": "w06-functions-efficiency",
+      "unlockedBlocks": [
+        "PHASE2_CORE",
+        "PHASE2_FUNCTIONS"
+      ]
     },
     {
       "num": 37,
@@ -1295,7 +1617,10 @@
         "Tested 3 times"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w07-data-types"
+      "mathsRef": "w07-data-types",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 38,
@@ -1312,7 +1637,7 @@
         "Add coins you can collect",
         "On collect: increase currency and remove coin",
         "Respawn coin after 5 seconds (optional)",
-        "Make a simple sign: \u2018Coins: \u2026\u2019 (or output prints)"
+        "Make a simple sign: ‘Coins: …’ (or output prints)"
       ],
       "logicSteps": [
         "Click Start and answer the questions one by one",
@@ -1330,7 +1655,10 @@
         "Can explain what state is"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w07-data-types"
+      "mathsRef": "w07-data-types",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 39,
@@ -1365,7 +1693,10 @@
         "Reward applies"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w07-data-types"
+      "mathsRef": "w07-data-types",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 40,
@@ -1400,7 +1731,10 @@
         "Tested with 2 runs"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w07-data-types"
+      "mathsRef": "w07-data-types",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 41,
@@ -1435,7 +1769,10 @@
         "Balancing note made"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w07-data-types"
+      "mathsRef": "w07-data-types",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 42,
@@ -1470,7 +1807,10 @@
         "Can explain rules clearly"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w07-data-types"
+      "mathsRef": "w07-data-types",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 43,
@@ -1505,7 +1845,10 @@
         "Re-tested successfully"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w08-percentages-scoring"
+      "mathsRef": "w08-percentages-scoring",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 44,
@@ -1540,7 +1883,10 @@
         "Feedback from play-test collected"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w08-percentages-scoring"
+      "mathsRef": "w08-percentages-scoring",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 45,
@@ -1575,7 +1921,10 @@
         "Parts aligned neatly"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w08-percentages-scoring"
+      "mathsRef": "w08-percentages-scoring",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 46,
@@ -1589,7 +1938,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Turn your camera and pretend you\u2019ve never seen the game",
+        "Turn your camera and pretend you’ve never seen the game",
         "Check: can you always tell where to go next?",
         "Fix 1 confusing section",
         "Time a full run and try to beat it"
@@ -1610,7 +1959,10 @@
         "Navigation feels clearer"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w08-percentages-scoring"
+      "mathsRef": "w08-percentages-scoring",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 47,
@@ -1627,7 +1979,7 @@
         "Check spawn, checkpoints, and finish all work",
         "Reset coins/power-ups correctly between runs",
         "Fix 1 last bug",
-        "Add credits: \u2018Made by\u2026\u2019"
+        "Add credits: ‘Made by…’"
       ],
       "logicSteps": [
         "Click Start and answer the questions one by one",
@@ -1645,7 +1997,10 @@
         "Ready to publish/share"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w08-percentages-scoring"
+      "mathsRef": "w08-percentages-scoring",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 48,
@@ -1657,11 +2012,11 @@
       "buildTask": "Publish Roblox game (with supervision)",
       "logicTask": "Complete the maths session below",
       "typingTask": "Complete the typing session below",
-      "notes": "Presentation: \u2018What makes my game fun?\u2019",
+      "notes": "Presentation: ‘What makes my game fun?’",
       "buildSteps": [
         "With a parent: review settings and safety options",
         "Publish or save a final version",
-        "Write 3 sentences: what\u2019s fun, what\u2019s challenging, what you\u2019d add next",
+        "Write 3 sentences: what’s fun, what’s challenging, what you’d add next",
         "Demo to family and collect 1 piece of feedback"
       ],
       "logicSteps": [
@@ -1676,11 +2031,14 @@
       ],
       "outcomes": [
         "Published/saved final build",
-        "Can explain why it\u2019s fun",
+        "Can explain why it’s fun",
         "Has feedback for next version"
       ],
       "typingRef": "08-code-words",
-      "mathsRef": "w08-percentages-scoring"
+      "mathsRef": "w08-percentages-scoring",
+      "unlockedBlocks": [
+        "PHASE2_ALL"
+      ]
     },
     {
       "num": 49,
@@ -1694,7 +2052,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Open Replit \u2192 create a new Python repl called \u2018Phase3_Python\u2019",
+        "Open Replit → create a new Python repl called ‘Phase3_Python’",
         "print('Hello world!') then run",
         "Create variables: name, age (or favourite game)",
         "Print a sentence using your variables"
@@ -1715,7 +2073,8 @@
         "Printed a full sentence"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w09-input-output"
+      "mathsRef": "w09-input-output",
+      "starterCode": "# YoungTekkie Phase 3 — Day 49\n# Topic: Print + variables\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 50,
@@ -1750,7 +2109,8 @@
         "Outputs a summary"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w09-input-output"
+      "mathsRef": "w09-input-output",
+      "starterCode": "# YoungTekkie Phase 3 — Day 50\n# Topic: Input\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 51,
@@ -1785,7 +2145,8 @@
         "Gives feedback on wrong answers"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w09-input-output"
+      "mathsRef": "w09-input-output",
+      "starterCode": "# YoungTekkie Phase 3 — Day 51\n# Topic: If statements\n\nscore = 0\nanswer = input('Type yes or no: ')\nif answer.lower() == 'yes':\n    score += 1\nprint('Score:', score)\n"
     },
     {
       "num": 52,
@@ -1800,7 +2161,7 @@
       "notes": "",
       "buildSteps": [
         "Add a loop so the quiz can repeat",
-        "Ask the player \u2018play again? (y/n)\u2019",
+        "Ask the player ‘play again? (y/n)’",
         "Reset score on a new run",
         "Test: can you play twice without restarting the program?"
       ],
@@ -1820,7 +2181,8 @@
         "Knows when to reset variables"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w09-input-output"
+      "mathsRef": "w09-input-output",
+      "starterCode": "# YoungTekkie Phase 3 — Day 52\n# Topic: Loops\n\nfor i in range(5):\n    print(i)\n"
     },
     {
       "num": 53,
@@ -1855,7 +2217,8 @@
         "Bonus question included"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w09-input-output"
+      "mathsRef": "w09-input-output",
+      "starterCode": "# YoungTekkie Phase 3 — Day 53\n# Topic: Mini challenge\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 54,
@@ -1890,7 +2253,8 @@
         "Can explain program flow"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w09-input-output"
+      "mathsRef": "w09-input-output",
+      "starterCode": "# YoungTekkie Phase 3 — Day 54\n# Topic: Build sprint\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 55,
@@ -1905,9 +2269,9 @@
       "notes": "",
       "buildSteps": [
         "Import random",
-        "Generate a random number 1\u201310",
+        "Generate a random number 1–10",
         "Print it (for now) and re-run 5 times",
-        "Explain what \u2018random\u2019 means in your own words"
+        "Explain what ‘random’ means in your own words"
       ],
       "logicSteps": [
         "Click Start and answer the questions one by one",
@@ -1925,7 +2289,8 @@
         "Understands randomness concept"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w10-loops-counting"
+      "mathsRef": "w10-loops-counting",
+      "starterCode": "# YoungTekkie Phase 3 — Day 55\n# Topic: Random\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 56,
@@ -1939,7 +2304,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Pick a secret number 1\u201320",
+        "Pick a secret number 1–20",
         "Ask the player to guess",
         "If too high/low, give a hint",
         "Loop until correct"
@@ -1960,7 +2325,8 @@
         "Stops on correct guess"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w10-loops-counting"
+      "mathsRef": "w10-loops-counting",
+      "starterCode": "# YoungTekkie Phase 3 — Day 56\n# Topic: Guess the number\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 57,
@@ -1995,7 +2361,8 @@
         "Can explain the formula"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w10-loops-counting"
+      "mathsRef": "w10-loops-counting",
+      "starterCode": "# YoungTekkie Phase 3 — Day 57\n# Topic: Scoring\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 58,
@@ -2010,7 +2377,7 @@
       "notes": "",
       "buildSteps": [
         "Ask player for difficulty (easy/medium/hard)",
-        "Set range: 1\u201310, 1\u201350, 1\u2013100",
+        "Set range: 1–10, 1–50, 1–100",
         "Pick secret number using that range",
         "Test each difficulty once"
       ],
@@ -2030,7 +2397,8 @@
         "Tested all 3 levels"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w10-loops-counting"
+      "mathsRef": "w10-loops-counting",
+      "starterCode": "# YoungTekkie Phase 3 — Day 58\n# Topic: Difficulty levels\n\nscore = 0\nanswer = input('Type yes or no: ')\nif answer.lower() == 'yes':\n    score += 1\nprint('Score:', score)\n"
     },
     {
       "num": 59,
@@ -2046,7 +2414,7 @@
       "buildSteps": [
         "Use try/except to catch non-number input",
         "If input is bad, print a friendly message",
-        "Keep the game running (don\u2019t crash)",
+        "Keep the game running (don’t crash)",
         "Test with: letters, blank, huge numbers"
       ],
       "logicSteps": [
@@ -2060,12 +2428,13 @@
         "If you miss the target, hit Reset and try again"
       ],
       "outcomes": [
-        "Program doesn\u2019t crash",
+        "Program doesn’t crash",
         "Friendly error message",
         "Tested 3 bad inputs"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w10-loops-counting"
+      "mathsRef": "w10-loops-counting",
+      "starterCode": "# YoungTekkie Phase 3 — Day 59\n# Topic: Input safety\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 60,
@@ -2081,7 +2450,7 @@
       "buildSteps": [
         "Polish your game text and add comments",
         "Add replay (y/n)",
-        "Add a \u2018best score\u2019 for this run (optional)",
+        "Add a ‘best score’ for this run (optional)",
         "Demo to a parent and explain how difficulty changes the experience"
       ],
       "logicSteps": [
@@ -2100,7 +2469,8 @@
         "Can explain design choices"
       ],
       "typingRef": "09-python-lines",
-      "mathsRef": "w10-loops-counting"
+      "mathsRef": "w10-loops-counting",
+      "starterCode": "# YoungTekkie Phase 3 — Day 60\n# Topic: Build sprint\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 61,
@@ -2135,7 +2505,8 @@
         "Printed list contents"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w11-lists-indexing"
+      "mathsRef": "w11-lists-indexing",
+      "starterCode": "# YoungTekkie Phase 3 — Day 61\n# Topic: Lists\n\nitems = ['apple','banana','cherry']\nprint(items[0])\n"
     },
     {
       "num": 62,
@@ -2170,7 +2541,8 @@
         "Messages are clear"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w11-lists-indexing"
+      "mathsRef": "w11-lists-indexing",
+      "starterCode": "# YoungTekkie Phase 3 — Day 62\n# Topic: Inventory\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 63,
@@ -2205,7 +2577,8 @@
         "Program still works"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w11-lists-indexing"
+      "mathsRef": "w11-lists-indexing",
+      "starterCode": "# YoungTekkie Phase 3 — Day 63\n# Topic: Functions\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 64,
@@ -2240,7 +2613,8 @@
         "Tested both endings"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w11-lists-indexing"
+      "mathsRef": "w11-lists-indexing",
+      "starterCode": "# YoungTekkie Phase 3 — Day 64\n# Topic: Multiple endings\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 65,
@@ -2275,7 +2649,8 @@
         "Play-test completed"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w11-lists-indexing"
+      "mathsRef": "w11-lists-indexing",
+      "starterCode": "# YoungTekkie Phase 3 — Day 65\n# Topic: Refactoring\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 66,
@@ -2289,7 +2664,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "Presentation: show choices branching",
       "buildSteps": [
-        "Write a short story: start \u2192 2 choices \u2192 result",
+        "Write a short story: start → 2 choices → result",
         "Make at least 3 rooms/locations",
         "Use inventory for 1 meaningful decision",
         "Demo to a parent: show two different paths"
@@ -2310,7 +2685,8 @@
         "Can explain structure"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w11-lists-indexing"
+      "mathsRef": "w11-lists-indexing",
+      "starterCode": "# YoungTekkie Phase 3 — Day 66\n# Topic: Build sprint\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 67,
@@ -2345,7 +2721,8 @@
         "Checklist written"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w12-problem-solving"
+      "mathsRef": "w12-problem-solving",
+      "starterCode": "# YoungTekkie Phase 3 — Day 67\n# Topic: Plan capstone\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 68,
@@ -2380,7 +2757,8 @@
         "Friendly invalid-command handling"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w12-problem-solving"
+      "mathsRef": "w12-problem-solving",
+      "starterCode": "# YoungTekkie Phase 3 — Day 68\n# Topic: Build section 1\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 69,
@@ -2415,7 +2793,8 @@
         "Tested multiple runs"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w12-problem-solving"
+      "mathsRef": "w12-problem-solving",
+      "starterCode": "# YoungTekkie Phase 3 — Day 69\n# Topic: Build section 2\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 70,
@@ -2450,7 +2829,8 @@
         "Resets happen properly"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w12-problem-solving"
+      "mathsRef": "w12-problem-solving",
+      "starterCode": "# YoungTekkie Phase 3 — Day 70\n# Topic: Build section 3\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 71,
@@ -2464,7 +2844,7 @@
       "typingTask": "Complete the typing session below",
       "notes": "",
       "buildSteps": [
-        "Play-test start \u2192 ending and write down 3 issues",
+        "Play-test start → ending and write down 3 issues",
         "Fix at least 2 issues",
         "Improve writing: clearer choices, less clutter",
         "Add comments where future-you will thank you"
@@ -2485,7 +2865,8 @@
         "Code is tidy"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w12-problem-solving"
+      "mathsRef": "w12-problem-solving",
+      "starterCode": "# YoungTekkie Phase 3 — Day 71\n# Topic: Testing + polish\n\nprint('Hello! Start coding here 🙂')\n"
     },
     {
       "num": 72,
@@ -2501,7 +2882,7 @@
       "buildSteps": [
         "Do a full run, then a different run",
         "Ask someone to try it and watch where they get stuck",
-        "Write 3 improvements you\u2019d make next week",
+        "Write 3 improvements you’d make next week",
         "Celebrate: you built a whole program!"
       ],
       "logicSteps": [
@@ -2520,7 +2901,8 @@
         "Typing progress recorded"
       ],
       "typingRef": "12-python-mixed",
-      "mathsRef": "w12-problem-solving"
+      "mathsRef": "w12-problem-solving",
+      "starterCode": "# YoungTekkie Phase 3 — Day 72\n# Topic: Demo day\n\nprint('Hello! Start coding here 🙂')\n"
     }
   ]
 }

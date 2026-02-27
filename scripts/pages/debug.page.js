@@ -1,13 +1,13 @@
 import { storage } from "../app/storage.js";
 import { loadCurriculum } from "../features/curriculum.js";
 
-function row(label, ok, detail=""){
-  const status = ok ? "PASS" : "FAIL";
-  const cls = ok ? "yt-pill yt-pill--success" : "yt-pill yt-pill--danger";
+function row(label, status, detail=""){
+  const st = status;
+  const cls = st==="PASS" ? "yt-pill yt-pill--success" : (st==="WARN" ? "yt-pill yt-pill--warning" : "yt-pill yt-pill--danger");
   return `
     <tr>
       <td>${label}</td>
-      <td><span class="${cls}">${status}</span></td>
+      <td><span class="${cls}">${st}</span></td>
       <td class="yt-muted">${detail}</td>
     </tr>
   `;
@@ -78,8 +78,27 @@ export default async function debugPage(){
   checks.push(["Footer mounted", !!document.querySelector(".yt-footer"), "Footer injected"]);
   checks.push(["Mode toggle button present", !!document.getElementById("yta-mode-toggle"), "Header action"]);
 
-  // External embed audit
+  
+async function checkAsset(path){
+  try{
+    const res = await fetch(path, { cache: "no-store" });
+    return !!res.ok;
+  }catch(_e){
+    return false;
+  }
+}
+
+// External embed audit
   const externals = scanExternal();
+
+// M4/M5 vendor bundle presence (WARN if missing)
+const pyOk = await checkAsset("./scripts/modules/python-ide/pyodide/pyodide.js");
+checks.push(["Pyodide bundle present", pyOk ? "PASS" : "WARN", pyOk ? "pyodide.js found" : "Add Pyodide files to scripts/modules/python-ide/pyodide/"]);
+const b1 = await checkAsset("./scripts/modules/block-studio/vendor/blockly.min.js");
+const b2 = await checkAsset("./scripts/modules/block-studio/vendor/phaser.min.js");
+const blocksOk = b1 && b2;
+checks.push(["Block Studio vendor files present", blocksOk ? "PASS" : "WARN", blocksOk ? "Blockly + Phaser found" : "Add vendor/blockly.min.js and vendor/phaser.min.js"]);
+
   checks.push(["No embedded external resources", externals.length === 0, externals.length ? `${externals.length} found (see below)` : "OK"]);
 
   // Storage checks
@@ -143,7 +162,14 @@ export default async function debugPage(){
     checks.push([label, !!document.querySelector(sel), `${sel} (${pages})`]);
   });
 
-  out.innerHTML = checks.map(([l, ok, d]) => row(l, ok, d)).join("");
+  
+// Normalize check statuses: allow boolean (legacy) or explicit PASS/WARN/FAIL.
+const normalized = checks.map(([l, st, d]) => {
+  if(st === true) return [l, "PASS", d];
+  if(st === false) return [l, "FAIL", d];
+  return [l, st, d];
+});
+out.innerHTML = normalized.map(([l, st, d]) => row(l, st, d)).join("");
   // Render external list
   const extBox = document.getElementById("debug-external");
   if(extBox){

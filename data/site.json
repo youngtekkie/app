@@ -9,16 +9,29 @@
       "label": "Home"
     },
     {
-      "href": "phase1.html",
-      "label": "Phase 1"
-    },
-    {
-      "href": "phase2.html",
-      "label": "Phase 2"
-    },
-    {
-      "href": "phase3.html",
-      "label": "Phase 3"
+      "label": "Journey",
+      "children": [
+        {
+          "href": "phase1.html",
+          "label": "Phase 1"
+        },
+        {
+          "href": "phase2.html",
+          "label": "Phase 2"
+        },
+        {
+          "href": "phase3.html",
+          "label": "Phase 3"
+        },
+        {
+          "href": "print.html",
+          "label": "Printable plan"
+        },
+        {
+          "href": "certificates.html",
+          "label": "Certificates"
+        }
+      ]
     },
     {
       "href": "profiles.html",

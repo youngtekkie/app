@@ -71,6 +71,12 @@
   height: clamp(320px, 48vw, 520px);
   object-fit: cover;
   opacity: 0.92;
+
+  position: relative;
+
+  z-index: 0;
+
+  display: block;
 }
 .yt-hero::after{
   content:"";
@@ -78,6 +84,10 @@
   background: radial-gradient(800px 400px at 20% 20%, rgba(47,109,255,0.40), transparent 60%),
               radial-gradient(800px 400px at 80% 0%, rgba(255,204,102,0.20), transparent 60%),
               linear-gradient(180deg, rgba(0,0,0,0.15), rgba(0,0,0,0.55));
+
+  z-index: 1;
+
+  pointer-events: none;
 }
 .yt-hero-content{
   position:absolute;
@@ -86,6 +96,8 @@
   align-items:flex-end;
   padding: var(--yt-12);
   color: #fff;
+
+  z-index: 2;
 }
 .yt-hero-content h1{
   color:#fff;
@@ -347,3 +359,66 @@
 .yt-btn--option:hover{
   background: rgba(255,255,255,0.95);
 }
+
+
+/* Python IDE (M4) */
+.yt-python__toolbar{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:10px;
+}
+.yt-python__hint{ margin-left:auto; font-size: 12px; }
+.yt-python__editor{
+  width:100%;
+  min-height: 260px;
+  resize: vertical;
+  font-family: var(--yt-font-mono);
+  font-size: 14px;
+  line-height: 1.45;
+  padding: 14px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.92);
+}
+.yt-python__output{
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.78);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  white-space: pre-wrap;
+  font-family: var(--yt-font-mono);
+  font-size: 13px;
+  min-height: 54px;
+}
+.yt-python__input{ margin-top: 10px; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.yt-python__input .yt-input{ flex: 1; min-width: 180px; }
+
+/* Game Studio placeholder (M5) */
+.yt-studio{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media(min-width: 900px){
+  .yt-studio{ grid-template-columns: 1fr 1fr; }
+}
+.yt-studio__panel{
+  border-radius: 18px;
+  background: rgba(255,255,255,0.86);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  padding: 12px;
+  min-height: 240px;
+}
+.yt-studio__panel h4{ margin: 0 0 10px; font-size: 14px; }
+.yt-studio__xml{
+  width:100%;
+  min-height: 200px;
+  resize: vertical;
+  font-family: var(--yt-font-mono);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.yt-pill--warning{ background: rgba(245,158,11,0.14); border-color: rgba(245,158,11,0.22); color: #92400e; }

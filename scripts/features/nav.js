@@ -97,6 +97,26 @@ export async function mountChrome(){
   const file = currentFile();
 
   const navLinks = (cfg.nav || []).map(item => {
+    // Dropdown group
+    if (item && Array.isArray(item.children)) {
+      const childLinks = item.children.map(child => {
+        const isCurrent = (child.href === file) || (file === "" && child.href === "index.html");
+        return `<a href="${child.href}" ${isCurrent ? 'aria-current="page"' : ""}>${child.label}</a>`;
+      }).join("");
+      return `
+        <div class="yt-nav-group" data-dropdown>
+          <button class="yt-nav-trigger" type="button" aria-expanded="false">
+            ${item.label} <span aria-hidden="true">▾</span>
+          </button>
+          <div class="yt-nav-menu" role="menu" aria-label="${item.label}">
+            <div class="yt-nav-subtitle">Journey</div>
+            ${childLinks}
+          </div>
+        </div>
+      `;
+    }
+
+    // Normal link
     const isCurrent = (item.href === file) || (file === "" && item.href === "index.html");
     return `<a href="${item.href}" ${isCurrent ? 'aria-current="page"' : ""}>${item.label}</a>`;
   }).join("");
@@ -121,6 +141,49 @@ export async function mountChrome(){
   `;
 
   document.body.prepend(header);
+
+  // Dropdown behaviour (Journey)
+  const dropdowns = header.querySelectorAll("[data-dropdown]");
+  dropdowns.forEach(dd => {
+    const trigger = dd.querySelector(".yt-nav-trigger");
+    const close = () => {
+      dd.dataset.open = "false";
+      trigger.setAttribute("aria-expanded", "false");
+    };
+    const open = () => {
+      dd.dataset.open = "true";
+      trigger.setAttribute("aria-expanded", "true");
+    };
+
+    dd.dataset.open = "false";
+
+    trigger.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const isOpen = dd.dataset.open === "true";
+      dropdowns.forEach(other => {
+        if (other !== dd) {
+          const t = other.querySelector(".yt-nav-trigger");
+          other.dataset.open = "false";
+          t?.setAttribute("aria-expanded", "false");
+        }
+      });
+      isOpen ? close() : open();
+    });
+
+    trigger.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") close();
+    });
+  });
+
+  document.addEventListener("click", () => {
+    dropdowns.forEach(dd => {
+      const t = dd.querySelector(".yt-nav-trigger");
+      dd.dataset.open = "false";
+      t?.setAttribute("aria-expanded", "false");
+    });
+  }, { capture: true });
+
 
   const footer = document.createElement("footer");
   footer.className = "yt-footer";

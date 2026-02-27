@@ -14,3 +14,10 @@
 - Integrated maths sessions into phase day cards with pass rule (70%+).
 - Added maths summary to parent dashboard.
 - Debug page now checks maths question banks are present.
+
+## M4–M5 (Scaffold)
+- Added Python IDE module scaffold (textarea editor, autosave, optional Pyodide loader).
+- Added Block Studio module scaffold (optional Blockly + Phaser loader, XML save/restore).
+- Integrated Python IDE into Phase 3 day cards; integrated Game Studio into Phase 1–2.
+- Added curriculum fields: starterCode (Phase 3) and unlockedBlocks tiers (Phase 1–2).
+- Debug page warns if Pyodide / Blockly / Phaser vendor bundles are missing.
